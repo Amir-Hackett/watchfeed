@@ -1,0 +1,128 @@
+[settings]
+calendar_name  = "Watchfeed"
+horizon_days   = 400      # how far ahead to pull
+alarm_minutes  = 60       # popup this many minutes before. 0 = no alarm
+all_day        = false    # true = ignore exact air times, use all-day events
+public_url     = "https://amir-hackett.github.io/watchfeed/"       # where you host it; used in the RSS <link>
+
+# ---------------------------------------------------------------------
+# TV — matched against TVmaze. Use the show's real title, not the season.
+# ---------------------------------------------------------------------
+[tv]
+shows = [
+  "Lioness",
+  "Furious",
+  "The Pitt",
+  "Neuromancer",
+  "Reacher",
+  "Neagley",
+  "Slow Horses",
+  "Dark Matter",
+  "Blade Runner 2099",
+  "Nocturne",
+  "Severance",
+  "Silo",
+  "Foundation",
+  "The Last of Us",
+  "House of the Dragon",
+  "Wednesday",
+  "The Boys",
+  "Peacemaker",
+  "Lanterns",
+  "Daredevil: Born Again",
+  "One Piece",
+  "Percy Jackson and the Olympians",
+  "Avatar: The Last Airbender",
+  "The Witcher",
+  "Fallout",
+  "Tracker",
+  "NCIS",
+]
+
+# ---------------------------------------------------------------------
+# ANIME — matched against AniList. Romaji or English both work.
+# Episode-level dates, so these generate the most events.
+# ---------------------------------------------------------------------
+[anime]
+shows = [
+  "Cyberpunk: Edgerunners",
+  "The Apothecary Diaries",
+  "Blue Box",
+  "Black Clover",
+  "Chainsaw Man",
+  "Kaiju No. 8",
+  "Solo Leveling",
+  "Frieren: Beyond Journey's End",
+  "Jujutsu Kaisen",
+  "One Punch Man",
+  "Vinland Saga",
+  "Dandadan",
+  "Sakamoto Days",
+  "My Hero Academia",
+  "Demon Slayer",
+  "Spy x Family",
+  "Re:Zero",
+  "The Beginning After the End",
+  "Witch Hat Atelier",
+  "Devil May Cry",
+]
+
+# ---------------------------------------------------------------------
+# MOVIES — matched against TMDB. Needs TMDB_API_KEY.
+# ---------------------------------------------------------------------
+[movies]
+titles = [
+  "Coyote vs. Acme",
+  "Street Fighter",
+  "Whalefall",
+  "Remain",
+  "The Hunger Games: Sunrise on the Reaping",
+  "Focker In-Law",
+  "Violent Night 2",
+  "Jumanji 3",
+  "Avengers: Doomsday",
+  "Pendulum",
+  "Children of Blood and Bone",
+  "The Beekeeper 2",
+  "Animal Friends",
+  "The Nightingale",
+  "The Chronicles of Narnia: The Magician's Nephew",
+  "Sonic the Hedgehog 4",
+  "Godzilla x Kong: Supernova",
+  "The Legend of Zelda",
+  "Star Wars: Starfighter",
+  "The Batman Part II",
+  "Avengers: Secret Wars",
+  "Dune: Part Three",
+  "Spaceballs 2",
+  "All You Need Is Kill",
+]
+
+# ---------------------------------------------------------------------
+# GAMES — matched against IGDB. Needs TWITCH_CLIENT_ID + SECRET.
+# ---------------------------------------------------------------------
+[games]
+titles = [
+  "Grand Theft Auto VI",
+  "Call of Duty: Modern Warfare IV",
+  "Marvel's Wolverine",
+  "Gears of War: E-Day",
+  "The Legend of Zelda: Ocarina of Time",
+  "Control Resonant",
+  "Onimusha: Way of the Sword",
+  "The Blood of the Dawnwalker",
+  "Return to Silent Hill",
+  "Fable",
+  "Persona 4 Revival",
+  "Tomb Raider",
+  "Metro 2039",
+  "State of Decay 3",
+  "Final Fantasy VII",
+  "Lords of the Fallen II",
+  "Crimson Desert",
+  "Subnautica 2",
+  "Nioh 3",
+  "007 First Light",
+  "Saros",
+  "Stranger Than Heaven",
+]
