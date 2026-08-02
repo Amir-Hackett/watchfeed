@@ -59,7 +59,7 @@ shows = [
   "Dandadan",
   "Sakamoto Days",
   "My Hero Academia",
-  "Demon Slayer",
+  "Kimetsu no Yaiba",  # "Demon Slayer" mis-matches a show called Onigiri on AniList
   "Spy x Family",
   "Re:Zero",
   "The Beginning After the End",
@@ -107,17 +107,17 @@ titles = [
   "Call of Duty: Modern Warfare IV",
   "Marvel's Wolverine",
   "Gears of War: E-Day",
-  "The Legend of Zelda: Ocarina of Time",
+  # "The Legend of Zelda: Ocarina of Time",  # only matches a PC fan port on IGDB; re-add if a real remake is announced
   "Control Resonant",
   "Onimusha: Way of the Sword",
   "The Blood of the Dawnwalker",
   "Return to Silent Hill",
   "Fable",
   "Persona 4 Revival",
-  "Tomb Raider",
+  # "Tomb Raider",  # next entry is untitled/TBA on IGDB; this only matches 2003's Angel of Darkness
   "Metro 2039",
   "State of Decay 3",
-  "Final Fantasy VII",
+  # "Final Fantasy VII",  # matches a remaster twin-pack; swap in the real title once Remake part 3 is announced
   "Lords of the Fallen II",
   "Crimson Desert",
   "Subnautica 2",
