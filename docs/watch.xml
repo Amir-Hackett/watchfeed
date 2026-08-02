@@ -4,7 +4,7 @@
     <title>Watchfeed</title>
     <link>https://amir-hackett.github.io/watchfeed/</link>
     <description>Upcoming TV, anime, film and game releases</description>
-    <lastBuildDate>Sun, 02 Aug 2026 23:21:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 23:43:26 +0000</lastBuildDate>
     <item>
       <title>[TV] House of the Dragon — S03E07 — TBA</title>
       <description>Sunday, August 2, 2026 — HBO</description>
@@ -198,12 +198,28 @@
       <link>https://www.tvmaze.com/shows/43031/reacher</link>
     </item>
     <item>
+      <title>[GAME] The Blood of Dawnwalker — Release day</title>
+      <description>Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0351e29a929d1e84d591b39f380a04d236773729@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/the-blood-of-dawnwalker</link>
+    </item>
+    <item>
       <title>[TV] Dark Matter — S02E02 — TBA</title>
       <description>Friday, September 4, 2026 — Apple TV</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7929272c5cf84cb8b7fa9cf1248f10b891b8b764@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
+    </item>
+    <item>
+      <title>[GAME] Onimusha: Way of the Sword — Release day</title>
+      <description>Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bb252d825bc59619e01e903d123a65c36a14b499@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/onimusha-way-of-the-sword</link>
     </item>
     <item>
       <title>[TV] Silo — S03E10 — Troy</title>
@@ -244,6 +260,14 @@
       <guid isPermaLink="false">44eabd7725d4d5ce318fe396bfe5572f84ce311a@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/50415/lioness</link>
+    </item>
+    <item>
+      <title>[GAME] Marvel's Wolverine — Release day</title>
+      <description>Tuesday, September 15, 2026 — PS5</description>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">96ca29e6eba3b7babb43eed8d3d95f60864370e4@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/marvels-wolverine</link>
     </item>
     <item>
       <title>[TV] Neagley — S01E01 — Episode 1</title>
@@ -342,6 +366,14 @@
       <link>https://www.tvmaze.com/shows/50415/lioness</link>
     </item>
     <item>
+      <title>[GAME] Control Resonant — Release day</title>
+      <description>Tuesday, September 22, 2026 — PS5</description>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e74b925c6f60c94ab44f63ac09fef5991c6f5bbd@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/control-resonant--1</link>
+    </item>
+    <item>
       <title>[TV] Slow Horses — S06E02 — TBA</title>
       <description>Wednesday, September 23, 2026 — Apple TV</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
@@ -358,12 +390,28 @@
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[GAME] 007 First Light — Release day</title>
+      <description>Wednesday, September 30, 2026 — Switch 2</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">048999b705698e9e3b251c768c24961dad631817@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/007-first-light</link>
+    </item>
+    <item>
       <title>[TV] Slow Horses — S06E03 — TBA</title>
       <description>Wednesday, September 30, 2026 — Apple TV</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8ca76e20069e58e0fe93d7f678f5d53dfc1250a1@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/45039/slow-horses</link>
+    </item>
+    <item>
+      <title>[GAME] Gears of War: E-Day — Release day</title>
+      <description>Thursday, October 1, 2026 — PC, Series X|S</description>
+      <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">06ad0af67c15a0b9f1ecbf0025e443fb7492a461@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/gears-of-war-e-day</link>
     </item>
     <item>
       <title>[TV] Dark Matter — S02E06 — TBA</title>
@@ -438,6 +486,14 @@
       <link>https://www.tvmaze.com/shows/45039/slow-horses</link>
     </item>
     <item>
+      <title>[GAME] Call of Duty: Modern Warfare 4 — Release day</title>
+      <description>Friday, October 23, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ccf25f559ac02cf6f44aa4f679574d7fbccc3dd4@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/call-of-duty-modern-warfare-4</link>
+    </item>
+    <item>
       <title>[TV] Dark Matter — S02E09 — TBA</title>
       <description>Friday, October 23, 2026 — Apple TV</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
@@ -484,6 +540,14 @@
       <guid isPermaLink="false">bef65ab97d04b00a71bc1cfd46001169b8b3c4d4@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
+    </item>
+    <item>
+      <title>[GAME] Grand Theft Auto VI — Release day</title>
+      <description>Thursday, November 19, 2026 — PS5, Series X|S</description>
+      <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b8760a3e898b12a7fb31dc8cc16a41f6dcd86469@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/grand-theft-auto-vi</link>
     </item>
     <item>
       <title>[TV] Nocturne — S01E05 — Episode 5</title>
@@ -654,6 +718,14 @@
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[GAME] Unreal Engine The Legend of Zelda: Ocarina of Time — Release day</title>
+      <description>Thursday, December 31, 2026 — PC</description>
+      <pubDate>Thu, 31 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5109b9c0c1e927830b0060c22c6235a065c9b9c2@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/unreal-engine-the-legend-of-zelda-ocarina-of-time</link>
+    </item>
+    <item>
       <title>[TV] Percy Jackson and the Olympians — S03E08 — TBA</title>
       <description>Friday, January 1, 2027 — Disney+</description>
       <pubDate>Fri, 01 Jan 2027 00:00:00 +0000</pubDate>
@@ -662,12 +734,52 @@
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[GAME] Stranger Than Heaven — Release day</title>
+      <description>Friday, January 15, 2027 — PC, PS5, Series X|S</description>
+      <pubDate>Fri, 15 Jan 2027 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">eae82e8d442232d5a1b74e69d7c29cbe3fdd6cf9@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/stranger-than-heaven</link>
+    </item>
+    <item>
       <title>[TV] Neuromancer — S01E01 — TBA</title>
       <description>Friday, January 22, 2027 — Apple TV</description>
       <pubDate>Fri, 22 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7d6206eb50b007172641c7903c5bc03fa3326ee4@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/75029/neuromancer</link>
+    </item>
+    <item>
+      <title>[GAME] Metro 2039 — Release day</title>
+      <description>Monday, February 1, 2027 — PC, PS5, Series X|S</description>
+      <pubDate>Mon, 01 Feb 2027 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9be511fe2a1cb6380ce02888a1054d5b9e10a5a8@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/metro-2039</link>
+    </item>
+    <item>
+      <title>[GAME] Fable — Release day</title>
+      <description>Thursday, February 18, 2027 — PC, PS5, Series X|S</description>
+      <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">157b8befdcf72333bf324cf0f3e8eecb4feeadd0@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/fable--1</link>
+    </item>
+    <item>
+      <title>[GAME] Persona 4 Revival — Release day</title>
+      <description>Thursday, February 18, 2027 — PC, PS5, Series X|S</description>
+      <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f386a9488b9d3e1812373f6feadbf22d60fdec90@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/persona-4-revival</link>
+    </item>
+    <item>
+      <title>[GAME] Lords of the Fallen II — Release day</title>
+      <description>Wednesday, March 31, 2027 — PC, PS5, Series X|S, Switch 2</description>
+      <pubDate>Wed, 31 Mar 2027 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">94bbbef550bdd6f04b9a69fadaf7d27248360a56@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/lords-of-the-fallen-ii</link>
     </item>
   </channel>
 </rss>
