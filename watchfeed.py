@@ -29,7 +29,7 @@ from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-UA = "watchfeed/1.0 (+https://github.com/yourname/watchfeed)"
+UA = "watchfeed/1.0 (+https://github.com/Amir-Hackett/watchfeed)"
 TIMEOUT = 20
 
 

@@ -3,6 +3,9 @@
 One `.ics` and one `.rss` for every show, anime, film and game you track.
 Subscribe once on your iPhone; it updates itself.
 
+Live feed: `https://amir-hackett.github.io/watchfeed/watch.ics`
+(rebuilt daily at 9am UTC by GitHub Actions, served from `/docs` via Pages)
+
 No dependencies. Python 3.11+ (uses stdlib `tomllib`).
 
 ```
