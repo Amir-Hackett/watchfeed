@@ -38,6 +38,17 @@ shows = [
   "Tracker",
   "NCIS",
   "Batman: Caped Crusader",
+  # animated
+  "Invincible",
+  "X-Men '97",
+  "Arcane",
+  "Castlevania: Nocturne",
+  "Harley Quinn",
+  "Your Friendly Neighborhood Spider-Man",  # aka Spider-Man: Freshman Year
+  "Blue Eye Samurai",
+  "The Legend of Vox Machina",
+  "Creature Commandos",
+  "My Adventures with Superman",
 ]
 
 # ---------------------------------------------------------------------
