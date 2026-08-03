@@ -59,7 +59,7 @@ shows = [
   "Dandadan",
   "Sakamoto Days",
   "My Hero Academia",
-  "Kimetsu no Yaiba",  # "Demon Slayer" mis-matches a show called Onigiri on AniList
+  "Kimetsu no Yaiba",  # = Demon Slayer (searching the English name mis-matches "Onigiri"; events still display the English title)
   "Spy x Family",
   "Re:Zero",
   "The Beginning After the End",
