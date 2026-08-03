@@ -4,7 +4,7 @@
     <title>Watchfeed</title>
     <link>https://amir-hackett.github.io/watchfeed/</link>
     <description>Upcoming TV, anime, film and game releases</description>
-    <lastBuildDate>Mon, 03 Aug 2026 00:33:49 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 00:37:10 +0000</lastBuildDate>
     <item>
       <title>[TV] Furious — S01E04 — Flash Flood</title>
       <description>Monday, August 3, 2026 — Hulu</description>
@@ -14,12 +14,28 @@
       <link>https://www.tvmaze.com/shows/87753/furious</link>
     </item>
     <item>
+      <title>[TV] X-Men '97 — S02E08 — The Dead Man's Hand</title>
+      <description>Wednesday, August 5, 2026 — Disney+</description>
+      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5f44de4c9b4ca19300a0686c0fdc1a569e757d5a@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/58951/x-men-97</link>
+    </item>
+    <item>
       <title>[TV] Silo — S03E06 — The Drive</title>
       <description>Friday, August 7, 2026 — Apple TV</description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d8649c2e7ac01f892f18e290f33ff3587dd8962f@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/38052/silo</link>
+    </item>
+    <item>
+      <title>[TV] My Adventures with Superman — S03E09 — Vae Victis</title>
+      <description>Saturday, August 8, 2026 — Adult Swim</description>
+      <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">14d530b6158d169a5ed34998a8532ae7d7e8a4af@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/55414/my-adventures-with-superman</link>
     </item>
     <item>
       <title>[TV] House of the Dragon — S03E08 — TBA</title>
@@ -70,12 +86,28 @@
       <link>https://www.tvmaze.com/shows/43031/reacher</link>
     </item>
     <item>
+      <title>[TV] X-Men '97 — S02E09 — Survival of the Fittest</title>
+      <description>Wednesday, August 12, 2026 — Disney+</description>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a1656eba6c82316aad42e88032220067b588fc32@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/58951/x-men-97</link>
+    </item>
+    <item>
       <title>[TV] Silo — S03E07 — Radio</title>
       <description>Friday, August 14, 2026 — Apple TV</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4d1f3626e8ccedd058b86554606ff5b11b595f3e@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/38052/silo</link>
+    </item>
+    <item>
+      <title>[TV] My Adventures with Superman — S03E10 — The Return</title>
+      <description>Saturday, August 15, 2026 — Adult Swim</description>
+      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">42d8cc94a5420842b777648171a2c0dfc3c7aad5@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/55414/my-adventures-with-superman</link>
     </item>
     <item>
       <title>[TV] Lanterns — S01E01 — TBA</title>
