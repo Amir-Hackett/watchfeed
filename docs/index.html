@@ -1,0 +1,476 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Watchfeed — upcoming releases</title>
+<style>
+:root {
+  --bg: #faf9f7; --surface: #ffffff; --text: #1c1917; --muted: #6b6560;
+  --line: #e7e3de; --accent: #0f766e; --accent-fg: #ffffff;
+  --tv-bg: #e0ecff; --tv-fg: #1d4ed8; --anime-bg: #ede9fe; --anime-fg: #6d28d9;
+  --movie-bg: #fdeecd; --movie-fg: #92400e; --game-bg: #d9f2e5; --game-fg: #047857;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12100e; --surface: #1c1917; --text: #f5f5f4; --muted: #a8a29e;
+    --line: #2b2724; --accent: #2dd4bf; --accent-fg: #042f2e;
+    --tv-bg: #1c2f55; --tv-fg: #93c5fd; --anime-bg: #2e1f52; --anime-fg: #c4b5fd;
+    --movie-bg: #3d2c12; --movie-fg: #fcd34d; --game-bg: #123529; --game-fg: #6ee7b7;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 24px 16px 64px; background: var(--bg); color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+header, main, footer { max-width: 40rem; margin: 0 auto; }
+h1 { font-size: 32px; margin: 8px 0 4px; letter-spacing: -0.02em; }
+.tag { margin: 0 0 4px; color: var(--muted); }
+.updated { margin: 0 0 20px; font-size: 14px; color: var(--muted); }
+.feeds { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn, .chip {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 8px 16px;
+  border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 15px;
+}
+.btn { background: var(--accent); color: var(--accent-fg); }
+.chip { border: 1px solid var(--line); color: var(--text); background: var(--surface); }
+.url { font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
+.url code { background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 3px 6px; }
+a { color: var(--accent); }
+a:focus-visible, .btn:focus-visible, .chip:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; }
+h2 { font-size: 17px; margin: 28px 0 4px; padding-bottom: 6px;
+  border-bottom: 1px solid var(--line); }
+.rel { font-weight: 400; font-size: 14px; color: var(--muted); margin-left: 6px; }
+ul { list-style: none; margin: 0; padding: 0; }
+li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px;
+  padding: 10px 0; border-bottom: 1px solid var(--line); }
+li:last-child { border-bottom: 0; }
+.badge { font-size: 12px; font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
+.badge.tv { background: var(--tv-bg); color: var(--tv-fg); }
+.badge.anime { background: var(--anime-bg); color: var(--anime-fg); }
+.badge.movie { background: var(--movie-bg); color: var(--movie-fg); }
+.badge.game { background: var(--game-bg); color: var(--game-fg); }
+.title { font-weight: 600; }
+.title a { color: inherit; text-decoration: none; }
+.title a:hover { text-decoration: underline; }
+.detail, .meta { color: var(--muted); font-size: 14px; }
+footer { margin-top: 40px; font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+<h1>Watchfeed</h1>
+<p class="tag">Every show, anime, film and game tracked — one auto-updating calendar.</p>
+<p class="updated">Updated August 7, 2026 · 137 upcoming · 83 tv · 20 anime · 21 film · 13 game</p>
+<nav class="feeds" aria-label="Subscribe"><a class="btn" href="webcal://amir-hackett.github.io/watchfeed/watch.ics">Subscribe — everything</a><a class="chip" href="tv.ics">TV</a><a class="chip" href="anime.ics">Anime</a><a class="chip" href="movies.ics">Films</a><a class="chip" href="games.ics">Games</a><a class="chip" href="watch.xml">RSS</a></nav>
+<p class="url">Or add by URL: <code>https://amir-hackett.github.io/watchfeed/watch.ics</code></p>
+</header>
+<main>
+<h2>Fri, Aug 7, 2026 <span class="rel">today</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/38052/silo">Silo</a></span> <span class="detail">S03E06 — The Drive</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sat, Aug 8, 2026 <span class="rel">tomorrow</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/55414/my-adventures-with-superman">My Adventures with Superman</a></span> <span class="detail">S03E09 — Vae Victis</span> <span class="meta">Adult Swim</span></li>
+</ul>
+<h2>Sun, Aug 9, 2026 <span class="rel">in 2 days</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/44778/house-of-the-dragon">House of the Dragon</a></span> <span class="detail">S03E08 — TBA</span> <span class="meta">HBO</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/50415/lioness">Lioness</a></span> <span class="detail">S03E02 — No Sorrow Like the Survivor</span> <span class="meta">Paramount+</span></li>
+</ul>
+<h2>Mon, Aug 10, 2026 <span class="rel">in 3 days</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/87753/furious">Furious</a></span> <span class="detail">S01E05 — Pick a Sticker</span> <span class="meta">Hulu</span></li>
+</ul>
+<h2>Wed, Aug 12, 2026 <span class="rel">in 5 days</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 12</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E01 — Episode 1</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E02 — Episode 2</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E03 — Episode 3</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/58951/x-men-97">X-Men '97</a></span> <span class="detail">S02E09 — Survival of the Fittest</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Fri, Aug 14, 2026 <span class="rel">in 7 days</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/38052/silo">Silo</a></span> <span class="detail">S03E07 — Radio</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sat, Aug 15, 2026 <span class="rel">in 8 days</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/55414/my-adventures-with-superman">My Adventures with Superman</a></span> <span class="detail">S03E10 — The Return</span> <span class="meta">Adult Swim</span></li>
+</ul>
+<h2>Sun, Aug 16, 2026 <span class="rel">in 9 days</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/44776/lanterns">Lanterns</a></span> <span class="detail">S01E01 — TBA</span> <span class="meta">HBO</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/50415/lioness">Lioness</a></span> <span class="detail">S03E03 — The Bear Is Infected</span> <span class="meta">Paramount+</span></li>
+</ul>
+<h2>Mon, Aug 17, 2026 <span class="rel">in 10 days</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/87753/furious">Furious</a></span> <span class="detail">S01E06 — They Make A Noise Like Feathers</span> <span class="meta">Hulu</span></li>
+</ul>
+<h2>Wed, Aug 19, 2026 <span class="rel">in 12 days</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 13</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E04 — Episode 4</span> <span class="meta">Prime Video</span></li>
+</ul>
+<h2>Thu, Aug 20, 2026 <span class="rel">in 13 days</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1204680">Coyote vs. Acme</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Fri, Aug 21, 2026 <span class="rel">in 2 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/38052/silo">Silo</a></span> <span class="detail">S03E08 — Gray Goo</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Aug 23, 2026 <span class="rel">in 2 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/50415/lioness">Lioness</a></span> <span class="detail">S03E04 — Murder Hornets</span> <span class="meta">Paramount+</span></li>
+</ul>
+<h2>Mon, Aug 24, 2026 <span class="rel">in 2 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/87753/furious">Furious</a></span> <span class="detail">S01E07 — Hart Island</span> <span class="meta">Hulu</span></li>
+</ul>
+<h2>Wed, Aug 26, 2026 <span class="rel">in 2 weeks</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 14</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E05 — Episode 5</span> <span class="meta">Prime Video</span></li>
+</ul>
+<h2>Fri, Aug 28, 2026 <span class="rel">in 3 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E01 — TBA</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/38052/silo">Silo</a></span> <span class="detail">S03E09 — Farewell</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Aug 30, 2026 <span class="rel">in 3 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/50415/lioness">Lioness</a></span> <span class="detail">S03E05 — The Idiot Army</span> <span class="meta">Paramount+</span></li>
+</ul>
+<h2>Mon, Aug 31, 2026 <span class="rel">in 3 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/87753/furious">Furious</a></span> <span class="detail">S01E08 — Episode 8</span> <span class="meta">Hulu</span></li>
+</ul>
+<h2>Wed, Sep 2, 2026 <span class="rel">in 3 weeks</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 15</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E06 — Episode 6</span> <span class="meta">Prime Video</span></li>
+</ul>
+<h2>Thu, Sep 3, 2026 <span class="rel">in 3 weeks</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/the-blood-of-dawnwalker">The Blood of Dawnwalker</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S</span></li>
+</ul>
+<h2>Fri, Sep 4, 2026 <span class="rel">in 4 weeks</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/onimusha-way-of-the-sword">Onimusha: Way of the Sword</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S, Switch 2</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E02 — TBA</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/38052/silo">Silo</a></span> <span class="detail">S03E10 — Troy</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Sep 6, 2026 <span class="rel">in 4 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/50415/lioness">Lioness</a></span> <span class="detail">S03E06 — Sugar Land</span> <span class="meta">Paramount+</span></li>
+</ul>
+<h2>Wed, Sep 9, 2026 <span class="rel">in 4 weeks</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 16</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E07 — Episode 7</span> <span class="meta">Prime Video</span></li>
+</ul>
+<h2>Fri, Sep 11, 2026 <span class="rel">in 5 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E03 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Sep 13, 2026 <span class="rel">in 5 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/50415/lioness">Lioness</a></span> <span class="detail">S03E07 — TBA</span> <span class="meta">Paramount+</span></li>
+</ul>
+<h2>Tue, Sep 15, 2026 <span class="rel">in 5 weeks</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/marvels-wolverine">Marvel's Wolverine</a></span> <span class="detail">Release day</span> <span class="meta">PS5</span></li>
+</ul>
+<h2>Wed, Sep 16, 2026 <span class="rel">in 5 weeks</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 17</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E01 — Episode 1</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E02 — Episode 2</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E03 — Episode 3</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E04 — Episode 4</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E05 — Episode 5</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E06 — Episode 6</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E07 — Episode 7</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/82707/neagley">Neagley</a></span> <span class="detail">S01E08 — Episode 8</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/43031/reacher">Reacher</a></span> <span class="detail">S04E08 — Episode 8</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/45039/slow-horses">Slow Horses</a></span> <span class="detail">S06E01 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Fri, Sep 18, 2026 <span class="rel">in 6 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E04 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Sep 20, 2026 <span class="rel">in 6 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/50415/lioness">Lioness</a></span> <span class="detail">S03E08 — The Unravelling</span> <span class="meta">Paramount+</span></li>
+</ul>
+<h2>Tue, Sep 22, 2026 <span class="rel">in 6 weeks</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/control-resonant--1">Control Resonant</a></span> <span class="detail">Release day</span> <span class="meta">PS5</span></li>
+</ul>
+<h2>Wed, Sep 23, 2026 <span class="rel">in 6 weeks</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 18</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/45039/slow-horses">Slow Horses</a></span> <span class="detail">S06E02 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Fri, Sep 25, 2026 <span class="rel">in 7 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E05 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Sep 27, 2026 <span class="rel">in 7 weeks</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1745343">Street Cat Fighter</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Wed, Sep 30, 2026 <span class="rel">in 7 weeks</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189046">Re:ZERO -Starting Life in Another World- Season 4</a></span> <span class="detail">Episode 19</span></li>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/007-first-light">007 First Light</a></span> <span class="detail">Release day</span> <span class="meta">Switch 2</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/45039/slow-horses">Slow Horses</a></span> <span class="detail">S06E03 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Thu, Oct 1, 2026 <span class="rel">in 7 weeks</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/gears-of-war-e-day">Gears of War: E-Day</a></span> <span class="detail">Release day</span> <span class="meta">PC, Series X|S</span></li>
+</ul>
+<h2>Fri, Oct 2, 2026 <span class="rel">in 8 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E06 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Oct 4, 2026 <span class="rel">in 8 weeks</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 1</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/63192/tracker">Tracker</a></span> <span class="detail">S04E01 — TBA</span> <span class="meta">CBS</span></li>
+</ul>
+<h2>Tue, Oct 6, 2026 <span class="rel">in 8 weeks</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60/ncis">NCIS</a></span> <span class="detail">S24E01 — TBA</span> <span class="meta">CBS</span></li>
+</ul>
+<h2>Wed, Oct 7, 2026 <span class="rel">in 2 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/45039/slow-horses">Slow Horses</a></span> <span class="detail">S06E04 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Fri, Oct 9, 2026 <span class="rel">in 2 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E07 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Oct 11, 2026 <span class="rel">in 2 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 2</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/63192/tracker">Tracker</a></span> <span class="detail">S04E02 — TBA</span> <span class="meta">CBS</span></li>
+</ul>
+<h2>Wed, Oct 14, 2026 <span class="rel">in 2 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1255833">Whalefall</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/45039/slow-horses">Slow Horses</a></span> <span class="detail">S06E05 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Fri, Oct 16, 2026 <span class="rel">in 2 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E08 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Oct 18, 2026 <span class="rel">in 2 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 3</span></li>
+</ul>
+<h2>Wed, Oct 21, 2026 <span class="rel">in 2 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/45039/slow-horses">Slow Horses</a></span> <span class="detail">S06E06 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Fri, Oct 23, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/call-of-duty-modern-warfare-4">Call of Duty: Modern Warfare 4</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S, Switch 2</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E09 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Oct 25, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 4</span></li>
+</ul>
+<h2>Fri, Oct 30, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/61315/dark-matter">Dark Matter</a></span> <span class="detail">S02E10 — TBA</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E01 — Episode 1</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E02 — Episode 2</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Nov 1, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 5</span></li>
+</ul>
+<h2>Fri, Nov 6, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E03 — Episode 3</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Nov 8, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 6</span></li>
+</ul>
+<h2>Fri, Nov 13, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E04 — Episode 4</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Sun, Nov 15, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 7</span></li>
+</ul>
+<h2>Wed, Nov 18, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1300968">The Hunger Games: Sunrise on the Reaping</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Thu, Nov 19, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/grand-theft-auto-vi">Grand Theft Auto VI</a></span> <span class="detail">Release day</span> <span class="meta">PS5, Series X|S</span></li>
+</ul>
+<h2>Fri, Nov 20, 2026 <span class="rel">in 3 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E05 — Episode 5</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E01 — TBA</span> <span class="meta">Disney+</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E02 — TBA</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Sun, Nov 22, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 8</span></li>
+</ul>
+<h2>Wed, Nov 25, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1400336">Focker-in-Law</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E01 — TBA</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E02 — TBA</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E03 — TBA</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E04 — TBA</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E05 — TBA</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E06 — TBA</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E07 — TBA</span> <span class="meta">Prime Video</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/60458/blade-runner-2099">Blade Runner 2099</a></span> <span class="detail">S01E08 — TBA</span> <span class="meta">Prime Video</span></li>
+</ul>
+<h2>Fri, Nov 27, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E06 — Episode 6</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E03 — TBA</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Sun, Nov 29, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 9</span></li>
+</ul>
+<h2>Wed, Dec 2, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1078446">Violent Night 2</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Fri, Dec 4, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E07 — Episode 7</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E04 — TBA</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Sun, Dec 6, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 10</span></li>
+</ul>
+<h2>Fri, Dec 11, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E08 — Episode 8</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E05 — TBA</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Sun, Dec 13, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 11</span></li>
+</ul>
+<h2>Wed, Dec 16, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1003596">Avengers: Doomsday</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1170608">Dune: Part Three</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Fri, Dec 18, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E09 — Episode 9</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E06 — TBA</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Sun, Dec 20, 2026 <span class="rel">in 4 months</span></h2>
+<ul>
+<li><span class="badge anime">Anime</span> <span class="title"><a href="https://anilist.co/anime/189123">Blue Box Season 2</a></span> <span class="detail">Episode 12</span></li>
+</ul>
+<h2>Wed, Dec 23, 2026 <span class="rel">in 5 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1260649">Jumanji: Open World</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Fri, Dec 25, 2026 <span class="rel">in 5 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/66811/nocturne">Nocturne</a></span> <span class="detail">S01E10 — Episode 10</span> <span class="meta">Apple TV</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E07 — TBA</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Fri, Jan 1, 2027 <span class="rel">in 5 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1380163">Pendulum</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians">Percy Jackson and the Olympians</a></span> <span class="detail">S03E08 — TBA</span> <span class="meta">Disney+</span></li>
+</ul>
+<h2>Wed, Jan 13, 2027 <span class="rel">in 5 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/621304">Children of Blood and Bone</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Thu, Jan 14, 2027 <span class="rel">in 5 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1440769">The Beekeeper 2</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Fri, Jan 15, 2027 <span class="rel">in 5 months</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/stranger-than-heaven">Stranger Than Heaven</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S</span></li>
+</ul>
+<h2>Thu, Jan 21, 2027 <span class="rel">in 5 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1115030">Animal Friends</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Fri, Jan 22, 2027 <span class="rel">in 6 months</span></h2>
+<ul>
+<li><span class="badge tv">TV</span> <span class="title"><a href="https://www.tvmaze.com/shows/75029/neuromancer">Neuromancer</a></span> <span class="detail">S01E01 — TBA</span> <span class="meta">Apple TV</span></li>
+</ul>
+<h2>Mon, Feb 1, 2027 <span class="rel">in 6 months</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/metro-2039">Metro 2039</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S</span></li>
+</ul>
+<h2>Thu, Feb 4, 2027 <span class="rel">in 6 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1425859">Remain</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Thu, Feb 11, 2027 <span class="rel">in 6 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1147572">Narnia: The Magician's Nephew</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Thu, Feb 18, 2027 <span class="rel">in 6 months</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/fable--1">Fable</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S</span></li>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/persona-4-revival">Persona 4 Revival</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S</span></li>
+</ul>
+<h2>Thu, Mar 11, 2027 <span class="rel">in 7 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1401586">Sonic the Hedgehog 4</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Thu, Mar 18, 2027 <span class="rel">in 7 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/458896">The Nightingale</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Thu, Mar 25, 2027 <span class="rel">in 8 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1288438">Godzilla x Kong: Supernova</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Wed, Mar 31, 2027 <span class="rel">in 8 months</span></h2>
+<ul>
+<li><span class="badge game">Game</span> <span class="title"><a href="https://www.igdb.com/games/lords-of-the-fallen-ii">Lords of the Fallen II</a></span> <span class="detail">Release day</span> <span class="meta">PC, PS5, Series X|S, Switch 2</span></li>
+</ul>
+<h2>Fri, Apr 23, 2027 <span class="rel">in 9 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1306322">Spaceballs: The New One</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Fri, Apr 30, 2027 <span class="rel">in 9 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1177369">The Legend of Zelda</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+<h2>Wed, May 26, 2027 <span class="rel">in 10 months</span></h2>
+<ul>
+<li><span class="badge movie">Film</span> <span class="title"><a href="https://www.themoviedb.org/movie/1417668">Star Wars: Starfighter</a></span> <span class="detail">Theatrical release</span> <span class="meta">Theaters</span></li>
+</ul>
+</main>
+<footer>
+<p>Rebuilt daily · <a href="https://github.com/Amir-Hackett/watchfeed">source</a></p>
+</footer>
+</body>
+</html>

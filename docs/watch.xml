@@ -4,10 +4,10 @@
     <title>Watchfeed</title>
     <link>https://amir-hackett.github.io/watchfeed/</link>
     <description>Upcoming TV, anime, film and game releases</description>
-    <lastBuildDate>Fri, 07 Aug 2026 10:05:47 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 23:04:00 +0000</lastBuildDate>
     <item>
       <title>[TV] Silo — S03E06 — The Drive</title>
-      <description>Friday, August 7, 2026 — Apple TV</description>
+      <description>today — Friday, August 7, 2026 — Apple TV</description>
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d8649c2e7ac01f892f18e290f33ff3587dd8962f@watchfeed</guid>
       <category>tv</category>
@@ -15,7 +15,7 @@
     </item>
     <item>
       <title>[TV] My Adventures with Superman — S03E09 — Vae Victis</title>
-      <description>Saturday, August 8, 2026 — Adult Swim</description>
+      <description>tomorrow — Saturday, August 8, 2026 — Adult Swim</description>
       <pubDate>Sat, 08 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">14d530b6158d169a5ed34998a8532ae7d7e8a4af@watchfeed</guid>
       <category>tv</category>
@@ -23,7 +23,7 @@
     </item>
     <item>
       <title>[TV] House of the Dragon — S03E08 — TBA</title>
-      <description>Sunday, August 9, 2026 — HBO</description>
+      <description>in 2 days — Sunday, August 9, 2026 — HBO</description>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">503d487aebf0feb0935e0d12e74f2f4cc3e124c1@watchfeed</guid>
       <category>tv</category>
@@ -31,7 +31,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E02 — No Sorrow Like the Survivor</title>
-      <description>Sunday, August 9, 2026 — Paramount+</description>
+      <description>in 2 days — Sunday, August 9, 2026 — Paramount+</description>
       <pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">497dd93140d08c7e0430ac3d41a912dc5eae8bda@watchfeed</guid>
       <category>tv</category>
@@ -39,15 +39,23 @@
     </item>
     <item>
       <title>[TV] Furious — S01E05 — Pick a Sticker</title>
-      <description>Monday, August 10, 2026 — Hulu</description>
+      <description>in 3 days — Monday, August 10, 2026 — Hulu</description>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8741e774a61dab8060acda43379e361d08c54290@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/87753/furious</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 12</title>
+      <description>in 5 days — Wednesday, August 12, 2026</description>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">83e96e157d68a6eb59c2414315df6cd12961a945@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Reacher — S04E01 — Episode 1</title>
-      <description>Wednesday, August 12, 2026 — Prime Video</description>
+      <description>in 5 days — Wednesday, August 12, 2026 — Prime Video</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6df71a13f5a7d6e7817e575aeb2b9d9fcc0cbd90@watchfeed</guid>
       <category>tv</category>
@@ -55,7 +63,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E02 — Episode 2</title>
-      <description>Wednesday, August 12, 2026 — Prime Video</description>
+      <description>in 5 days — Wednesday, August 12, 2026 — Prime Video</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">df1184faa2e70fa55aa200d7e30cab3adc54895c@watchfeed</guid>
       <category>tv</category>
@@ -63,7 +71,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E03 — Episode 3</title>
-      <description>Wednesday, August 12, 2026 — Prime Video</description>
+      <description>in 5 days — Wednesday, August 12, 2026 — Prime Video</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">64f851335e046080f0bd074c0796853a99f17445@watchfeed</guid>
       <category>tv</category>
@@ -71,7 +79,7 @@
     </item>
     <item>
       <title>[TV] X-Men '97 — S02E09 — Survival of the Fittest</title>
-      <description>Wednesday, August 12, 2026 — Disney+</description>
+      <description>in 5 days — Wednesday, August 12, 2026 — Disney+</description>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a1656eba6c82316aad42e88032220067b588fc32@watchfeed</guid>
       <category>tv</category>
@@ -79,7 +87,7 @@
     </item>
     <item>
       <title>[TV] Silo — S03E07 — Radio</title>
-      <description>Friday, August 14, 2026 — Apple TV</description>
+      <description>in 7 days — Friday, August 14, 2026 — Apple TV</description>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4d1f3626e8ccedd058b86554606ff5b11b595f3e@watchfeed</guid>
       <category>tv</category>
@@ -87,7 +95,7 @@
     </item>
     <item>
       <title>[TV] My Adventures with Superman — S03E10 — The Return</title>
-      <description>Saturday, August 15, 2026 — Adult Swim</description>
+      <description>in 8 days — Saturday, August 15, 2026 — Adult Swim</description>
       <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">42d8cc94a5420842b777648171a2c0dfc3c7aad5@watchfeed</guid>
       <category>tv</category>
@@ -95,7 +103,7 @@
     </item>
     <item>
       <title>[TV] Lanterns — S01E01 — TBA</title>
-      <description>Sunday, August 16, 2026 — HBO</description>
+      <description>in 9 days — Sunday, August 16, 2026 — HBO</description>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e3e12e934b97efe7ee3ff188afdc62e772fe0783@watchfeed</guid>
       <category>tv</category>
@@ -103,7 +111,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E03 — The Bear Is Infected</title>
-      <description>Sunday, August 16, 2026 — Paramount+</description>
+      <description>in 9 days — Sunday, August 16, 2026 — Paramount+</description>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1c5f260a8a0ae8a09ae0e822815ed7a680eb14d5@watchfeed</guid>
       <category>tv</category>
@@ -111,15 +119,23 @@
     </item>
     <item>
       <title>[TV] Furious — S01E06 — They Make A Noise Like Feathers</title>
-      <description>Monday, August 17, 2026 — Hulu</description>
+      <description>in 10 days — Monday, August 17, 2026 — Hulu</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f0b65158370fb77f1c56ce2be67de04dc3f85538@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/87753/furious</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 13</title>
+      <description>in 12 days — Wednesday, August 19, 2026</description>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1883fe5d73e06bb44891b10013ab713389d2cf3b@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Reacher — S04E04 — Episode 4</title>
-      <description>Wednesday, August 19, 2026 — Prime Video</description>
+      <description>in 12 days — Wednesday, August 19, 2026 — Prime Video</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cdfc9e53a8d709dc33179ae88cf5f281e36bf393@watchfeed</guid>
       <category>tv</category>
@@ -127,7 +143,7 @@
     </item>
     <item>
       <title>[FILM] Coyote vs. Acme — Theatrical release</title>
-      <description>Thursday, August 20, 2026 — Theaters</description>
+      <description>in 13 days — Thursday, August 20, 2026 — Theaters</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3caba77c3e1b34ed7e5de7b180f9cead6da94d6c@watchfeed</guid>
       <category>movie</category>
@@ -135,7 +151,7 @@
     </item>
     <item>
       <title>[TV] Silo — S03E08 — Gray Goo</title>
-      <description>Friday, August 21, 2026 — Apple TV</description>
+      <description>in 2 weeks — Friday, August 21, 2026 — Apple TV</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f364d93c8dabb6a83f7f9bb19d7fcb56f9e2d69b@watchfeed</guid>
       <category>tv</category>
@@ -143,7 +159,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E04 — Murder Hornets</title>
-      <description>Sunday, August 23, 2026 — Paramount+</description>
+      <description>in 2 weeks — Sunday, August 23, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f2ff286935c93d552264988592331a06790f118b@watchfeed</guid>
       <category>tv</category>
@@ -151,15 +167,23 @@
     </item>
     <item>
       <title>[TV] Furious — S01E07 — Hart Island</title>
-      <description>Monday, August 24, 2026 — Hulu</description>
+      <description>in 2 weeks — Monday, August 24, 2026 — Hulu</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">232ddcb9e9d10fb4de90a0503d3a3780be52a5eb@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/87753/furious</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 14</title>
+      <description>in 2 weeks — Wednesday, August 26, 2026</description>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">18628f49fe534f12517bef08fea951c8b84161f5@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Reacher — S04E05 — Episode 5</title>
-      <description>Wednesday, August 26, 2026 — Prime Video</description>
+      <description>in 2 weeks — Wednesday, August 26, 2026 — Prime Video</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">36e8841dbaf8718d09148b3e0388a760e76881f8@watchfeed</guid>
       <category>tv</category>
@@ -167,7 +191,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E01 — TBA</title>
-      <description>Friday, August 28, 2026 — Apple TV</description>
+      <description>in 3 weeks — Friday, August 28, 2026 — Apple TV</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">57eef0232bb3c117f87858d0065531946ca3116f@watchfeed</guid>
       <category>tv</category>
@@ -175,7 +199,7 @@
     </item>
     <item>
       <title>[TV] Silo — S03E09 — Farewell</title>
-      <description>Friday, August 28, 2026 — Apple TV</description>
+      <description>in 3 weeks — Friday, August 28, 2026 — Apple TV</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4910e86c4accd6485d7a1a78f65443f732fd6d9f@watchfeed</guid>
       <category>tv</category>
@@ -183,7 +207,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E05 — The Idiot Army</title>
-      <description>Sunday, August 30, 2026 — Paramount+</description>
+      <description>in 3 weeks — Sunday, August 30, 2026 — Paramount+</description>
       <pubDate>Sun, 30 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">054889289c0420be29ce08985177f181f6eea5d2@watchfeed</guid>
       <category>tv</category>
@@ -191,15 +215,23 @@
     </item>
     <item>
       <title>[TV] Furious — S01E08 — Episode 8</title>
-      <description>Monday, August 31, 2026 — Hulu</description>
+      <description>in 3 weeks — Monday, August 31, 2026 — Hulu</description>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">51bedfd4351aa73f92a64706f480a552272a5a47@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/87753/furious</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 15</title>
+      <description>in 3 weeks — Wednesday, September 2, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c318421aa4e813716ae487d7b62db2d37c54f953@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Reacher — S04E06 — Episode 6</title>
-      <description>Wednesday, September 2, 2026 — Prime Video</description>
+      <description>in 3 weeks — Wednesday, September 2, 2026 — Prime Video</description>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f2cde844c396a387f190e60308951d49dce0fbfd@watchfeed</guid>
       <category>tv</category>
@@ -207,7 +239,7 @@
     </item>
     <item>
       <title>[GAME] The Blood of Dawnwalker — Release day</title>
-      <description>Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
+      <description>in 3 weeks — Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0351e29a929d1e84d591b39f380a04d236773729@watchfeed</guid>
       <category>game</category>
@@ -215,7 +247,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E02 — TBA</title>
-      <description>Friday, September 4, 2026 — Apple TV</description>
+      <description>in 4 weeks — Friday, September 4, 2026 — Apple TV</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7929272c5cf84cb8b7fa9cf1248f10b891b8b764@watchfeed</guid>
       <category>tv</category>
@@ -223,7 +255,7 @@
     </item>
     <item>
       <title>[GAME] Onimusha: Way of the Sword — Release day</title>
-      <description>Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 4 weeks — Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bb252d825bc59619e01e903d123a65c36a14b499@watchfeed</guid>
       <category>game</category>
@@ -231,7 +263,7 @@
     </item>
     <item>
       <title>[TV] Silo — S03E10 — Troy</title>
-      <description>Friday, September 4, 2026 — Apple TV</description>
+      <description>in 4 weeks — Friday, September 4, 2026 — Apple TV</description>
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7edd0d85502d7bc214ac9ac41d00334cd5922c0f@watchfeed</guid>
       <category>tv</category>
@@ -239,15 +271,23 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E06 — Sugar Land</title>
-      <description>Sunday, September 6, 2026 — Paramount+</description>
+      <description>in 4 weeks — Sunday, September 6, 2026 — Paramount+</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">79e952d7c1fe9d7afa6527fffaaae35b0f369896@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/50415/lioness</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 16</title>
+      <description>in 4 weeks — Wednesday, September 9, 2026</description>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">845d26f116b91113ec4f2dddbf3a9ef1c7238921@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Reacher — S04E07 — Episode 7</title>
-      <description>Wednesday, September 9, 2026 — Prime Video</description>
+      <description>in 4 weeks — Wednesday, September 9, 2026 — Prime Video</description>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9fbd674111564bf1974340c7c2f09496a3dbc7f0@watchfeed</guid>
       <category>tv</category>
@@ -255,7 +295,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E03 — TBA</title>
-      <description>Friday, September 11, 2026 — Apple TV</description>
+      <description>in 5 weeks — Friday, September 11, 2026 — Apple TV</description>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3739792168f044e1689151ea2234a5f144b96a69@watchfeed</guid>
       <category>tv</category>
@@ -263,7 +303,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E07 — TBA</title>
-      <description>Sunday, September 13, 2026 — Paramount+</description>
+      <description>in 5 weeks — Sunday, September 13, 2026 — Paramount+</description>
       <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">44eabd7725d4d5ce318fe396bfe5572f84ce311a@watchfeed</guid>
       <category>tv</category>
@@ -271,7 +311,7 @@
     </item>
     <item>
       <title>[GAME] Marvel's Wolverine — Release day</title>
-      <description>Tuesday, September 15, 2026 — PS5</description>
+      <description>in 5 weeks — Tuesday, September 15, 2026 — PS5</description>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">96ca29e6eba3b7babb43eed8d3d95f60864370e4@watchfeed</guid>
       <category>game</category>
@@ -279,7 +319,7 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E01 — Episode 1</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bb4147934607c60e7c974738cd4796837b6ffc5a@watchfeed</guid>
       <category>tv</category>
@@ -287,7 +327,7 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E02 — Episode 2</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d6297ce9e7975d3681a1e0fe89678553257dbc5c@watchfeed</guid>
       <category>tv</category>
@@ -295,7 +335,7 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E03 — Episode 3</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3c19448885775b824e21d0c57af5f8c681affda7@watchfeed</guid>
       <category>tv</category>
@@ -303,7 +343,7 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E04 — Episode 4</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">09c92cf59ab357b5a3e8fd7c39d6d6ac1a3ca574@watchfeed</guid>
       <category>tv</category>
@@ -311,7 +351,7 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E05 — Episode 5</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">42b00cb071dfebcd24f5a95747f22b22587a5788@watchfeed</guid>
       <category>tv</category>
@@ -319,7 +359,7 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E06 — Episode 6</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">93645f2ccfff123bc3bcdd35c0a232b4554e1cab@watchfeed</guid>
       <category>tv</category>
@@ -327,7 +367,7 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E07 — Episode 7</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1f01339d7d6d34e105467879f1f5437fd20628af@watchfeed</guid>
       <category>tv</category>
@@ -335,15 +375,23 @@
     </item>
     <item>
       <title>[TV] Neagley — S01E08 — Episode 8</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">057a370595063b583049e841ed55eef15bf55db1@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/82707/neagley</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 17</title>
+      <description>in 5 weeks — Wednesday, September 16, 2026</description>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a102efc4582f4fd94ffd8670f2c3ad61241383ec@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Reacher — S04E08 — Episode 8</title>
-      <description>Wednesday, September 16, 2026 — Prime Video</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Prime Video</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f44e2c38b1034e4b14c6617eefe743a3a58269c8@watchfeed</guid>
       <category>tv</category>
@@ -351,7 +399,7 @@
     </item>
     <item>
       <title>[TV] Slow Horses — S06E01 — TBA</title>
-      <description>Wednesday, September 16, 2026 — Apple TV</description>
+      <description>in 5 weeks — Wednesday, September 16, 2026 — Apple TV</description>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f600d803c272c44f18e1fdb58a69fd38b8eb6c2e@watchfeed</guid>
       <category>tv</category>
@@ -359,7 +407,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E04 — TBA</title>
-      <description>Friday, September 18, 2026 — Apple TV</description>
+      <description>in 6 weeks — Friday, September 18, 2026 — Apple TV</description>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">2732259b66dcc7caa4c1f750ef503e63f9168020@watchfeed</guid>
       <category>tv</category>
@@ -367,7 +415,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E08 — The Unravelling</title>
-      <description>Sunday, September 20, 2026 — Paramount+</description>
+      <description>in 6 weeks — Sunday, September 20, 2026 — Paramount+</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d94cb611df71fbb81010d2fe6a17c4b8e23dea44@watchfeed</guid>
       <category>tv</category>
@@ -375,15 +423,23 @@
     </item>
     <item>
       <title>[GAME] Control Resonant — Release day</title>
-      <description>Tuesday, September 22, 2026 — PS5</description>
+      <description>in 6 weeks — Tuesday, September 22, 2026 — PS5</description>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e74b925c6f60c94ab44f63ac09fef5991c6f5bbd@watchfeed</guid>
       <category>game</category>
       <link>https://www.igdb.com/games/control-resonant--1</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 18</title>
+      <description>in 6 weeks — Wednesday, September 23, 2026</description>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">883fa6cdf7709d5351f08c0cce69a85d70e6d340@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Slow Horses — S06E02 — TBA</title>
-      <description>Wednesday, September 23, 2026 — Apple TV</description>
+      <description>in 6 weeks — Wednesday, September 23, 2026 — Apple TV</description>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">886608349feab1635e643d2333ed4460d9916e0f@watchfeed</guid>
       <category>tv</category>
@@ -391,23 +447,39 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E05 — TBA</title>
-      <description>Friday, September 25, 2026 — Apple TV</description>
+      <description>in 7 weeks — Friday, September 25, 2026 — Apple TV</description>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1bc949845c99bdfe095f87b0350544099b1a5f81@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[FILM] Street Cat Fighter — Theatrical release</title>
+      <description>in 7 weeks — Sunday, September 27, 2026 — Theaters</description>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a701a73d2cc7f98eb720294098210e1e5a332200@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1745343</link>
+    </item>
+    <item>
       <title>[GAME] 007 First Light — Release day</title>
-      <description>Wednesday, September 30, 2026 — Switch 2</description>
+      <description>in 7 weeks — Wednesday, September 30, 2026 — Switch 2</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">048999b705698e9e3b251c768c24961dad631817@watchfeed</guid>
       <category>game</category>
       <link>https://www.igdb.com/games/007-first-light</link>
     </item>
     <item>
+      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 19</title>
+      <description>in 7 weeks — Wednesday, September 30, 2026</description>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">11913704fbdbd084dcfd1ec19d25d58a233b7c5b@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189046</link>
+    </item>
+    <item>
       <title>[TV] Slow Horses — S06E03 — TBA</title>
-      <description>Wednesday, September 30, 2026 — Apple TV</description>
+      <description>in 7 weeks — Wednesday, September 30, 2026 — Apple TV</description>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8ca76e20069e58e0fe93d7f678f5d53dfc1250a1@watchfeed</guid>
       <category>tv</category>
@@ -415,7 +487,7 @@
     </item>
     <item>
       <title>[GAME] Gears of War: E-Day — Release day</title>
-      <description>Thursday, October 1, 2026 — PC, Series X|S</description>
+      <description>in 7 weeks — Thursday, October 1, 2026 — PC, Series X|S</description>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">06ad0af67c15a0b9f1ecbf0025e443fb7492a461@watchfeed</guid>
       <category>game</category>
@@ -423,15 +495,23 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E06 — TBA</title>
-      <description>Friday, October 2, 2026 — Apple TV</description>
+      <description>in 8 weeks — Friday, October 2, 2026 — Apple TV</description>
       <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9f5c665854a010bd282438db44f8726397ddbe5a@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 1</title>
+      <description>in 8 weeks — Sunday, October 4, 2026</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d576be19447d6cfaed07a81817b6a0b737428607@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Tracker — S04E01 — TBA</title>
-      <description>Sunday, October 4, 2026 — CBS</description>
+      <description>in 8 weeks — Sunday, October 4, 2026 — CBS</description>
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8841ac71fbfed24f9a98a7d7d971088fb2db9a0d@watchfeed</guid>
       <category>tv</category>
@@ -439,7 +519,7 @@
     </item>
     <item>
       <title>[TV] NCIS — S24E01 — TBA</title>
-      <description>Tuesday, October 6, 2026 — CBS</description>
+      <description>in 8 weeks — Tuesday, October 6, 2026 — CBS</description>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">605017773ed12ac5c857e184d7c007b946d14387@watchfeed</guid>
       <category>tv</category>
@@ -447,7 +527,7 @@
     </item>
     <item>
       <title>[TV] Slow Horses — S06E04 — TBA</title>
-      <description>Wednesday, October 7, 2026 — Apple TV</description>
+      <description>in 2 months — Wednesday, October 7, 2026 — Apple TV</description>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">62744229e5aeeaacf4f454f5e7e18a45f4df213f@watchfeed</guid>
       <category>tv</category>
@@ -455,15 +535,23 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E07 — TBA</title>
-      <description>Friday, October 9, 2026 — Apple TV</description>
+      <description>in 2 months — Friday, October 9, 2026 — Apple TV</description>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f81fa0b5a093d16bd4efb0efe3c5f6cfba3904b0@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 2</title>
+      <description>in 2 months — Sunday, October 11, 2026</description>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d0bc268a2d4a37016f28591215e722da9924e46e@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Tracker — S04E02 — TBA</title>
-      <description>Sunday, October 11, 2026 — CBS</description>
+      <description>in 2 months — Sunday, October 11, 2026 — CBS</description>
       <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">31447db0a76889206f48f3d5a72a79a9ffbca53e@watchfeed</guid>
       <category>tv</category>
@@ -471,23 +559,15 @@
     </item>
     <item>
       <title>[TV] Slow Horses — S06E05 — TBA</title>
-      <description>Wednesday, October 14, 2026 — Apple TV</description>
+      <description>in 2 months — Wednesday, October 14, 2026 — Apple TV</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7950331c0ec077f62d600fc4718ac8dbc7b9c68b@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/45039/slow-horses</link>
     </item>
     <item>
-      <title>[FILM] Street Fighter — Theatrical release</title>
-      <description>Wednesday, October 14, 2026 — Theaters</description>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">4b1605c851cce6a607a7260a242e43e604654e50@watchfeed</guid>
-      <category>movie</category>
-      <link>https://www.themoviedb.org/movie/1153576</link>
-    </item>
-    <item>
       <title>[FILM] Whalefall — Theatrical release</title>
-      <description>Wednesday, October 14, 2026 — Theaters</description>
+      <description>in 2 months — Wednesday, October 14, 2026 — Theaters</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9a368871b762b5b84d7219324ce8dc17d1240df6@watchfeed</guid>
       <category>movie</category>
@@ -495,15 +575,23 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E08 — TBA</title>
-      <description>Friday, October 16, 2026 — Apple TV</description>
+      <description>in 2 months — Friday, October 16, 2026 — Apple TV</description>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">01a0981829a3f279c049f36f0e27c6a8c21025d1@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 3</title>
+      <description>in 2 months — Sunday, October 18, 2026</description>
+      <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3bd4debd2b4120a36b3b65aeecb807a4dc891ebf@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Slow Horses — S06E06 — TBA</title>
-      <description>Wednesday, October 21, 2026 — Apple TV</description>
+      <description>in 2 months — Wednesday, October 21, 2026 — Apple TV</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">94c044de0ba671f604b1806fcb5f70d414fde474@watchfeed</guid>
       <category>tv</category>
@@ -511,7 +599,7 @@
     </item>
     <item>
       <title>[GAME] Call of Duty: Modern Warfare 4 — Release day</title>
-      <description>Friday, October 23, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 3 months — Friday, October 23, 2026 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ccf25f559ac02cf6f44aa4f679574d7fbccc3dd4@watchfeed</guid>
       <category>game</category>
@@ -519,15 +607,23 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E09 — TBA</title>
-      <description>Friday, October 23, 2026 — Apple TV</description>
+      <description>in 3 months — Friday, October 23, 2026 — Apple TV</description>
       <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6898cac9f331445c935c10089eca213f6a4b82f7@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 4</title>
+      <description>in 3 months — Sunday, October 25, 2026</description>
+      <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ff4ec0bc82e67df99b911c6e8f30c48c026a7780@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Dark Matter — S02E10 — TBA</title>
-      <description>Friday, October 30, 2026 — Apple TV</description>
+      <description>in 3 months — Friday, October 30, 2026 — Apple TV</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">66a53eb1937181be95786744e0d3d8ba806d119b@watchfeed</guid>
       <category>tv</category>
@@ -535,7 +631,7 @@
     </item>
     <item>
       <title>[TV] Nocturne — S01E01 — Episode 1</title>
-      <description>Friday, October 30, 2026 — Apple TV</description>
+      <description>in 3 months — Friday, October 30, 2026 — Apple TV</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">53a1561dcc5458105dac916b5735feba3151e0b7@watchfeed</guid>
       <category>tv</category>
@@ -543,31 +639,55 @@
     </item>
     <item>
       <title>[TV] Nocturne — S01E02 — Episode 2</title>
-      <description>Friday, October 30, 2026 — Apple TV</description>
+      <description>in 3 months — Friday, October 30, 2026 — Apple TV</description>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">009f87f6a59847634ffca8396ece0b50e5d22bd4@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 5</title>
+      <description>in 3 months — Sunday, November 1, 2026</description>
+      <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">01b416aa8a75668efec9132d2a072a1415559f41@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Nocturne — S01E03 — Episode 3</title>
-      <description>Friday, November 6, 2026 — Apple TV</description>
+      <description>in 3 months — Friday, November 6, 2026 — Apple TV</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c8a50eafb9708d1cb620e9500ee9b9be9e41adbc@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 6</title>
+      <description>in 3 months — Sunday, November 8, 2026</description>
+      <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">de6d61db2b6312794396070c4aa277093101bfca@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Nocturne — S01E04 — Episode 4</title>
-      <description>Friday, November 13, 2026 — Apple TV</description>
+      <description>in 3 months — Friday, November 13, 2026 — Apple TV</description>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bef65ab97d04b00a71bc1cfd46001169b8b3c4d4@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 7</title>
+      <description>in 3 months — Sunday, November 15, 2026</description>
+      <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">734a6303462a801c4a1182b1651b38d5fea8d6a0@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[FILM] The Hunger Games: Sunrise on the Reaping — Theatrical release</title>
-      <description>Wednesday, November 18, 2026 — Theaters</description>
+      <description>in 3 months — Wednesday, November 18, 2026 — Theaters</description>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b5d7abf9f8ba0da9790e68c72a547707b22d4615@watchfeed</guid>
       <category>movie</category>
@@ -575,7 +695,7 @@
     </item>
     <item>
       <title>[GAME] Grand Theft Auto VI — Release day</title>
-      <description>Thursday, November 19, 2026 — PS5, Series X|S</description>
+      <description>in 3 months — Thursday, November 19, 2026 — PS5, Series X|S</description>
       <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b8760a3e898b12a7fb31dc8cc16a41f6dcd86469@watchfeed</guid>
       <category>game</category>
@@ -583,7 +703,7 @@
     </item>
     <item>
       <title>[TV] Nocturne — S01E05 — Episode 5</title>
-      <description>Friday, November 20, 2026 — Apple TV</description>
+      <description>in 3 months — Friday, November 20, 2026 — Apple TV</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">59976e8a04ad155734775c85dc7275e0a6efb4ac@watchfeed</guid>
       <category>tv</category>
@@ -591,7 +711,7 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E01 — TBA</title>
-      <description>Friday, November 20, 2026 — Disney+</description>
+      <description>in 3 months — Friday, November 20, 2026 — Disney+</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">35c7e092afa68a5f2d8fc085f3983e5e28d3cbbe@watchfeed</guid>
       <category>tv</category>
@@ -599,15 +719,23 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E02 — TBA</title>
-      <description>Friday, November 20, 2026 — Disney+</description>
+      <description>in 3 months — Friday, November 20, 2026 — Disney+</description>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0a1de5e4e5b67d45a3cfbf47d2e6a0a98424a338@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 8</title>
+      <description>in 4 months — Sunday, November 22, 2026</description>
+      <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3ee0d1d99c86cb60feda447bd56ff012e4f936d8@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Blade Runner 2099 — S01E01 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ad3fb40bded82a9f71ab907220262c2830585bce@watchfeed</guid>
       <category>tv</category>
@@ -615,7 +743,7 @@
     </item>
     <item>
       <title>[TV] Blade Runner 2099 — S01E02 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">fc80e0726c22f1b8bde3b3db27f580c75fe39da2@watchfeed</guid>
       <category>tv</category>
@@ -623,7 +751,7 @@
     </item>
     <item>
       <title>[TV] Blade Runner 2099 — S01E03 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6cfabb0575430f02ef7a72f75e97212f73e573fc@watchfeed</guid>
       <category>tv</category>
@@ -631,7 +759,7 @@
     </item>
     <item>
       <title>[TV] Blade Runner 2099 — S01E04 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">14a728e2a8dd8bdc271f9a8d13428b39c939ad07@watchfeed</guid>
       <category>tv</category>
@@ -639,7 +767,7 @@
     </item>
     <item>
       <title>[TV] Blade Runner 2099 — S01E05 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f628caaef9aa4915efa4c084ba606f50aa59252b@watchfeed</guid>
       <category>tv</category>
@@ -647,7 +775,7 @@
     </item>
     <item>
       <title>[TV] Blade Runner 2099 — S01E06 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a34524fcd74478ed45ce13c0f17e2186f7a5c6d0@watchfeed</guid>
       <category>tv</category>
@@ -655,7 +783,7 @@
     </item>
     <item>
       <title>[TV] Blade Runner 2099 — S01E07 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">98500a80a66cca49b9d6fdbc8e2b87c8a8cdb288@watchfeed</guid>
       <category>tv</category>
@@ -663,7 +791,7 @@
     </item>
     <item>
       <title>[TV] Blade Runner 2099 — S01E08 — TBA</title>
-      <description>Wednesday, November 25, 2026 — Prime Video</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Prime Video</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">682b4f57d422b26a87c0310de6715f95a2f788fc@watchfeed</guid>
       <category>tv</category>
@@ -671,7 +799,7 @@
     </item>
     <item>
       <title>[FILM] Focker-in-Law — Theatrical release</title>
-      <description>Wednesday, November 25, 2026 — Theaters</description>
+      <description>in 4 months — Wednesday, November 25, 2026 — Theaters</description>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8eb08946836c3cb5b32ba1f56c898a8b6d4871c6@watchfeed</guid>
       <category>movie</category>
@@ -679,7 +807,7 @@
     </item>
     <item>
       <title>[TV] Nocturne — S01E06 — Episode 6</title>
-      <description>Friday, November 27, 2026 — Apple TV</description>
+      <description>in 4 months — Friday, November 27, 2026 — Apple TV</description>
       <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">35b5c40b76958a9cd593d474a084fdd4420e5d81@watchfeed</guid>
       <category>tv</category>
@@ -687,15 +815,23 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E03 — TBA</title>
-      <description>Friday, November 27, 2026 — Disney+</description>
+      <description>in 4 months — Friday, November 27, 2026 — Disney+</description>
       <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a771ddabf126ce1d46724f9668af0c5512e9de24@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 9</title>
+      <description>in 4 months — Sunday, November 29, 2026</description>
+      <pubDate>Sun, 29 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">047c925d9df46472f085121094ceb843bafddcaa@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[FILM] Violent Night 2 — Theatrical release</title>
-      <description>Wednesday, December 2, 2026 — Theaters</description>
+      <description>in 4 months — Wednesday, December 2, 2026 — Theaters</description>
       <pubDate>Wed, 02 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">83d2f9bb8d4a208fccdae5d34e8fcae27ecd380f@watchfeed</guid>
       <category>movie</category>
@@ -703,7 +839,7 @@
     </item>
     <item>
       <title>[TV] Nocturne — S01E07 — Episode 7</title>
-      <description>Friday, December 4, 2026 — Apple TV</description>
+      <description>in 4 months — Friday, December 4, 2026 — Apple TV</description>
       <pubDate>Fri, 04 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">88db197b0dd7ffd10dd914801cc461628473c7fc@watchfeed</guid>
       <category>tv</category>
@@ -711,15 +847,23 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E04 — TBA</title>
-      <description>Friday, December 4, 2026 — Disney+</description>
+      <description>in 4 months — Friday, December 4, 2026 — Disney+</description>
       <pubDate>Fri, 04 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6b712cfc50796fd7d342d0d4f2a2e0688d2a1d40@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 10</title>
+      <description>in 4 months — Sunday, December 6, 2026</description>
+      <pubDate>Sun, 06 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">60e1bd89a568758653e58c1c57a1f42682ffd0c8@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[TV] Nocturne — S01E08 — Episode 8</title>
-      <description>Friday, December 11, 2026 — Apple TV</description>
+      <description>in 4 months — Friday, December 11, 2026 — Apple TV</description>
       <pubDate>Fri, 11 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">624c34f028df884127c6280dba1a619e82989fd3@watchfeed</guid>
       <category>tv</category>
@@ -727,15 +871,23 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E05 — TBA</title>
-      <description>Friday, December 11, 2026 — Disney+</description>
+      <description>in 4 months — Friday, December 11, 2026 — Disney+</description>
       <pubDate>Fri, 11 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9d74cc1f136e1b499bc06fb958f33f9aac9f6a4d@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 11</title>
+      <description>in 4 months — Sunday, December 13, 2026</description>
+      <pubDate>Sun, 13 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7cc6a29fb340d39d65da2089ff49d78972c7f212@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[FILM] Avengers: Doomsday — Theatrical release</title>
-      <description>Wednesday, December 16, 2026 — Theaters</description>
+      <description>in 4 months — Wednesday, December 16, 2026 — Theaters</description>
       <pubDate>Wed, 16 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b208b54c3015906dbc855ae2cc5b50bff76a8753@watchfeed</guid>
       <category>movie</category>
@@ -743,7 +895,7 @@
     </item>
     <item>
       <title>[FILM] Dune: Part Three — Theatrical release</title>
-      <description>Wednesday, December 16, 2026 — Theaters</description>
+      <description>in 4 months — Wednesday, December 16, 2026 — Theaters</description>
       <pubDate>Wed, 16 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1929ebed01973f77a446608b4f75f2fabc1e9be4@watchfeed</guid>
       <category>movie</category>
@@ -751,7 +903,7 @@
     </item>
     <item>
       <title>[TV] Nocturne — S01E09 — Episode 9</title>
-      <description>Friday, December 18, 2026 — Apple TV</description>
+      <description>in 4 months — Friday, December 18, 2026 — Apple TV</description>
       <pubDate>Fri, 18 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">99ca6b8d76fc8c40e96034bb7f5868f598c47846@watchfeed</guid>
       <category>tv</category>
@@ -759,15 +911,23 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E06 — TBA</title>
-      <description>Friday, December 18, 2026 — Disney+</description>
+      <description>in 4 months — Friday, December 18, 2026 — Disney+</description>
       <pubDate>Fri, 18 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">be3d38afb4de8beda6758303fa13a64a8eda5de7@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[ANIME] Blue Box Season 2 — Episode 12</title>
+      <description>in 4 months — Sunday, December 20, 2026</description>
+      <pubDate>Sun, 20 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e9462e701c9f677f12afd959c052796a6d17c752@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/189123</link>
+    </item>
+    <item>
       <title>[FILM] Jumanji: Open World — Theatrical release</title>
-      <description>Wednesday, December 23, 2026 — Theaters</description>
+      <description>in 5 months — Wednesday, December 23, 2026 — Theaters</description>
       <pubDate>Wed, 23 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6b6c96beb84dc210222de622d47048af3de1c388@watchfeed</guid>
       <category>movie</category>
@@ -775,7 +935,7 @@
     </item>
     <item>
       <title>[TV] Nocturne — S01E10 — Episode 10</title>
-      <description>Friday, December 25, 2026 — Apple TV</description>
+      <description>in 5 months — Friday, December 25, 2026 — Apple TV</description>
       <pubDate>Fri, 25 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a9008b6c77d2d05bed6b0f85b9da605b98efb432@watchfeed</guid>
       <category>tv</category>
@@ -783,7 +943,7 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E07 — TBA</title>
-      <description>Friday, December 25, 2026 — Disney+</description>
+      <description>in 5 months — Friday, December 25, 2026 — Disney+</description>
       <pubDate>Fri, 25 Dec 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">732c40bd064821924516cae8c632eacbbe57a11a@watchfeed</guid>
       <category>tv</category>
@@ -791,7 +951,7 @@
     </item>
     <item>
       <title>[FILM] Pendulum — Theatrical release</title>
-      <description>Friday, January 1, 2027 — Theaters</description>
+      <description>in 5 months — Friday, January 1, 2027 — Theaters</description>
       <pubDate>Fri, 01 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cd4b7938cf2be6fb3c75c0e796038bc6c4b57d22@watchfeed</guid>
       <category>movie</category>
@@ -799,7 +959,7 @@
     </item>
     <item>
       <title>[TV] Percy Jackson and the Olympians — S03E08 — TBA</title>
-      <description>Friday, January 1, 2027 — Disney+</description>
+      <description>in 5 months — Friday, January 1, 2027 — Disney+</description>
       <pubDate>Fri, 01 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">2b03bda8c5d51eb9ac2b7949ba9ae9e20a16e110@watchfeed</guid>
       <category>tv</category>
@@ -807,7 +967,7 @@
     </item>
     <item>
       <title>[FILM] Children of Blood and Bone — Theatrical release</title>
-      <description>Wednesday, January 13, 2027 — Theaters</description>
+      <description>in 5 months — Wednesday, January 13, 2027 — Theaters</description>
       <pubDate>Wed, 13 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6c7d83f7cdb1bf6b1a5148a1cb053f1631a76e85@watchfeed</guid>
       <category>movie</category>
@@ -815,7 +975,7 @@
     </item>
     <item>
       <title>[FILM] The Beekeeper 2 — Theatrical release</title>
-      <description>Thursday, January 14, 2027 — Theaters</description>
+      <description>in 5 months — Thursday, January 14, 2027 — Theaters</description>
       <pubDate>Thu, 14 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f6ecece805c1a35c1b66b0364a10e1ef4606e5eb@watchfeed</guid>
       <category>movie</category>
@@ -823,7 +983,7 @@
     </item>
     <item>
       <title>[GAME] Stranger Than Heaven — Release day</title>
-      <description>Friday, January 15, 2027 — PC, PS5, Series X|S</description>
+      <description>in 5 months — Friday, January 15, 2027 — PC, PS5, Series X|S</description>
       <pubDate>Fri, 15 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eae82e8d442232d5a1b74e69d7c29cbe3fdd6cf9@watchfeed</guid>
       <category>game</category>
@@ -831,7 +991,7 @@
     </item>
     <item>
       <title>[FILM] Animal Friends — Theatrical release</title>
-      <description>Thursday, January 21, 2027 — Theaters</description>
+      <description>in 5 months — Thursday, January 21, 2027 — Theaters</description>
       <pubDate>Thu, 21 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">641d0b86b9f91eda7e80ddd20fb3414338326dcb@watchfeed</guid>
       <category>movie</category>
@@ -839,7 +999,7 @@
     </item>
     <item>
       <title>[TV] Neuromancer — S01E01 — TBA</title>
-      <description>Friday, January 22, 2027 — Apple TV</description>
+      <description>in 6 months — Friday, January 22, 2027 — Apple TV</description>
       <pubDate>Fri, 22 Jan 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7d6206eb50b007172641c7903c5bc03fa3326ee4@watchfeed</guid>
       <category>tv</category>
@@ -847,7 +1007,7 @@
     </item>
     <item>
       <title>[GAME] Metro 2039 — Release day</title>
-      <description>Monday, February 1, 2027 — PC, PS5, Series X|S</description>
+      <description>in 6 months — Monday, February 1, 2027 — PC, PS5, Series X|S</description>
       <pubDate>Mon, 01 Feb 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9be511fe2a1cb6380ce02888a1054d5b9e10a5a8@watchfeed</guid>
       <category>game</category>
@@ -855,7 +1015,7 @@
     </item>
     <item>
       <title>[FILM] Remain — Theatrical release</title>
-      <description>Thursday, February 4, 2027 — Theaters</description>
+      <description>in 6 months — Thursday, February 4, 2027 — Theaters</description>
       <pubDate>Thu, 04 Feb 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8e8155b9f80c055eb017b517acf3c9ca63b1cfd3@watchfeed</guid>
       <category>movie</category>
@@ -863,7 +1023,7 @@
     </item>
     <item>
       <title>[FILM] Narnia: The Magician's Nephew — Theatrical release</title>
-      <description>Thursday, February 11, 2027 — Theaters</description>
+      <description>in 6 months — Thursday, February 11, 2027 — Theaters</description>
       <pubDate>Thu, 11 Feb 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">2ee12107532d7c48772dd5806900e143fe4607e2@watchfeed</guid>
       <category>movie</category>
@@ -871,7 +1031,7 @@
     </item>
     <item>
       <title>[GAME] Fable — Release day</title>
-      <description>Thursday, February 18, 2027 — PC, PS5, Series X|S</description>
+      <description>in 6 months — Thursday, February 18, 2027 — PC, PS5, Series X|S</description>
       <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">157b8befdcf72333bf324cf0f3e8eecb4feeadd0@watchfeed</guid>
       <category>game</category>
@@ -879,7 +1039,7 @@
     </item>
     <item>
       <title>[GAME] Persona 4 Revival — Release day</title>
-      <description>Thursday, February 18, 2027 — PC, PS5, Series X|S</description>
+      <description>in 6 months — Thursday, February 18, 2027 — PC, PS5, Series X|S</description>
       <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f386a9488b9d3e1812373f6feadbf22d60fdec90@watchfeed</guid>
       <category>game</category>
@@ -887,7 +1047,7 @@
     </item>
     <item>
       <title>[FILM] Sonic the Hedgehog 4 — Theatrical release</title>
-      <description>Thursday, March 11, 2027 — Theaters</description>
+      <description>in 7 months — Thursday, March 11, 2027 — Theaters</description>
       <pubDate>Thu, 11 Mar 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3f7ca58728fde0f08374b8ee6392930700ce561c@watchfeed</guid>
       <category>movie</category>
@@ -895,7 +1055,7 @@
     </item>
     <item>
       <title>[FILM] The Nightingale — Theatrical release</title>
-      <description>Thursday, March 18, 2027 — Theaters</description>
+      <description>in 7 months — Thursday, March 18, 2027 — Theaters</description>
       <pubDate>Thu, 18 Mar 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1f3b6a07602bd7d910993e9a78d7051227df997a@watchfeed</guid>
       <category>movie</category>
@@ -903,7 +1063,7 @@
     </item>
     <item>
       <title>[FILM] Godzilla x Kong: Supernova — Theatrical release</title>
-      <description>Thursday, March 25, 2027 — Theaters</description>
+      <description>in 8 months — Thursday, March 25, 2027 — Theaters</description>
       <pubDate>Thu, 25 Mar 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">fa4b719d9713410d036a318f778ba949066c44d0@watchfeed</guid>
       <category>movie</category>
@@ -911,7 +1071,7 @@
     </item>
     <item>
       <title>[GAME] Lords of the Fallen II — Release day</title>
-      <description>Wednesday, March 31, 2027 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 8 months — Wednesday, March 31, 2027 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Wed, 31 Mar 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">94bbbef550bdd6f04b9a69fadaf7d27248360a56@watchfeed</guid>
       <category>game</category>
@@ -919,7 +1079,7 @@
     </item>
     <item>
       <title>[FILM] Spaceballs: The New One — Theatrical release</title>
-      <description>Friday, April 23, 2027 — Theaters</description>
+      <description>in 9 months — Friday, April 23, 2027 — Theaters</description>
       <pubDate>Fri, 23 Apr 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cc8b9290f28d1b07689aa2448ef4d932dd0dba65@watchfeed</guid>
       <category>movie</category>
@@ -927,7 +1087,7 @@
     </item>
     <item>
       <title>[FILM] The Legend of Zelda — Theatrical release</title>
-      <description>Friday, April 30, 2027 — Theaters</description>
+      <description>in 9 months — Friday, April 30, 2027 — Theaters</description>
       <pubDate>Fri, 30 Apr 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">dfbad1eded6a4fb1ff9b375920213c86de05bb12@watchfeed</guid>
       <category>movie</category>
@@ -935,7 +1095,7 @@
     </item>
     <item>
       <title>[FILM] Star Wars: Starfighter — Theatrical release</title>
-      <description>Wednesday, May 26, 2027 — Theaters</description>
+      <description>in 10 months — Wednesday, May 26, 2027 — Theaters</description>
       <pubDate>Wed, 26 May 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c72025f585a7868a5895c0ebb262bd81a10711a3@watchfeed</guid>
       <category>movie</category>
