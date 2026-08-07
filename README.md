@@ -12,7 +12,14 @@ No dependencies. Python 3.11+ (uses stdlib `tomllib`).
 python3 watchfeed.py --config config.toml --out ./out
 ```
 
-Outputs `out/watch.ics` and `out/watch.xml`.
+Outputs:
+
+- `watch.ics` — everything, one calendar
+- `tv.ics`, `anime.ics`, `movies.ics`, `games.ics` — per-category calendars
+  (subscribe separately to color or mute a category on its own)
+- `watch.xml` — RSS with "in N days" countdowns
+- `index.html` — a static landing page listing everything upcoming, grouped
+  by date, with subscribe links
 
 ---
 
@@ -154,6 +161,7 @@ if your TV list runs long, add a sleep in `fetch_tvmaze`.
   filtered by the window check but not always.
 - **Games marked TBA** in IGDB produce a warning and nothing else. Most of
   the 2027 slate is in this state.
-- **Anime seasons** are separate AniList entries. `"Chainsaw Man"` finds
-  season 1; the Assassins Arc is its own record. Once it's dated, add the
-  specific season title.
+- **Anime seasons** are separate AniList entries, but the tool follows
+  SEQUEL relations automatically — `"Blue Box"` also tracks Blue Box
+  Season 2 without a config change. Spin-offs and side stories are not
+  sequels; add those explicitly.

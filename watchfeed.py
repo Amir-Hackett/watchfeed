@@ -78,9 +78,13 @@ def _get(url: str, headers: dict | None = None, data: bytes | None = None) -> di
             with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
                 return json.loads(r.read().decode())
         except urllib.error.HTTPError as e:
-            # 429 = rate limited. Back off and retry; anything else is fatal.
+            # 429 = rate limited. Honor Retry-After, else back off; anything else is fatal.
             if e.code == 429 and attempt < 2:
-                time.sleep(2 ** attempt * 3)
+                try:
+                    wait = int(e.headers.get("Retry-After") or 0)
+                except (TypeError, ValueError):
+                    wait = 0
+                time.sleep(wait or 2 ** attempt * 3)
                 continue
             raise
         except urllib.error.URLError:
@@ -143,9 +147,7 @@ def fetch_tvmaze(titles: list[str], horizon: date) -> list[Release]:
 
 # ---------------------------------------------------------------- anilist
 
-ANILIST_Q = """
-query ($search: String) {
-  Media(search: $search, type: ANIME) {
+_ANILIST_FIELDS = """
     id
     title { romaji english }
     siteUrl
@@ -153,9 +155,29 @@ query ($search: String) {
     airingSchedule(notYetAired: true, perPage: 50) {
       nodes { episode airingAt }
     }
-  }
-}
+    relations {
+      edges { relationType node { id type } }
+    }
 """
+
+ANILIST_Q = f"query ($search: String) {{ Media(search: $search, type: ANIME) {{{_ANILIST_FIELDS}}} }}"
+ANILIST_ID_Q = f"query ($id: Int) {{ Media(id: $id, type: ANIME) {{{_ANILIST_FIELDS}}} }}"
+
+
+def _anilist_media(query: str, variables: dict) -> dict | None:
+    body = json.dumps({"query": query, "variables": variables}).encode()
+    resp = _get("https://graphql.anilist.co", data=body)
+    return (resp.get("data") or {}).get("Media")
+
+
+def _sequel_id(m: dict, seen: set[int]) -> int | None:
+    edges = (m.get("relations") or {}).get("edges") or []
+    for e in edges:
+        node = e.get("node") or {}
+        if e.get("relationType") == "SEQUEL" and node.get("type") == "ANIME" \
+                and node.get("id") not in seen:
+            return node["id"]
+    return None
 
 
 def fetch_anilist(titles: list[str], horizon: date) -> list[Release]:
@@ -163,34 +185,47 @@ def fetch_anilist(titles: list[str], horizon: date) -> list[Release]:
     today = date.today()
     for t in titles:
         try:
-            body = json.dumps({"query": ANILIST_Q, "variables": {"search": t}}).encode()
-            resp = _get("https://graphql.anilist.co", data=body)
+            m = _anilist_media(ANILIST_Q, {"search": t})
         except Exception as e:
             _warn(f"anilist: lookup failed for {t!r} ({e})")
             continue
-
-        m = (resp.get("data") or {}).get("Media")
         if not m:
             _warn(f"anilist: no match for {t!r}")
             continue
 
-        name = m["title"].get("english") or m["title"]["romaji"]
-        nodes = (m.get("airingSchedule") or {}).get("nodes") or []
-        found = 0
-        for n in nodes:
-            when = datetime.fromtimestamp(n["airingAt"], tz=timezone.utc)
-            d = when.date()
-            if not (today <= d <= horizon):
-                continue
-            out.append(Release(
-                title=name, detail=f"Episode {n['episode']}", on=d, kind="anime",
-                source="anilist", url=m.get("siteUrl", ""), exact_time=when,
-            ))
-            found += 1
-        if not nodes and m.get("status") == "NOT_YET_RELEASED":
-            _warn(f"anilist: {name} announced but no schedule yet")
-        print(f"  anilist {name}: {found}")
-        time.sleep(0.8)  # AniList: 90 req/min. Be polite.
+        # Walk the sequel chain so one entry tracks every future season.
+        seen = {m["id"]}
+        for hop in range(15):  # runaway guard; real chains are short
+            name = m["title"].get("english") or m["title"]["romaji"]
+            nodes = (m.get("airingSchedule") or {}).get("nodes") or []
+            found = 0
+            for n in nodes:
+                when = datetime.fromtimestamp(n["airingAt"], tz=timezone.utc)
+                d = when.date()
+                if not (today <= d <= horizon):
+                    continue
+                out.append(Release(
+                    title=name, detail=f"Episode {n['episode']}", on=d, kind="anime",
+                    source="anilist", url=m.get("siteUrl", ""), exact_time=when,
+                ))
+                found += 1
+            if hop == 0 or found:
+                print(f"  anilist {name}{' (sequel)' if hop else ''}: {found}")
+            if not nodes and m.get("status") == "NOT_YET_RELEASED":
+                _warn(f"anilist: {name} announced but no schedule yet")
+
+            nxt = _sequel_id(m, seen)
+            time.sleep(2.1)  # AniList throttles to ~30 req/min; sequel hops add requests.
+            if nxt is None:
+                break
+            seen.add(nxt)
+            try:
+                m = _anilist_media(ANILIST_ID_Q, {"id": nxt})
+            except Exception as e:
+                _warn(f"anilist: sequel fetch failed after {name!r} ({e})")
+                break
+            if not m:
+                break
     return out
 
 
@@ -391,7 +426,7 @@ def build_ics(rels: list[Release], cal_name: str, alarm_min: int, all_day: bool)
     return "\r\n".join(_fold(x) for x in L) + "\r\n"
 
 
-# ---------------------------------------------------------------- rss
+# ---------------------------------------------------------------- html
 
 
 def _xesc(s: str) -> str:
@@ -399,12 +434,150 @@ def _xesc(s: str) -> str:
              .replace(">", "&gt;").replace('"', "&quot;"))
 
 
+_KIND_LABEL = {"tv": "TV", "anime": "Anime", "movie": "Film", "game": "Game"}
+
+
+def _rel_label(d: date, today: date) -> str:
+    n = (d - today).days
+    if n == 0:
+        return "today"
+    if n == 1:
+        return "tomorrow"
+    if n < 14:
+        return f"in {n} days"
+    if n < 61:
+        return f"in {n // 7} weeks"
+    return f"in {round(n / 30.4)} months"
+
+
+_CSS = """
+:root {
+  --bg: #faf9f7; --surface: #ffffff; --text: #1c1917; --muted: #6b6560;
+  --line: #e7e3de; --accent: #0f766e; --accent-fg: #ffffff;
+  --tv-bg: #e0ecff; --tv-fg: #1d4ed8; --anime-bg: #ede9fe; --anime-fg: #6d28d9;
+  --movie-bg: #fdeecd; --movie-fg: #92400e; --game-bg: #d9f2e5; --game-fg: #047857;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #12100e; --surface: #1c1917; --text: #f5f5f4; --muted: #a8a29e;
+    --line: #2b2724; --accent: #2dd4bf; --accent-fg: #042f2e;
+    --tv-bg: #1c2f55; --tv-fg: #93c5fd; --anime-bg: #2e1f52; --anime-fg: #c4b5fd;
+    --movie-bg: #3d2c12; --movie-fg: #fcd34d; --game-bg: #123529; --game-fg: #6ee7b7;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; padding: 24px 16px 64px; background: var(--bg); color: var(--text);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+header, main, footer { max-width: 40rem; margin: 0 auto; }
+h1 { font-size: 32px; margin: 8px 0 4px; letter-spacing: -0.02em; }
+.tag { margin: 0 0 4px; color: var(--muted); }
+.updated { margin: 0 0 20px; font-size: 14px; color: var(--muted); }
+.feeds { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.btn, .chip {
+  display: inline-flex; align-items: center; min-height: 44px; padding: 8px 16px;
+  border-radius: 10px; text-decoration: none; font-weight: 600; font-size: 15px;
+}
+.btn { background: var(--accent); color: var(--accent-fg); }
+.chip { border: 1px solid var(--line); color: var(--text); background: var(--surface); }
+.url { font-size: 13px; color: var(--muted); overflow-wrap: anywhere; }
+.url code { background: var(--surface); border: 1px solid var(--line);
+  border-radius: 6px; padding: 3px 6px; }
+a { color: var(--accent); }
+a:focus-visible, .btn:focus-visible, .chip:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; }
+h2 { font-size: 17px; margin: 28px 0 4px; padding-bottom: 6px;
+  border-bottom: 1px solid var(--line); }
+.rel { font-weight: 400; font-size: 14px; color: var(--muted); margin-left: 6px; }
+ul { list-style: none; margin: 0; padding: 0; }
+li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px;
+  padding: 10px 0; border-bottom: 1px solid var(--line); }
+li:last-child { border-bottom: 0; }
+.badge { font-size: 12px; font-weight: 700; letter-spacing: 0.04em;
+  text-transform: uppercase; padding: 2px 8px; border-radius: 999px; }
+.badge.tv { background: var(--tv-bg); color: var(--tv-fg); }
+.badge.anime { background: var(--anime-bg); color: var(--anime-fg); }
+.badge.movie { background: var(--movie-bg); color: var(--movie-fg); }
+.badge.game { background: var(--game-bg); color: var(--game-fg); }
+.title { font-weight: 600; }
+.title a { color: inherit; text-decoration: none; }
+.title a:hover { text-decoration: underline; }
+.detail, .meta { color: var(--muted); font-size: 14px; }
+footer { margin-top: 40px; font-size: 14px; color: var(--muted); }
+"""
+
+
+def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
+    today = date.today()
+    base = public_url.rstrip("/") if public_url else ""
+    ics_url = f"{base}/watch.ics" if base else "watch.ics"
+    webcal = ics_url.replace("https://", "webcal://")
+
+    counts: dict[str, int] = {}
+    for r in rels:
+        counts[r.kind] = counts.get(r.kind, 0) + 1
+    summary = " · ".join(
+        f"{counts[k]} {_KIND_LABEL[k].lower()}"
+        for k in ("tv", "anime", "movie", "game") if k in counts
+    )
+
+    rows: list[str] = []
+    prev: date | None = None
+    for r in sorted(rels, key=lambda x: (x.on, x.kind, x.title)):
+        if r.on != prev:
+            if prev is not None:
+                rows.append("</ul>")
+            rows.append(
+                f'<h2>{r.on:%a, %b %-d, %Y}'
+                f' <span class="rel">{_rel_label(r.on, today)}</span></h2>\n<ul>'
+            )
+            prev = r.on
+        title = f'<a href="{_xesc(r.url)}">{_xesc(r.title)}</a>' if r.url else _xesc(r.title)
+        detail = f' <span class="detail">{_xesc(r.detail)}</span>' if r.detail else ""
+        meta = f' <span class="meta">{_xesc(r.platform)}</span>' if r.platform else ""
+        rows.append(
+            f'<li><span class="badge {r.kind}">{_KIND_LABEL[r.kind]}</span>'
+            f' <span class="title">{title}</span>{detail}{meta}</li>'
+        )
+    if prev is not None:
+        rows.append("</ul>")
+
+    chips = "".join(
+        f'<a class="chip" href="{f}">{label}</a>'
+        for label, f in [("TV", "tv.ics"), ("Anime", "anime.ics"),
+                         ("Films", "movies.ics"), ("Games", "games.ics"),
+                         ("RSS", "watch.xml")]
+    )
+    return (
+        '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        f"<title>{_xesc(cal_name)} — upcoming releases</title>\n"
+        f"<style>{_CSS}</style>\n</head>\n<body>\n<header>\n"
+        f"<h1>{_xesc(cal_name)}</h1>\n"
+        '<p class="tag">Every show, anime, film and game tracked — '
+        "one auto-updating calendar.</p>\n"
+        f'<p class="updated">Updated {today:%B %-d, %Y} · {len(rels)} upcoming'
+        f" · {summary}</p>\n"
+        f'<nav class="feeds" aria-label="Subscribe">'
+        f'<a class="btn" href="{_xesc(webcal)}">Subscribe — everything</a>{chips}</nav>\n'
+        f'<p class="url">Or add by URL: <code>{_xesc(ics_url)}</code></p>\n'
+        "</header>\n<main>\n" + "\n".join(rows) + "\n</main>\n<footer>\n"
+        '<p>Rebuilt daily · <a href="https://github.com/Amir-Hackett/watchfeed">'
+        "source</a></p>\n</footer>\n</body>\n</html>\n"
+    )
+
+
+# ---------------------------------------------------------------- rss
+
+
 def build_rss(rels: list[Release], title: str, link: str) -> str:
     now = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    today = date.today()
     items = []
     for r in sorted(rels, key=lambda x: (x.on, x.title)):
         pub = datetime(r.on.year, r.on.month, r.on.day, tzinfo=timezone.utc)
-        body = f"{r.on:%A, %B %-d, %Y}"
+        body = f"{_rel_label(r.on, today)} — {r.on:%A, %B %-d, %Y}"
         if r.platform:
             body += f" — {r.platform}"
         items.append(
@@ -484,23 +657,35 @@ def main() -> int:
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
 
-    ics = build_ics(
-        rels,
-        s.get("calendar_name", "Watchfeed"),
-        s.get("alarm_minutes", 60),
-        s.get("all_day", False),
-    )
-    rss = build_rss(rels, s.get("calendar_name", "Watchfeed"), s.get("public_url", ""))
+    cal_name = s.get("calendar_name", "Watchfeed")
+    alarm = s.get("alarm_minutes", 60)
+    all_day = s.get("all_day", False)
+    public_url = s.get("public_url", "")
 
-    (out / "watch.ics").write_text(ics, newline="")
-    (out / "watch.xml").write_text(rss)
+    wrote = []
+    (out / "watch.ics").write_text(build_ics(rels, cal_name, alarm, all_day), newline="")
+    wrote.append("watch.ics")
+
+    # Per-category feeds: subscribe separately, color separately, mute separately.
+    per = [("tv", "tv.ics", "TV"), ("anime", "anime.ics", "Anime"),
+           ("movie", "movies.ics", "Movies"), ("game", "games.ics", "Games")]
+    for kind, fname, label in per:
+        sub = [r for r in rels if r.kind == kind]
+        (out / fname).write_text(
+            build_ics(sub, f"{cal_name} {label}", alarm, all_day), newline="")
+        wrote.append(fname)
+
+    (out / "watch.xml").write_text(build_rss(rels, cal_name, public_url))
+    wrote.append("watch.xml")
+    (out / "index.html").write_text(build_html(rels, cal_name, public_url))
+    wrote.append("index.html")
 
     by = {}
     for r in rels:
         by[r.kind] = by.get(r.kind, 0) + 1
     print(f"\n{len(rels)} events  " + "  ".join(f"{k}={v}" for k, v in sorted(by.items())))
-    print(f"wrote {out/'watch.ics'}")
-    print(f"wrote {out/'watch.xml'}")
+    for f in wrote:
+        print(f"wrote {out/f}")
     return 0
 
 
