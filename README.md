@@ -3,8 +3,14 @@
 One `.ics` and one `.rss` for every show, anime, film and game you track.
 Subscribe once on your iPhone; it updates itself.
 
-Live feed: `https://amir-hackett.github.io/watchfeed/watch.ics`
-(rebuilt daily at 9am UTC by GitHub Actions, served from `/docs` via Pages)
+Live feeds (rebuilt daily at 9am UTC by GitHub Actions, served from `/docs`
+via Pages):
+
+- `https://amir-hackett.github.io/watchfeed/watch.ics` — everything
+- `https://amir-hackett.github.io/watchfeed/tv.ics` — plus `anime.ics`,
+  `movies.ics`, `games.ics` at the same base URL
+- `watch.xml` — RSS countdowns · `index.html` — landing page with
+  subscribe links
 
 No dependencies. Python 3.11+ (uses stdlib `tomllib`).
 
@@ -108,6 +114,29 @@ Enable Pages on `/docs`. Feed lands at
 
 **Vercel** — you already have it connected. Drop the outputs in `/public`
 and point a cron job at a rebuild route.
+
+---
+
+## Subscribing on a Mac
+
+Don't click `webcal://` links in a browser — whatever app owns the scheme
+gets them (Chrome, if it's your default, opens a dead tab). Either use
+Calendar's File → New Calendar Subscription, or force it from a shell:
+
+```
+open -a Calendar "webcal://amir-hackett.github.io/watchfeed/tv.ics"
+```
+
+Subscribe to the per-category feeds separately so each gets its own color.
+In the settings sheet after subscribing:
+
+- **Color** — pick per category; "Other…" takes a custom hex
+- **Location: iCloud** — syncs the subscription to iPhone/iPad too, so you
+  can skip the iPhone steps below
+- **Auto-refresh: Every hour** — the feed's own TTL is 6h; hourly polling
+  picks rebuilds up promptly
+- **Remove: Alerts — uncheck it** — it's on by default and strips the
+  `alarm_minutes` reminders the feed ships with
 
 ---
 
