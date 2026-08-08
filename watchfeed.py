@@ -17,8 +17,10 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import os
+import re
 import sys
 import time
 import tomllib
@@ -49,6 +51,9 @@ class Release:
     platform: str = ""  # Paramount+, PS5, theaters...
     exact_time: datetime | None = None   # set only when source gives a real UTC time
     tags: list[str] = field(default_factory=list)
+    image: str = ""     # poster/cover URL, landing page only
+    about: str = ""     # short description, landing page only
+    recap: str = ""     # "Previously: S03E05 — ..." line, landing page only
 
     @property
     def summary(self) -> str:
@@ -99,6 +104,19 @@ def _warn(msg: str) -> None:
     print(f"  ! {msg}", file=sys.stderr)
 
 
+def _clean(s: str | None, limit: int = 420) -> str:
+    """Strip HTML tags/entities from API summaries and cap the length."""
+    if not s:
+        return ""
+    s = re.sub(r"<[^>]+>", " ", s)
+    s = html.unescape(s)
+    s = re.sub(r"\s+", " ", s).strip()
+    s = re.sub(r"\(Source:.*?\)\s*$", "", s).strip()
+    if len(s) > limit:
+        s = s[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
+    return s
+
+
 # ---------------------------------------------------------------- tvmaze
 
 
@@ -120,6 +138,17 @@ def fetch_tvmaze(titles: list[str], horizon: date) -> list[Release]:
             continue
 
         net = (show.get("network") or show.get("webChannel") or {}).get("name", "")
+        img = (show.get("image") or {}).get("medium", "")
+        about = _clean(show.get("summary"))
+        aired = [e for e in eps if e.get("airdate") and e["airdate"] < today.isoformat()]
+        recap = ""
+        if aired:
+            last = max(aired, key=lambda e: e["airdate"])
+            lab = (f"S{last['season']:02d}E{last['number']:02d}"
+                   if last.get("number") else "Special")
+            if last.get("name"):
+                lab += f" — {last['name']}"
+            recap = f"Previously: {lab} · {date.fromisoformat(last['airdate']):%b %-d}"
         found = 0
         for ep in eps:
             if not ep.get("airdate"):
@@ -139,6 +168,7 @@ def fetch_tvmaze(titles: list[str], horizon: date) -> list[Release]:
             out.append(Release(
                 title=show["name"], detail=label, on=d, kind="tv", source="tvmaze",
                 url=show.get("url", ""), platform=net, exact_time=when,
+                image=img, about=about, recap=recap,
             ))
             found += 1
         print(f"  tvmaze  {show['name']}: {found}")
@@ -152,6 +182,8 @@ _ANILIST_FIELDS = """
     title { romaji english }
     siteUrl
     status
+    description(asHtml: false)
+    coverImage { large }
     airingSchedule(notYetAired: true, perPage: 50) {
       nodes { episode airingAt }
     }
@@ -198,6 +230,8 @@ def fetch_anilist(titles: list[str], horizon: date) -> list[Release]:
         for hop in range(15):  # runaway guard; real chains are short
             name = m["title"].get("english") or m["title"]["romaji"]
             nodes = (m.get("airingSchedule") or {}).get("nodes") or []
+            img = (m.get("coverImage") or {}).get("large", "")
+            about = _clean(m.get("description"))
             found = 0
             for n in nodes:
                 when = datetime.fromtimestamp(n["airingAt"], tz=timezone.utc)
@@ -207,6 +241,7 @@ def fetch_anilist(titles: list[str], horizon: date) -> list[Release]:
                 out.append(Release(
                     title=name, detail=f"Episode {n['episode']}", on=d, kind="anime",
                     source="anilist", url=m.get("siteUrl", ""), exact_time=when,
+                    image=img, about=about,
                 ))
                 found += 1
             if hop == 0 or found:
@@ -260,10 +295,12 @@ def fetch_tmdb(titles: list[str], horizon: date, key: str) -> list[Release]:
             print(f"  tmdb    {m['title']}: 0 (date {d} outside window)")
             continue
 
+        img = (f"https://image.tmdb.org/t/p/w342{m['poster_path']}"
+               if m.get("poster_path") else "")
         out.append(Release(
             title=m["title"], detail="Theatrical release", on=d, kind="movie",
             source="tmdb", url=f"https://www.themoviedb.org/movie/{m['id']}",
-            platform="Theaters",
+            platform="Theaters", image=img, about=_clean(m.get("overview")),
         ))
         print(f"  tmdb    {m['title']}: {d}")
     return out
@@ -314,7 +351,8 @@ def fetch_igdb(titles: list[str], horizon: date, client_id: str, secret: str) ->
         safe = t.replace('"', '')
         body = (
             f'search "{safe}"; '
-            f"fields name,url,release_dates.date,release_dates.human,"
+            f"fields name,url,summary,cover.image_id,"
+            f"release_dates.date,release_dates.human,"
             f"release_dates.platform.abbreviation; limit 5;"
         )
         try:
@@ -342,9 +380,13 @@ def fetch_igdb(titles: list[str], horizon: date, client_id: str, secret: str) ->
             for x in cands if x["date"] == rd["date"]
         } - {""})
 
+        cov = (g.get("cover") or {}).get("image_id")
+        img = (f"https://images.igdb.com/igdb/image/upload/t_cover_big/{cov}.jpg"
+               if cov else "")
         out.append(Release(
             title=g["name"], detail="Release day", on=d, kind="game", source="igdb",
             url=g.get("url", ""), platform=", ".join(plats),
+            image=img, about=_clean(g.get("summary")),
         ))
         print(f"  igdb    {g['name']}: {d} ({', '.join(plats) or 'platform n/a'})")
         time.sleep(0.3)  # IGDB: 4 req/sec
@@ -481,6 +523,7 @@ _CSS = """
   }
 }
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
   margin: 0; padding: 48px 20px 72px;
   background:
@@ -492,7 +535,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 ::selection { background: var(--accent); color: var(--accent-fg); }
-header, main, footer { max-width: 42rem; margin: 0 auto; }
+header, main, footer { max-width: 48rem; margin: 0 auto; }
 .overline {
   display: flex; align-items: center; gap: 10px; margin: 0 0 14px;
   font-size: 11.5px; font-weight: 700; letter-spacing: 0.14em;
@@ -540,43 +583,212 @@ h1 {
 a { color: var(--accent); }
 a:focus-visible, .btn:focus-visible, .chip:focus-visible {
   outline: 2px solid var(--accent); outline-offset: 2px; }
+.search {
+  position: sticky; top: 14px; z-index: 20;
+  display: flex; align-items: center; gap: 10px;
+  margin: 30px 0 2px; padding: 0 18px; min-height: 52px;
+  background: color-mix(in srgb, var(--surface) 82%, transparent);
+  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px);
+  border: 1px solid var(--card-bd); border-radius: 999px;
+  box-shadow: var(--card-shadow), var(--card-top);
+}
+.search svg { width: 17px; height: 17px; color: var(--muted); flex: none; }
+.search input {
+  flex: 1; min-width: 0; border: 0; background: none; color: var(--text);
+  font: inherit; font-size: 16px; padding: 13px 0; outline: none;
+}
+.search input::placeholder { color: var(--muted); opacity: .8; }
+.search input::-webkit-search-cancel-button { -webkit-appearance: none; }
+.search kbd {
+  flex: none; font: 11.5px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+  color: var(--muted); background: var(--surface-2);
+  border: 1px solid var(--line); border-bottom-width: 2px;
+  border-radius: 6px; padding: 4px 7px;
+}
+.day { margin-top: 34px; }
 h2 {
-  display: flex; align-items: baseline; gap: 12px; margin: 36px 0 10px;
+  display: flex; align-items: baseline; gap: 12px; margin: 0 0 12px;
   font-size: 13px; font-weight: 700; letter-spacing: 0.08em;
   text-transform: uppercase; font-variant-numeric: tabular-nums;
 }
 h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .rel { font-weight: 600; font-size: 11.5px; letter-spacing: 0.08em;
   color: var(--accent); margin-left: 0; }
-ul { list-style: none; margin: 0; padding: 4px 20px;
+.grid { list-style: none; margin: 0; padding: 0; display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
+.card {
+  position: relative; height: 176px; perspective: 1200px; cursor: pointer;
+  border-radius: 16px; transition: transform .18s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.card:hover { transform: translateY(-2px); }
+.card:active { transform: scale(.985); }
+.card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.card .inner {
+  position: absolute; inset: 0; transform-style: preserve-3d;
+  transition: transform .55s cubic-bezier(.3,.8,.3,1);
+}
+.card.flipped .inner { transform: rotateY(180deg); }
+.face {
+  position: absolute; inset: 0; overflow: hidden; border-radius: 16px;
+  -webkit-backface-visibility: hidden; backface-visibility: hidden;
+  border: 1px solid var(--card-bd);
   background: linear-gradient(180deg, var(--surface), var(--surface-2));
-  border: 1px solid var(--card-bd); border-radius: 16px;
-  box-shadow: var(--card-shadow), var(--card-top); }
-ul.today { border-color: var(--accent-bd);
+  box-shadow: var(--card-shadow), var(--card-top);
+}
+.today .face { border-color: var(--accent-bd);
   background:
     linear-gradient(180deg, transparent, var(--accent-soft)),
     linear-gradient(180deg, var(--surface), var(--surface-2)); }
-li { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px;
-  padding: 14px 0; border-bottom: 1px solid var(--line-soft); }
-li:last-child { border-bottom: 0; }
-.badge { font-size: 10.5px; font-weight: 700; letter-spacing: 0.07em;
-  text-transform: uppercase; padding: 3px 8px; border-radius: 6px;
+.front { display: flex; gap: 14px; padding: 13px; }
+.poster {
+  flex: none; width: 100px; height: 150px; object-fit: cover; border-radius: 10px;
+  background: var(--surface-2);
+  box-shadow: 0 1px 3px rgba(27,23,18,.18), inset 0 0 0 1px rgba(27,23,18,.06);
+}
+span.poster { display: flex; align-items: center; justify-content: center; }
+.ph svg { width: 30px; height: 30px; opacity: .85; }
+.ph.tv { color: var(--tv-fg); background: var(--tv-bg); }
+.ph.anime { color: var(--anime-fg); background: var(--anime-bg); }
+.ph.movie { color: var(--movie-fg); background: var(--movie-bg); }
+.ph.game { color: var(--game-fg); background: var(--game-bg); }
+.info { display: flex; flex-direction: column; gap: 5px; min-width: 0;
+  padding: 2px 20px 2px 0; flex: 1; }
+.badge { align-self: flex-start; font-size: 10.5px; font-weight: 700;
+  letter-spacing: 0.07em; text-transform: uppercase; padding: 3px 8px;
+  border-radius: 6px;
   box-shadow: inset 0 0 0 1px color-mix(in srgb, currentColor 22%, transparent); }
 .badge.tv { background: var(--tv-bg); color: var(--tv-fg); }
 .badge.anime { background: var(--anime-bg); color: var(--anime-fg); }
 .badge.movie { background: var(--movie-bg); color: var(--movie-fg); }
 .badge.game { background: var(--game-bg); color: var(--game-fg); }
-.title { font-weight: 650; letter-spacing: -0.006em; }
-.title a { color: inherit; text-decoration: none;
-  transition: color .15s ease; }
-.title a:hover { color: var(--accent); }
-.detail, .meta { color: var(--muted); font-size: 14px; }
-.meta { margin-left: auto; text-align: right; font-size: 13px;
+.t { margin: 0; font-size: 15.5px; font-weight: 650; letter-spacing: -0.006em;
+  line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical; overflow: hidden; }
+.detail { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.45;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden; }
+.meta { margin: auto 0 0; color: var(--muted); font-size: 12.5px;
   letter-spacing: 0.01em; }
+.hint {
+  position: absolute; right: 11px; bottom: 11px; width: 21px; height: 21px;
+  color: var(--muted); opacity: .5; transition: opacity .15s ease, color .15s ease;
+}
+.card:hover .hint { opacity: 1; color: var(--accent); }
+.back { transform: rotateY(180deg); padding: 14px 16px;
+  display: flex; flex-direction: column; gap: 7px; }
+.back .t { -webkit-line-clamp: 1; font-size: 14.5px; }
+.recap { margin: 0; font-size: 12.5px; font-weight: 600; color: var(--accent); }
+.about { margin: 0; flex: 1; overflow: auto; overscroll-behavior: contain;
+  scrollbar-width: thin; font-size: 13px; line-height: 1.55; color: var(--muted); }
+.more { align-self: flex-start; font-size: 12px; font-weight: 700;
+  letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent);
+  text-decoration: none; }
+.more:hover { text-decoration: underline; }
+.hide { display: none !important; }
+#empty { margin: 40px 0; padding: 28px; text-align: center; color: var(--muted);
+  border: 1px dashed var(--line); border-radius: 16px; font-size: 14.5px; }
 footer { margin-top: 48px; font-size: 13.5px; color: var(--muted); }
 footer a { color: var(--muted); text-underline-offset: 3px; }
 footer a:hover { color: var(--accent); }
+@media (prefers-reduced-motion: reduce) {
+  .card, .card .inner, .btn, .chip, .hint { transition: none; }
+}
 """
+
+_JS = """
+(function () {
+  var q = document.getElementById('q');
+  var cards = [].slice.call(document.querySelectorAll('.card'));
+  var days = [].slice.call(document.querySelectorAll('.day'));
+  var empty = document.getElementById('empty');
+  function filter() {
+    var s = q.value.trim().toLowerCase();
+    var any = false;
+    cards.forEach(function (c) {
+      c.classList.toggle('hide', !!s && c.getAttribute('data-s').indexOf(s) === -1);
+    });
+    days.forEach(function (d) {
+      var has = d.querySelector('.card:not(.hide)');
+      d.classList.toggle('hide', !has);
+      if (has) any = true;
+    });
+    empty.querySelector('b').textContent = q.value.trim();
+    empty.classList.toggle('hide', any || !s);
+  }
+  q.addEventListener('input', filter);
+  document.addEventListener('keydown', function (e) {
+    if (e.key === '/' && document.activeElement !== q) { e.preventDefault(); q.focus(); }
+    else if (e.key === 'Escape' && document.activeElement === q) {
+      q.value = ''; filter(); q.blur();
+    }
+  });
+  function toggle(c) {
+    var on = c.classList.toggle('flipped');
+    c.setAttribute('aria-expanded', on ? 'true' : 'false');
+  }
+  document.addEventListener('click', function (e) {
+    if (e.target.closest('a')) return;
+    var c = e.target.closest('.card');
+    if (c) toggle(c);
+  });
+  document.addEventListener('keydown', function (e) {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target.classList
+        && e.target.classList.contains('card')) {
+      e.preventDefault(); toggle(e.target);
+    }
+  });
+})();
+"""
+
+_SRC_LABEL = {"tvmaze": "TVmaze", "anilist": "AniList", "tmdb": "TMDB", "igdb": "IGDB"}
+
+_PH_SVG = (
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" '
+    'aria-hidden="true"><rect x="3" y="4.5" width="18" height="15" rx="3"/>'
+    '<path d="m10.5 9.3 4.8 2.7-4.8 2.7z" fill="currentColor" stroke="none"/></svg>'
+)
+
+_HINT_SVG = (
+    '<svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+    'stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/>'
+    '<path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" '
+    'stroke="none"/></svg>'
+)
+
+_SEARCH_SVG = (
+    '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+    'aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>'
+)
+
+
+def _card(r: Release) -> str:
+    """One flip-card: poster + facts on the front, recap/description on the back."""
+    hay = _xesc(" ".join(
+        x for x in (r.title, r.detail, r.platform, _KIND_LABEL[r.kind]) if x
+    ).lower())
+    if r.image:
+        poster = (f'<img class="poster" src="{_xesc(r.image)}" alt="" '
+                  'loading="lazy" width="100" height="150">')
+    else:
+        poster = f'<span class="poster ph {r.kind}">{_PH_SVG}</span>'
+    detail = f'<p class="detail">{_xesc(r.detail)}</p>' if r.detail else ""
+    meta = f'<p class="meta">{_xesc(r.platform)}</p>' if r.platform else ""
+    recap = f'<p class="recap">{_xesc(r.recap)}</p>' if r.recap else ""
+    about = _xesc(r.about) if r.about else "No description available yet."
+    more = (f'<a class="more" href="{_xesc(r.url)}" target="_blank" rel="noopener">'
+            f"{_SRC_LABEL.get(r.source, 'Details')} ↗</a>") if r.url else ""
+    return (
+        f'<li class="card" data-s="{hay}" tabindex="0" role="button" '
+        f'aria-expanded="false" aria-label="{_xesc(r.title)} — details">'
+        '<div class="inner">'
+        f'<div class="face front">{poster}<div class="info">'
+        f'<span class="badge {r.kind}">{_KIND_LABEL[r.kind]}</span>'
+        f'<h3 class="t">{_xesc(r.title)}</h3>{detail}{meta}</div>{_HINT_SVG}</div>'
+        f'<div class="face back"><h3 class="t">{_xesc(r.title)}</h3>{recap}'
+        f'<p class="about">{about}</p>{more}</div>'
+        "</div></li>"
+    )
 
 
 def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
@@ -598,22 +810,17 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
     for r in sorted(rels, key=lambda x: (x.on, x.kind, x.title)):
         if r.on != prev:
             if prev is not None:
-                rows.append("</ul>")
-            ul = '<ul class="today">' if r.on == today else "<ul>"
+                rows.append("</ul>\n</section>")
+            cls = " today" if r.on == today else ""
             rows.append(
-                f'<h2>{r.on:%a, %b %-d, %Y}'
-                f' <span class="rel">{_rel_label(r.on, today)}</span></h2>\n{ul}'
+                f'<section class="day{cls}">\n<h2>{r.on:%a, %b %-d, %Y}'
+                f' <span class="rel">{_rel_label(r.on, today)}</span></h2>\n'
+                '<ul class="grid">'
             )
             prev = r.on
-        title = f'<a href="{_xesc(r.url)}">{_xesc(r.title)}</a>' if r.url else _xesc(r.title)
-        detail = f' <span class="detail">{_xesc(r.detail)}</span>' if r.detail else ""
-        meta = f' <span class="meta">{_xesc(r.platform)}</span>' if r.platform else ""
-        rows.append(
-            f'<li><span class="badge {r.kind}">{_KIND_LABEL[r.kind]}</span>'
-            f' <span class="title">{title}</span>{detail}{meta}</li>'
-        )
+        rows.append(_card(r))
     if prev is not None:
-        rows.append("</ul>")
+        rows.append("</ul>\n</section>")
 
     chips = "".join(
         f'<a class="chip" href="{f}">{label}</a>'
@@ -635,9 +842,17 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         f'<nav class="feeds" aria-label="Subscribe">'
         f'<a class="btn" href="{_xesc(webcal)}">Subscribe — everything</a>{chips}</nav>\n'
         f'<p class="url">Or add by URL: <code>{_xesc(ics_url)}</code></p>\n'
-        "</header>\n<main>\n" + "\n".join(rows) + "\n</main>\n<footer>\n"
-        '<p>Rebuilt daily · <a href="https://github.com/Amir-Hackett/watchfeed">'
-        "source</a></p>\n</footer>\n</body>\n</html>\n"
+        "</header>\n<main>\n"
+        f'<div class="search">{_SEARCH_SVG}'
+        '<input id="q" type="search" placeholder="Search shows, films, games…" '
+        'aria-label="Search releases" autocomplete="off" spellcheck="false">'
+        "<kbd>/</kbd></div>\n"
+        '<div id="empty" class="hide" role="status">Nothing matches '
+        "“<b></b>”.</div>\n"
+        + "\n".join(rows) + "\n</main>\n<footer>\n"
+        '<p>Tap a card for the story so far · Rebuilt daily · '
+        '<a href="https://github.com/Amir-Hackett/watchfeed">source</a></p>\n'
+        f"</footer>\n<script>{_JS}</script>\n</body>\n</html>\n"
     )
 
 

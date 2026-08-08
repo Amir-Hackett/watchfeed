@@ -26,8 +26,9 @@ Outputs:
 - `tv.ics`, `anime.ics`, `movies.ics`, `games.ics` — per-category calendars
   (subscribe separately to color or mute a category on its own)
 - `watch.xml` — RSS with "in N days" countdowns
-- `index.html` — a static landing page listing everything upcoming, grouped
-  by date, with subscribe links
+- `index.html` — a static landing page: poster cards grouped by date with
+  live search (`/` to focus), and each card flips to a description, a
+  "previously aired" recap for TV, and a link to the source page
 
 ---
 
