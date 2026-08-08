@@ -3,14 +3,16 @@
 One `.ics` and one `.rss` for every show, anime, film and game you track.
 Subscribe once on your iPhone; it updates itself.
 
+**Landing page:** <https://amir-hackett.github.io/watchfeed/> — everything
+upcoming, grouped by date, with subscribe links for each feed.
+
 Live feeds (rebuilt daily at 9am UTC by GitHub Actions, served from `/docs`
 via Pages):
 
 - `https://amir-hackett.github.io/watchfeed/watch.ics` — everything
 - `https://amir-hackett.github.io/watchfeed/tv.ics` — plus `anime.ics`,
   `movies.ics`, `games.ics` at the same base URL
-- `watch.xml` — RSS countdowns · `index.html` — landing page with
-  subscribe links
+- `watch.xml` — RSS countdowns
 
 No dependencies. Python 3.11+ (uses stdlib `tomllib`).
 
