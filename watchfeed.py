@@ -523,7 +523,7 @@ _CSS = """
   }
 }
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 body {
   margin: 0; padding: 48px 20px 72px;
   background:
@@ -691,6 +691,23 @@ span.poster { display: flex; align-items: center; justify-content: center; }
 footer { margin-top: 48px; font-size: 13.5px; color: var(--muted); }
 footer a { color: var(--muted); text-underline-offset: 3px; }
 footer a:hover { color: var(--accent); }
+@media (hover: none) {
+  .search kbd { display: none; }
+}
+@media (max-width: 540px) {
+  body { padding: 30px max(16px, env(safe-area-inset-right)) 56px
+    max(16px, env(safe-area-inset-left)); }
+  .tag { font-size: 16px; }
+  .updated { margin-bottom: 20px; }
+  .feeds { gap: 8px; }
+  .btn { flex: 1 1 100%; justify-content: center; }
+  .chip { flex: 1 1 30%; justify-content: center; }
+  .url code { display: block; margin-top: 6px; padding: 8px 10px; }
+  .search { top: max(10px, env(safe-area-inset-top)); margin: 24px 0 2px;
+    padding: 0 16px; }
+  .day { margin-top: 28px; }
+  .grid { grid-template-columns: 1fr; }
+}
 @media (prefers-reduced-motion: reduce) {
   .card, .card .inner, .btn, .chip, .hint { transition: none; }
 }
@@ -830,7 +847,8 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
     )
     return (
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
-        '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
+        '<meta name="viewport" content="width=device-width, initial-scale=1, '
+        'viewport-fit=cover">\n'
         f"<title>{_xesc(cal_name)} — upcoming releases</title>\n"
         '<link rel="icon" href="data:image/svg+xml,'
         '<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>'
