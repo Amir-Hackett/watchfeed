@@ -832,6 +832,9 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
         f"<title>{_xesc(cal_name)} — upcoming releases</title>\n"
+        '<link rel="icon" href="data:image/svg+xml,'
+        '<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>'
+        '<text y=%22.9em%22 font-size=%2290%22>📅</text></svg>">\n'
         f"<style>{_CSS}</style>\n</head>\n<body>\n<header>\n"
         '<p class="overline">Release calendar</p>\n'
         f"<h1>{_xesc(cal_name)}</h1>\n"
