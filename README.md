@@ -3,8 +3,8 @@
 One `.ics` and one `.rss` for every show, anime, film and game you track.
 Subscribe once on your iPhone; it updates itself.
 
-**Landing page:** <https://amir-hackett.github.io/watchfeed/> — everything
-upcoming, grouped by date, with subscribe links for each feed.
+**[📅 Watchfeed — What's Coming Up](https://amir-hackett.github.io/watchfeed/)** —
+everything upcoming, grouped by date, with subscribe links for each feed.
 
 Live feeds (rebuilt daily at 9am UTC by GitHub Actions, served from `/docs`
 via Pages):
