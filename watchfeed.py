@@ -492,22 +492,10 @@ def _rel_label(d: date, today: date) -> str:
     return f"in {round(n / 30.4)} months"
 
 
-_CSS = """
-:root {
-  --bg: #f1ede6; --surface: #fffefb; --surface-2: #fbf7f1;
-  --text: #1b1712; --ink-hi: #352c21; --ink-lo: #100c07; --muted: #6d665f;
-  --line: #e2dbd0; --line-soft: #ece6dc; --card-bd: rgba(27,23,18,.1);
-  --accent: #0e7266; --accent-hi: #119384; --accent-fg: #ffffff;
-  --accent-soft: rgba(14,114,102,.07); --accent-bd: rgba(14,114,102,.32);
-  --glow-a: rgba(14,114,102,.1); --glow-b: rgba(146,64,14,.07);
-  --card-shadow: 0 1px 2px rgba(27,23,18,.07), 0 4px 10px -4px rgba(27,23,18,.09),
-    0 28px 48px -28px rgba(27,23,18,.3);
-  --card-top: inset 0 1px 0 rgba(255,255,255,.9);
-  --tv-bg: #e3edfd; --tv-fg: #1e4fc2; --anime-bg: #ece7fc; --anime-fg: #6430c9;
-  --movie-bg: #faeccb; --movie-fg: #8a4a0b; --game-bg: #daf1e3; --game-fg: #0b7351;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
+# Dark tokens apply in two contexts (system-dark with no override, and an
+# explicit data-theme="dark"), so they live here once and are spliced in twice.
+_DARK_VARS = """
+    color-scheme: dark; --show-sun: block; --show-moon: none;
     --bg: #0d0b09; --surface: #1c1915; --surface-2: #171411;
     --text: #f4f2ef; --ink-hi: #faf7f1; --ink-lo: #cfc8bc; --muted: #a39c94;
     --line: #2e2a24; --line-soft: #272319;
@@ -520,7 +508,26 @@ _CSS = """
     --card-top: inset 0 1px 0 rgba(255,255,255,.05);
     --tv-bg: #1c2f55; --tv-fg: #93c5fd; --anime-bg: #2e1f52; --anime-fg: #c4b5fd;
     --movie-bg: #3d2c12; --movie-fg: #fcd34d; --game-bg: #123529; --game-fg: #6ee7b7;
-  }
+"""
+
+_CSS = """
+:root {
+  color-scheme: light; --show-sun: none; --show-moon: block;
+  --bg: #f1ede6; --surface: #fffefb; --surface-2: #fbf7f1;
+  --text: #1b1712; --ink-hi: #352c21; --ink-lo: #100c07; --muted: #6d665f;
+  --line: #e2dbd0; --line-soft: #ece6dc; --card-bd: rgba(27,23,18,.1);
+  --accent: #0e7266; --accent-hi: #119384; --accent-fg: #ffffff;
+  --accent-soft: rgba(14,114,102,.07); --accent-bd: rgba(14,114,102,.32);
+  --glow-a: rgba(14,114,102,.1); --glow-b: rgba(146,64,14,.07);
+  --card-shadow: 0 1px 2px rgba(27,23,18,.07), 0 4px 10px -4px rgba(27,23,18,.09),
+    0 28px 48px -28px rgba(27,23,18,.3);
+  --card-top: inset 0 1px 0 rgba(255,255,255,.9);
+  --tv-bg: #e3edfd; --tv-fg: #1e4fc2; --anime-bg: #ece7fc; --anime-fg: #6430c9;
+  --movie-bg: #faeccb; --movie-fg: #8a4a0b; --game-bg: #daf1e3; --game-fg: #0b7351;
+}
+:root[data-theme="dark"] {@DARK@}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {@DARK@}
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -605,6 +612,17 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible {
   border: 1px solid var(--line); border-bottom-width: 2px;
   border-radius: 6px; padding: 4px 7px;
 }
+#theme {
+  flex: none; display: flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; margin-right: -8px; padding: 0;
+  border: 0; border-radius: 999px; background: none; color: var(--muted);
+  cursor: pointer; transition: color .15s ease, background .15s ease;
+}
+#theme:hover { color: var(--accent); background: var(--accent-soft); }
+#theme:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#theme svg { width: 18px; height: 18px; }
+#theme .sun { display: var(--show-sun); }
+#theme .moon { display: var(--show-moon); }
 .day { margin-top: 34px; }
 h2 {
   display: flex; align-items: baseline; gap: 12px; margin: 0 0 12px;
@@ -711,7 +729,7 @@ footer a:hover { color: var(--accent); }
 @media (prefers-reduced-motion: reduce) {
   .card, .card .inner, .btn, .chip, .hint { transition: none; }
 }
-"""
+""".replace("@DARK@", _DARK_VARS)
 
 _JS = """
 (function () {
@@ -755,6 +773,17 @@ _JS = """
       e.preventDefault(); toggle(e.target);
     }
   });
+  var root = document.documentElement;
+  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+  document.getElementById('theme').addEventListener('click', function () {
+    var cur = root.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try {
+      if (next === (mq.matches ? 'dark' : 'light')) localStorage.removeItem('theme');
+      else localStorage.setItem('theme', next);
+    } catch (e) {}
+  });
 })();
 """
 
@@ -776,6 +805,25 @@ _HINT_SVG = (
 _SEARCH_SVG = (
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
     'aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg>'
+)
+
+_SUN_SVG = (
+    '<svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+    'stroke-width="2" stroke-linecap="round" aria-hidden="true">'
+    '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4'
+    'm11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg>'
+)
+
+_MOON_SVG = (
+    '<svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
+    'stroke-width="2" stroke-linecap="round" stroke-linejoin="round" '
+    'aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>'
+)
+
+# Applies a saved manual theme before first paint so there is no flash.
+_THEME_BOOT = (
+    "try{var t=localStorage.getItem('theme');"
+    "if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}"
 )
 
 
@@ -853,6 +901,7 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         '<link rel="icon" href="data:image/svg+xml,'
         '<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>'
         '<text y=%22.9em%22 font-size=%2290%22>📅</text></svg>">\n'
+        f"<script>{_THEME_BOOT}</script>\n"
         f"<style>{_CSS}</style>\n</head>\n<body>\n<header>\n"
         '<p class="overline">Release calendar</p>\n'
         f"<h1>{_xesc(cal_name)}</h1>\n"
@@ -867,7 +916,9 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         f'<div class="search">{_SEARCH_SVG}'
         '<input id="q" type="search" placeholder="Search shows, films, games…" '
         'aria-label="Search releases" autocomplete="off" spellcheck="false">'
-        "<kbd>/</kbd></div>\n"
+        "<kbd>/</kbd>"
+        '<button id="theme" type="button" aria-label="Toggle light/dark theme">'
+        f"{_SUN_SVG}{_MOON_SVG}</button></div>\n"
         '<div id="empty" class="hide" role="status">Nothing matches '
         "“<b></b>”.</div>\n"
         + "\n".join(rows) + "\n</main>\n<footer>\n"
