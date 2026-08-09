@@ -5,8 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Watchfeed — upcoming releases</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📅</text></svg>">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <style>
 :root {
+  color-scheme: light; --show-sun: none; --show-moon: block;
   --bg: #f1ede6; --surface: #fffefb; --surface-2: #fbf7f1;
   --text: #1b1712; --ink-hi: #352c21; --ink-lo: #100c07; --muted: #6d665f;
   --line: #e2dbd0; --line-soft: #ece6dc; --card-bd: rgba(27,23,18,.1);
@@ -19,8 +21,8 @@
   --tv-bg: #e3edfd; --tv-fg: #1e4fc2; --anime-bg: #ece7fc; --anime-fg: #6430c9;
   --movie-bg: #faeccb; --movie-fg: #8a4a0b; --game-bg: #daf1e3; --game-fg: #0b7351;
 }
-@media (prefers-color-scheme: dark) {
-  :root {
+:root[data-theme="dark"] {
+    color-scheme: dark; --show-sun: block; --show-moon: none;
     --bg: #0d0b09; --surface: #1c1915; --surface-2: #171411;
     --text: #f4f2ef; --ink-hi: #faf7f1; --ink-lo: #cfc8bc; --muted: #a39c94;
     --line: #2e2a24; --line-soft: #272319;
@@ -33,7 +35,23 @@
     --card-top: inset 0 1px 0 rgba(255,255,255,.05);
     --tv-bg: #1c2f55; --tv-fg: #93c5fd; --anime-bg: #2e1f52; --anime-fg: #c4b5fd;
     --movie-bg: #3d2c12; --movie-fg: #fcd34d; --game-bg: #123529; --game-fg: #6ee7b7;
-  }
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark; --show-sun: block; --show-moon: none;
+    --bg: #0d0b09; --surface: #1c1915; --surface-2: #171411;
+    --text: #f4f2ef; --ink-hi: #faf7f1; --ink-lo: #cfc8bc; --muted: #a39c94;
+    --line: #2e2a24; --line-soft: #272319;
+    --accent: #2fd0bb; --accent-hi: #3ce0ca; --accent-fg: #04302a;
+    --accent-soft: rgba(47,208,187,.08); --accent-bd: rgba(47,208,187,.35);
+    --glow-a: rgba(45,212,191,.07); --glow-b: rgba(252,211,77,.05);
+    --card-bd: rgba(255,255,255,.09);
+    --card-shadow: 0 1px 2px rgba(0,0,0,.5), 0 8px 20px -8px rgba(0,0,0,.55),
+      0 28px 48px -28px rgba(0,0,0,.6);
+    --card-top: inset 0 1px 0 rgba(255,255,255,.05);
+    --tv-bg: #1c2f55; --tv-fg: #93c5fd; --anime-bg: #2e1f52; --anime-fg: #c4b5fd;
+    --movie-bg: #3d2c12; --movie-fg: #fcd34d; --game-bg: #123529; --game-fg: #6ee7b7;
+}
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
@@ -118,6 +136,17 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible {
   border: 1px solid var(--line); border-bottom-width: 2px;
   border-radius: 6px; padding: 4px 7px;
 }
+#theme {
+  flex: none; display: flex; align-items: center; justify-content: center;
+  width: 36px; height: 36px; margin-right: -8px; padding: 0;
+  border: 0; border-radius: 999px; background: none; color: var(--muted);
+  cursor: pointer; transition: color .15s ease, background .15s ease;
+}
+#theme:hover { color: var(--accent); background: var(--accent-soft); }
+#theme:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+#theme svg { width: 18px; height: 18px; }
+#theme .sun { display: var(--show-sun); }
+#theme .moon { display: var(--show-moon); }
 .day { margin-top: 34px; }
 h2 {
   display: flex; align-items: baseline; gap: 12px; margin: 0 0 12px;
@@ -231,34 +260,28 @@ footer a:hover { color: var(--accent); }
 <p class="overline">Release calendar</p>
 <h1>Watchfeed</h1>
 <p class="tag">Every show, anime, film and game tracked — one auto-updating calendar.</p>
-<p class="updated">Updated August 8, 2026 · 136 upcoming · 82 tv · 20 anime · 21 film · 13 game</p>
+<p class="updated">Updated August 9, 2026 · 135 upcoming · 81 tv · 20 anime · 21 film · 13 game</p>
 <nav class="feeds" aria-label="Subscribe"><a class="btn" href="webcal://amir-hackett.github.io/watchfeed/watch.ics">Subscribe — everything</a><a class="chip" href="tv.ics">TV</a><a class="chip" href="anime.ics">Anime</a><a class="chip" href="movies.ics">Films</a><a class="chip" href="games.ics">Games</a><a class="chip" href="watch.xml">RSS</a></nav>
 <p class="url">Or add by URL: <code>https://amir-hackett.github.io/watchfeed/watch.ics</code></p>
 </header>
 <main>
-<div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg><input id="q" type="search" placeholder="Search shows, films, games…" aria-label="Search releases" autocomplete="off" spellcheck="false"><kbd>/</kbd></div>
+<div class="search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.8-3.8"/></svg><input id="q" type="search" placeholder="Search shows, films, games…" aria-label="Search releases" autocomplete="off" spellcheck="false"><kbd>/</kbd><button id="theme" type="button" aria-label="Toggle light/dark theme"><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg></button></div>
 <div id="empty" class="hide" role="status">Nothing matches “<b></b>”.</div>
 <section class="day today">
-<h2>Sat, Aug 8, 2026 <span class="rel">today</span></h2>
-<ul class="grid">
-<li class="card" data-s="my adventures with superman s03e09 — vae victis adult swim tv" tabindex="0" role="button" aria-expanded="false" aria-label="My Adventures with Superman — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/528/1320722.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">My Adventures with Superman</h3><p class="detail">S03E09 — Vae Victis</p><p class="meta">Adult Swim</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">My Adventures with Superman</h3><p class="recap">Previously: S03E08 — It's Reigning (Super)Men · Aug 1</p><p class="about">My Adventures with Superman catches up with twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen as they begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.</p><a class="more" href="https://www.tvmaze.com/shows/55414/my-adventures-with-superman" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
-</ul>
-</section>
-<section class="day">
-<h2>Sun, Aug 9, 2026 <span class="rel">tomorrow</span></h2>
+<h2>Sun, Aug 9, 2026 <span class="rel">today</span></h2>
 <ul class="grid">
 <li class="card" data-s="house of the dragon s03e08 — tba hbo tv" tabindex="0" role="button" aria-expanded="false" aria-label="House of the Dragon — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/627/1568449.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">House of the Dragon</h3><p class="detail">S03E08 — TBA</p><p class="meta">HBO</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">House of the Dragon</h3><p class="recap">Previously: S03E07 — The Dragon in Winter · Aug 2</p><p class="about">Set 200 years before the events of Game of Thrones, House of the Dragon tells the history of House Targaryen as they fight through a civil war.</p><a class="more" href="https://www.tvmaze.com/shows/44778/house-of-the-dragon" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 <li class="card" data-s="lioness s03e02 — no sorrow like the survivor paramount+ tv" tabindex="0" role="button" aria-expanded="false" aria-label="Lioness — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/635/1587727.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Lioness</h3><p class="detail">S03E02 — No Sorrow Like the Survivor</p><p class="meta">Paramount+</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Lioness</h3><p class="recap">Previously: S03E01 — The Spider and the Fly · Aug 2</p><p class="about">Lioness , inspired by an actual U.S. Military program, follows the life of Joe while she attempts to balance her personal and professional life as the tip of the CIA's spear in the war on terror. The Lioness Program, overseen by Kaitlyn Meade and Donald Westfield, enlists an aggressive Marine Raider named Cruz to operate undercover alongside Joe among the power brokers of State terrorism in the CIA's efforts to…</p><a class="more" href="https://www.tvmaze.com/shows/50415/lioness" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Mon, Aug 10, 2026 <span class="rel">in 2 days</span></h2>
+<h2>Mon, Aug 10, 2026 <span class="rel">tomorrow</span></h2>
 <ul class="grid">
 <li class="card" data-s="furious s01e05 — pick a sticker hulu tv" tabindex="0" role="button" aria-expanded="false" aria-label="Furious — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/634/1585631.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Furious</h3><p class="detail">S01E05 — Pick a Sticker</p><p class="meta">Hulu</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Furious</h3><p class="recap">Previously: S01E04 — Flash Flood · Aug 3</p><p class="about">Furious follows an FBI agent, Alice Black, on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.</p><a class="more" href="https://www.tvmaze.com/shows/87753/furious" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Wed, Aug 12, 2026 <span class="rel">in 4 days</span></h2>
+<h2>Wed, Aug 12, 2026 <span class="rel">in 3 days</span></h2>
 <ul class="grid">
 <li class="card" data-s="re:zero -starting life in another world- season 4 episode 12 anime" tabindex="0" role="button" aria-expanded="false" aria-label="Re:ZERO -Starting Life in Another World- Season 4 — details"><div class="inner"><div class="face front"><img class="poster" src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189046-yaHWtS5FII46.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge anime">Anime</span><h3 class="t">Re:ZERO -Starting Life in Another World- Season 4</h3><p class="detail">Episode 12</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Re:ZERO -Starting Life in Another World- Season 4</h3><p class="about">The fourth season of Re:Zero kara Hajimeru Isekai Seikatsu . To save his stricken allies, Subaru faces a deadly desert to find the Sage at Pleiades Watchtower. (Source: Crunchyroll News) Note: Lucca Comics &amp; Games pre-screened episode 1 early on November 1, 2025, prior to the Japanese television broadcast on July 8th, 2026.</p><a class="more" href="https://anilist.co/anime/189046" target="_blank" rel="noopener">AniList ↗</a></div></div></li>
 <li class="card" data-s="reacher s04e01 — episode 1 prime video tv" tabindex="0" role="button" aria-expanded="false" aria-label="Reacher — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/635/1587564.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Reacher</h3><p class="detail">S04E01 — Episode 1</p><p class="meta">Prime Video</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Reacher</h3><p class="recap">Previously: S03E08 — Unfinished Business · Mar 27</p><p class="about">Reacher follows Jack Reacher, a veteran military police investigator who has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served. When Reacher arrives in the small town of Margrave, Georgia, he finds a community grappling with its first homicide in 20 years. The cops immediately arrest him and…</p><a class="more" href="https://www.tvmaze.com/shows/43031/reacher" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
@@ -268,45 +291,45 @@ footer a:hover { color: var(--accent); }
 </ul>
 </section>
 <section class="day">
-<h2>Fri, Aug 14, 2026 <span class="rel">in 6 days</span></h2>
+<h2>Fri, Aug 14, 2026 <span class="rel">in 5 days</span></h2>
 <ul class="grid">
 <li class="card" data-s="silo s03e07 — radio apple tv tv" tabindex="0" role="button" aria-expanded="false" aria-label="Silo — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/631/1577677.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Silo</h3><p class="detail">S03E07 — Radio</p><p class="meta">Apple TV</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Silo</h3><p class="recap">Previously: S03E06 — The Drive · Aug 7</p><p class="about">In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo .</p><a class="more" href="https://www.tvmaze.com/shows/38052/silo" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Sat, Aug 15, 2026 <span class="rel">in 7 days</span></h2>
+<h2>Sat, Aug 15, 2026 <span class="rel">in 6 days</span></h2>
 <ul class="grid">
-<li class="card" data-s="my adventures with superman s03e10 — the return adult swim tv" tabindex="0" role="button" aria-expanded="false" aria-label="My Adventures with Superman — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/528/1320722.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">My Adventures with Superman</h3><p class="detail">S03E10 — The Return</p><p class="meta">Adult Swim</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">My Adventures with Superman</h3><p class="recap">Previously: S03E08 — It's Reigning (Super)Men · Aug 1</p><p class="about">My Adventures with Superman catches up with twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen as they begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.</p><a class="more" href="https://www.tvmaze.com/shows/55414/my-adventures-with-superman" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
+<li class="card" data-s="my adventures with superman s03e10 — the return adult swim tv" tabindex="0" role="button" aria-expanded="false" aria-label="My Adventures with Superman — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/528/1320722.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">My Adventures with Superman</h3><p class="detail">S03E10 — The Return</p><p class="meta">Adult Swim</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">My Adventures with Superman</h3><p class="recap">Previously: S03E09 — Vae Victis · Aug 8</p><p class="about">My Adventures with Superman catches up with twenty-somethings Clark Kent, the bright and driven Lois Lane, and their best friend Jimmy Olsen as they begin to discover who they are and everything they can accomplish together as an investigative reporting team at the Daily Planet.</p><a class="more" href="https://www.tvmaze.com/shows/55414/my-adventures-with-superman" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Sun, Aug 16, 2026 <span class="rel">in 8 days</span></h2>
+<h2>Sun, Aug 16, 2026 <span class="rel">in 7 days</span></h2>
 <ul class="grid">
 <li class="card" data-s="lanterns s01e01 — tba hbo tv" tabindex="0" role="button" aria-expanded="false" aria-label="Lanterns — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Lanterns</h3><p class="detail">S01E01 — TBA</p><p class="meta">HBO</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Lanterns</h3><p class="about">Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.</p><a class="more" href="https://www.tvmaze.com/shows/44776/lanterns" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 <li class="card" data-s="lioness s03e03 — the bear is infected paramount+ tv" tabindex="0" role="button" aria-expanded="false" aria-label="Lioness — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/635/1587727.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Lioness</h3><p class="detail">S03E03 — The Bear Is Infected</p><p class="meta">Paramount+</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Lioness</h3><p class="recap">Previously: S03E01 — The Spider and the Fly · Aug 2</p><p class="about">Lioness , inspired by an actual U.S. Military program, follows the life of Joe while she attempts to balance her personal and professional life as the tip of the CIA's spear in the war on terror. The Lioness Program, overseen by Kaitlyn Meade and Donald Westfield, enlists an aggressive Marine Raider named Cruz to operate undercover alongside Joe among the power brokers of State terrorism in the CIA's efforts to…</p><a class="more" href="https://www.tvmaze.com/shows/50415/lioness" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Mon, Aug 17, 2026 <span class="rel">in 9 days</span></h2>
+<h2>Mon, Aug 17, 2026 <span class="rel">in 8 days</span></h2>
 <ul class="grid">
 <li class="card" data-s="furious s01e06 — they make a noise like feathers hulu tv" tabindex="0" role="button" aria-expanded="false" aria-label="Furious — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/634/1585631.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Furious</h3><p class="detail">S01E06 — They Make A Noise Like Feathers</p><p class="meta">Hulu</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Furious</h3><p class="recap">Previously: S01E04 — Flash Flood · Aug 3</p><p class="about">Furious follows an FBI agent, Alice Black, on the hunt for a mysterious and calculating female serial killer. Both walk their own paths toward justice, and as their lives start to intertwine, the line between right and wrong begins to blur.</p><a class="more" href="https://www.tvmaze.com/shows/87753/furious" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Wed, Aug 19, 2026 <span class="rel">in 11 days</span></h2>
+<h2>Wed, Aug 19, 2026 <span class="rel">in 10 days</span></h2>
 <ul class="grid">
 <li class="card" data-s="re:zero -starting life in another world- season 4 episode 13 anime" tabindex="0" role="button" aria-expanded="false" aria-label="Re:ZERO -Starting Life in Another World- Season 4 — details"><div class="inner"><div class="face front"><img class="poster" src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx189046-yaHWtS5FII46.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge anime">Anime</span><h3 class="t">Re:ZERO -Starting Life in Another World- Season 4</h3><p class="detail">Episode 13</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Re:ZERO -Starting Life in Another World- Season 4</h3><p class="about">The fourth season of Re:Zero kara Hajimeru Isekai Seikatsu . To save his stricken allies, Subaru faces a deadly desert to find the Sage at Pleiades Watchtower. (Source: Crunchyroll News) Note: Lucca Comics &amp; Games pre-screened episode 1 early on November 1, 2025, prior to the Japanese television broadcast on July 8th, 2026.</p><a class="more" href="https://anilist.co/anime/189046" target="_blank" rel="noopener">AniList ↗</a></div></div></li>
 <li class="card" data-s="reacher s04e04 — episode 4 prime video tv" tabindex="0" role="button" aria-expanded="false" aria-label="Reacher — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/635/1587564.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Reacher</h3><p class="detail">S04E04 — Episode 4</p><p class="meta">Prime Video</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Reacher</h3><p class="recap">Previously: S03E08 — Unfinished Business · Mar 27</p><p class="about">Reacher follows Jack Reacher, a veteran military police investigator who has just recently entered civilian life. Reacher is a drifter, carrying no phone and the barest of essentials as he travels the country and explores the nation he once served. When Reacher arrives in the small town of Margrave, Georgia, he finds a community grappling with its first homicide in 20 years. The cops immediately arrest him and…</p><a class="more" href="https://www.tvmaze.com/shows/43031/reacher" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Thu, Aug 20, 2026 <span class="rel">in 12 days</span></h2>
+<h2>Thu, Aug 20, 2026 <span class="rel">in 11 days</span></h2>
 <ul class="grid">
 <li class="card" data-s="coyote vs. acme theatrical release theaters film" tabindex="0" role="button" aria-expanded="false" aria-label="Coyote vs. Acme — details"><div class="inner"><div class="face front"><img class="poster" src="https://image.tmdb.org/t/p/w342/qTDRp8d1vzsFekTEgPC7X0jRRKE.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge movie">Film</span><h3 class="t">Coyote vs. Acme</h3><p class="detail">Theatrical release</p><p class="meta">Theaters</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Coyote vs. Acme</h3><p class="about">After Acme products fail him one too many times in his dogged pursuit of the Roadrunner, Wile E. Coyote decides to hire a billboard lawyer to sue the Acme Corporation.</p><a class="more" href="https://www.themoviedb.org/movie/1204680" target="_blank" rel="noopener">TMDB ↗</a></div></div></li>
 </ul>
 </section>
 <section class="day">
-<h2>Fri, Aug 21, 2026 <span class="rel">in 13 days</span></h2>
+<h2>Fri, Aug 21, 2026 <span class="rel">in 12 days</span></h2>
 <ul class="grid">
 <li class="card" data-s="silo s03e08 — gray goo apple tv tv" tabindex="0" role="button" aria-expanded="false" aria-label="Silo — details"><div class="inner"><div class="face front"><img class="poster" src="https://static.tvmaze.com/uploads/images/medium_portrait/631/1577677.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge tv">TV</span><h3 class="t">Silo</h3><p class="detail">S03E08 — Gray Goo</p><p class="meta">Apple TV</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Silo</h3><p class="recap">Previously: S03E06 — The Drive · Aug 7</p><p class="about">In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo .</p><a class="more" href="https://www.tvmaze.com/shows/38052/silo" target="_blank" rel="noopener">TVmaze ↗</a></div></div></li>
 </ul>
@@ -688,7 +711,7 @@ footer a:hover { color: var(--accent); }
 </ul>
 </section>
 <section class="day">
-<h2>Wed, Dec 23, 2026 <span class="rel">in 5 months</span></h2>
+<h2>Wed, Dec 23, 2026 <span class="rel">in 4 months</span></h2>
 <ul class="grid">
 <li class="card" data-s="jumanji: open world theatrical release theaters film" tabindex="0" role="button" aria-expanded="false" aria-label="Jumanji: Open World — details"><div class="inner"><div class="face front"><img class="poster" src="https://image.tmdb.org/t/p/w342/wlzAdBQw2XnmVW05YEJLNdAbizA.jpg" alt="" loading="lazy" width="100" height="150"><div class="info"><span class="badge movie">Film</span><h3 class="t">Jumanji: Open World</h3><p class="detail">Theatrical release</p><p class="meta">Theaters</p></div><svg class="hint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5"/><circle cx="12" cy="7.6" r="0.6" fill="currentColor" stroke="none"/></svg></div><div class="face back"><h3 class="t">Jumanji: Open World</h3><p class="about">Our heroes have escaped the ever-changing jungles of Jumanji before, but this time the game comes to us - as Jumanji breaks free of its console, unleashing its chaos into our world.</p><a class="more" href="https://www.themoviedb.org/movie/1260649" target="_blank" rel="noopener">TMDB ↗</a></div></div></li>
 </ul>
@@ -849,6 +872,17 @@ footer a:hover { color: var(--accent); }
         && e.target.classList.contains('card')) {
       e.preventDefault(); toggle(e.target);
     }
+  });
+  var root = document.documentElement;
+  var mq = window.matchMedia('(prefers-color-scheme: dark)');
+  document.getElementById('theme').addEventListener('click', function () {
+    var cur = root.getAttribute('data-theme') || (mq.matches ? 'dark' : 'light');
+    var next = cur === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try {
+      if (next === (mq.matches ? 'dark' : 'light')) localStorage.removeItem('theme');
+      else localStorage.setItem('theme', next);
+    } catch (e) {}
   });
 })();
 </script>
