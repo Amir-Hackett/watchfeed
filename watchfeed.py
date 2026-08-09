@@ -1009,6 +1009,7 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         '<circle cx=%2283%22 cy=%2246%22 r=%224.5%22 fill=%22%23f6f1e7%22 opacity=%22.9%22/>'
         '<circle cx=%2283%22 cy=%2262%22 r=%224.5%22 fill=%22%23f6f1e7%22 opacity=%22.9%22/>'
         '</svg>">\n'
+        '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
         f"<script>{_THEME_BOOT}</script>\n"
         f"<style>{_CSS}</style>\n</head>\n<body>\n<header>\n"
         '<p class="overline">Release calendar</p>\n'
