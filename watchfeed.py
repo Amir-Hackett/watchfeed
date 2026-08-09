@@ -670,6 +670,14 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible {
 #theme svg { width: 18px; height: 18px; }
 #theme .sun { display: var(--show-sun); }
 #theme .moon { display: var(--show-moon); }
+#today {
+  flex: none; border: 0; background: var(--accent-soft); color: var(--accent);
+  font: inherit; font-size: 12px; font-weight: 700; letter-spacing: .05em;
+  text-transform: uppercase; padding: 7px 12px; border-radius: 999px; cursor: pointer;
+  transition: background .15s ease, color .15s ease;
+}
+#today:hover { background: var(--accent); color: var(--accent-fg); }
+#today:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 .day { margin-top: 34px; scroll-margin-top: 84px; }
 .day.past { opacity: .55; transition: opacity .2s ease; }
 .day.past:hover, .day.past:focus-within { opacity: 1; }
@@ -841,9 +849,19 @@ _JS = """
       d.classList.toggle('today', n === 0);
       d.classList.toggle('past', n < 0);
     });
+    todayBtn.classList.toggle('hide', !currentDay());
   }
+  var todayBtn = document.getElementById('today');
+  function currentDay() {
+    return document.querySelector('.day.today') ||
+      document.querySelector('.day:not(.past):not(.hide)');
+  }
+  todayBtn.addEventListener('click', function () {
+    var t = currentDay();
+    if (t) t.scrollIntoView({behavior: 'smooth', block: 'start'});
+  });
   relabel();
-  var first = document.querySelector('.day:not(.past)');
+  var first = currentDay();
   if (first && document.querySelector('.day.past')) {
     first.scrollIntoView({behavior: 'instant', block: 'start'});
   }
@@ -1007,6 +1025,7 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         '<input id="q" type="search" placeholder="Search shows, films, games…" '
         'aria-label="Search releases" autocomplete="off" spellcheck="false">'
         "<kbd>/</kbd>"
+        '<button id="today" type="button" aria-label="Jump to today">Today</button>'
         '<button id="theme" type="button" aria-label="Toggle light/dark theme">'
         f"{_SUN_SVG}{_MOON_SVG}</button></div>\n"
         '<div id="empty" class="hide" role="status">Nothing matches '
