@@ -773,6 +773,29 @@ _JS = """
       e.preventDefault(); toggle(e.target);
     }
   });
+  function rel(n) {
+    if (n === 0) return 'today';
+    if (n === 1) return 'tomorrow';
+    if (n === -1) return 'yesterday';
+    if (n < 0) return (-n) + ' days ago';
+    if (n < 14) return 'in ' + n + ' days';
+    if (n < 61) return 'in ' + Math.floor(n / 7) + ' weeks';
+    return 'in ' + Math.round(n / 30.4) + ' months';
+  }
+  function relabel() {
+    var now = new Date();
+    var t0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    days.forEach(function (d) {
+      var p = d.getAttribute('data-date').split('-');
+      var n = Math.round((new Date(+p[0], p[1] - 1, +p[2]) - t0) / 864e5);
+      d.querySelector('.rel').textContent = rel(n);
+      d.classList.toggle('today', n === 0);
+    });
+  }
+  relabel();
+  document.addEventListener('visibilitychange', function () {
+    if (!document.hidden) relabel();
+  });
   var root = document.documentElement;
   var mq = window.matchMedia('(prefers-color-scheme: dark)');
   document.getElementById('theme').addEventListener('click', function () {
@@ -878,7 +901,8 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
                 rows.append("</ul>\n</section>")
             cls = " today" if r.on == today else ""
             rows.append(
-                f'<section class="day{cls}">\n<h2>{r.on:%a, %b %-d, %Y}'
+                f'<section class="day{cls}" data-date="{r.on:%Y-%m-%d}">\n'
+                f"<h2>{r.on:%a, %b %-d, %Y}"
                 f' <span class="rel">{_rel_label(r.on, today)}</span></h2>\n'
                 '<ul class="grid">'
             )
