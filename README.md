@@ -3,7 +3,7 @@
 One `.ics` and one `.rss` for every show, anime, film and game you track.
 Subscribe once on your iPhone; it updates itself.
 
-**[📅 Watchfeed — What's Coming Up](https://amir-hackett.github.io/watchfeed/)** —
+**[📺 Watchfeed — What's Coming Up](https://amir-hackett.github.io/watchfeed/)** —
 everything upcoming, grouped by date, with subscribe links for each feed.
 
 Live feeds (rebuilt daily at 9am UTC by GitHub Actions, served from `/docs`
@@ -28,7 +28,11 @@ Outputs:
 - `watch.xml` — RSS with "in N days" countdowns
 - `index.html` — a static landing page: poster cards grouped by date with
   live search (`/` to focus), and each card flips to a description, a
-  "previously aired" recap for TV, and a link to the source page
+  "previously aired" recap for TV, and a link to the source page. The page
+  keeps the past week as dimmed sections, opens on today (with a Today
+  button in the search bar to jump back), computes "today / tomorrow /
+  N days ago" labels in the viewer's timezone, and has a light/dark
+  toggle that follows the system theme until overridden
 
 ---
 
@@ -170,6 +174,14 @@ full fetch because the feed is regenerated whole, not patched.
 
 **Empty runs abort.** If every source fails, the tool exits non-zero without
 writing. Otherwise a transient network failure would blank your calendar.
+
+**The page keeps a trailing week; the feeds don't.** Fetchers pull from 7
+days back so a viewer's local "today" is always in the data no matter what
+UTC date the build ran on (the labels are computed client-side in the
+viewer's timezone). The `.ics`/`.rss` outputs are filtered to upcoming
+only — past alarms and negative countdowns would be noise. AniList needs a
+separate windowed query for the trailing week because `airingSchedule`
+only returns unaired episodes.
 
 **All-day DTEND is exclusive.** Per RFC 5545, an all-day event on Aug 2 ends
 Aug 3. Getting this wrong is the classic reason events render across two days.
