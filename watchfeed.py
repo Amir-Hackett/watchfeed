@@ -117,12 +117,23 @@ def _clean(s: str | None, limit: int = 420) -> str:
     return s
 
 
+# Fetchers keep a trailing week so the page can show recent history and so
+# every viewer's local "today" is in the data regardless of build-time UTC.
+# The ics/rss feeds stay upcoming-only; main() filters before writing them.
+_PAST_DAYS = 7
+
+
+def _since() -> date:
+    return date.today() - timedelta(days=_PAST_DAYS)
+
+
 # ---------------------------------------------------------------- tvmaze
 
 
 def fetch_tvmaze(titles: list[str], horizon: date) -> list[Release]:
     out: list[Release] = []
     today = date.today()
+    since = _since()
     for t in titles:
         try:
             q = urllib.parse.urlencode({"q": t})
@@ -154,7 +165,7 @@ def fetch_tvmaze(titles: list[str], horizon: date) -> list[Release]:
             if not ep.get("airdate"):
                 continue
             d = date.fromisoformat(ep["airdate"])
-            if not (today <= d <= horizon):
+            if not (since <= d <= horizon):
                 continue
             when = None
             if ep.get("airstamp"):
@@ -194,6 +205,22 @@ _ANILIST_FIELDS = """
 
 ANILIST_Q = f"query ($search: String) {{ Media(search: $search, type: ANIME) {{{_ANILIST_FIELDS}}} }}"
 ANILIST_ID_Q = f"query ($id: Int) {{ Media(id: $id, type: ANIME) {{{_ANILIST_FIELDS}}} }}"
+
+# Media.airingSchedule(notYetAired: true) omits aired episodes, so the trailing
+# week comes from a separate windowed query against the top-level connection.
+ANILIST_PAST_Q = (
+    "query ($id: Int, $lo: Int, $hi: Int) { Page(perPage: 25) { "
+    "airingSchedules(mediaId: $id, airingAt_greater: $lo, airingAt_lesser: $hi, "
+    "sort: TIME) { episode airingAt } } }"
+)
+
+
+def _anilist_past(mid: int) -> list[dict]:
+    lo = int(time.mktime(_since().timetuple()))
+    body = json.dumps({"query": ANILIST_PAST_Q, "variables": {
+        "id": mid, "lo": lo, "hi": int(time.time())}}).encode()
+    resp = _get("https://graphql.anilist.co", data=body)
+    return ((resp.get("data") or {}).get("Page") or {}).get("airingSchedules") or []
 
 
 def _anilist_media(query: str, variables: dict) -> dict | None:
@@ -244,6 +271,21 @@ def fetch_anilist(titles: list[str], horizon: date) -> list[Release]:
                     image=img, about=about,
                 ))
                 found += 1
+            if m.get("status") == "RELEASING":
+                time.sleep(2.1)
+                try:
+                    aired = _anilist_past(m["id"])
+                except Exception as e:
+                    _warn(f"anilist: past-week fetch failed for {name!r} ({e})")
+                    aired = []
+                for n in aired:
+                    when = datetime.fromtimestamp(n["airingAt"], tz=timezone.utc)
+                    out.append(Release(
+                        title=name, detail=f"Episode {n['episode']}", on=when.date(),
+                        kind="anime", source="anilist", url=m.get("siteUrl", ""),
+                        exact_time=when, image=img, about=about,
+                    ))
+                    found += 1
             if hop == 0 or found:
                 print(f"  anilist {name}{' (sequel)' if hop else ''}: {found}")
             if not nodes and m.get("status") == "NOT_YET_RELEASED":
@@ -283,15 +325,16 @@ def fetch_tmdb(titles: list[str], horizon: date, key: str) -> list[Release]:
             _warn(f"tmdb: no match for {t!r}")
             continue
 
-        # Prefer the soonest release that hasn't happened yet; else most popular.
-        future = [h for h in hits if h.get("release_date") and h["release_date"] >= today.isoformat()]
+        # Prefer the soonest release still in the window; else most popular.
+        since = _since()
+        future = [h for h in hits if h.get("release_date") and h["release_date"] >= since.isoformat()]
         m = min(future, key=lambda h: h["release_date"]) if future else hits[0]
 
         if not m.get("release_date"):
             _warn(f"tmdb: {t!r} has no date set")
             continue
         d = date.fromisoformat(m["release_date"])
-        if not (today <= d <= horizon):
+        if not (since <= d <= horizon):
             print(f"  tmdb    {m['title']}: 0 (date {d} outside window)")
             continue
 
@@ -345,7 +388,7 @@ def fetch_igdb(titles: list[str], horizon: date, client_id: str, secret: str) ->
 
     out: list[Release] = []
     today = date.today()
-    lo, hi = int(time.mktime(today.timetuple())), int(time.mktime(horizon.timetuple()))
+    lo, hi = int(time.mktime(_since().timetuple())), int(time.mktime(horizon.timetuple()))
 
     for t in titles:
         safe = t.replace('"', '')
@@ -485,6 +528,10 @@ def _rel_label(d: date, today: date) -> str:
         return "today"
     if n == 1:
         return "tomorrow"
+    if n == -1:
+        return "yesterday"
+    if n < 0:
+        return f"{-n} days ago"
     if n < 14:
         return f"in {n} days"
     if n < 61:
@@ -623,7 +670,9 @@ a:focus-visible, .btn:focus-visible, .chip:focus-visible {
 #theme svg { width: 18px; height: 18px; }
 #theme .sun { display: var(--show-sun); }
 #theme .moon { display: var(--show-moon); }
-.day { margin-top: 34px; }
+.day { margin-top: 34px; scroll-margin-top: 84px; }
+.day.past { opacity: .55; transition: opacity .2s ease; }
+.day.past:hover, .day.past:focus-within { opacity: 1; }
 h2 {
   display: flex; align-items: baseline; gap: 12px; margin: 0 0 12px;
   font-size: 13px; font-weight: 700; letter-spacing: 0.08em;
@@ -790,9 +839,14 @@ _JS = """
       var n = Math.round((new Date(+p[0], p[1] - 1, +p[2]) - t0) / 864e5);
       d.querySelector('.rel').textContent = rel(n);
       d.classList.toggle('today', n === 0);
+      d.classList.toggle('past', n < 0);
     });
   }
   relabel();
+  var first = document.querySelector('.day:not(.past)');
+  if (first && document.querySelector('.day.past')) {
+    first.scrollIntoView({behavior: 'instant', block: 'start'});
+  }
   document.addEventListener('visibilitychange', function () {
     if (!document.hidden) relabel();
   });
@@ -885,8 +939,9 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
     ics_url = f"{base}/watch.ics" if base else "watch.ics"
     webcal = ics_url.replace("https://", "webcal://")
 
+    upcoming = [r for r in rels if r.on >= today]
     counts: dict[str, int] = {}
-    for r in rels:
+    for r in upcoming:
         counts[r.kind] = counts.get(r.kind, 0) + 1
     summary = " · ".join(
         f"{counts[k]} {_KIND_LABEL[k].lower()}"
@@ -899,7 +954,7 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         if r.on != prev:
             if prev is not None:
                 rows.append("</ul>\n</section>")
-            cls = " today" if r.on == today else ""
+            cls = " today" if r.on == today else (" past" if r.on < today else "")
             rows.append(
                 f'<section class="day{cls}" data-date="{r.on:%Y-%m-%d}">\n'
                 f"<h2>{r.on:%a, %b %-d, %Y}"
@@ -924,14 +979,25 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         f"<title>{_xesc(cal_name)} — upcoming releases</title>\n"
         '<link rel="icon" href="data:image/svg+xml,'
         '<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>'
-        '<text y=%22.9em%22 font-size=%2290%22>📅</text></svg>">\n'
+        '<defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%220%22 y2=%221%22>'
+        '<stop offset=%220%22 stop-color=%22%2314a08f%22/>'
+        '<stop offset=%221%22 stop-color=%22%230b5f55%22/></linearGradient></defs>'
+        '<path d=%22M38 24 L24 5 M62 24 L76 5%22 stroke=%22%2314a08f%22 '
+        'stroke-width=%228%22 stroke-linecap=%22round%22 fill=%22none%22/>'
+        '<rect x=%226%22 y=%2224%22 width=%2288%22 height=%2270%22 rx=%2216%22 '
+        'fill=%22url(%23g)%22/>'
+        '<rect x=%2217%22 y=%2235%22 width=%2254%22 height=%2248%22 rx=%229%22 '
+        'fill=%22%23f6f1e7%22/>'
+        '<circle cx=%2283%22 cy=%2246%22 r=%224.5%22 fill=%22%23f6f1e7%22 opacity=%22.9%22/>'
+        '<circle cx=%2283%22 cy=%2262%22 r=%224.5%22 fill=%22%23f6f1e7%22 opacity=%22.9%22/>'
+        '</svg>">\n'
         f"<script>{_THEME_BOOT}</script>\n"
         f"<style>{_CSS}</style>\n</head>\n<body>\n<header>\n"
         '<p class="overline">Release calendar</p>\n'
         f"<h1>{_xesc(cal_name)}</h1>\n"
         '<p class="tag">Every show, anime, film and game tracked — '
         "one auto-updating calendar.</p>\n"
-        f'<p class="updated">Updated {today:%B %-d, %Y} · {len(rels)} upcoming'
+        f'<p class="updated">Updated {today:%B %-d, %Y} · {len(upcoming)} upcoming'
         f" · {summary}</p>\n"
         f'<nav class="feeds" aria-label="Subscribe">'
         f'<a class="btn" href="{_xesc(webcal)}">Subscribe — everything</a>{chips}</nav>\n'
@@ -1005,7 +1071,7 @@ def main() -> int:
     s = cfg.get("settings", {})
     horizon_days = args.days or s.get("horizon_days", 400)
     horizon = date.today() + timedelta(days=horizon_days)
-    print(f"window: {date.today()} -> {horizon}\n")
+    print(f"window: {_since()} -> {horizon} (page keeps {_PAST_DAYS}d history)\n")
 
     rels: list[Release] = []
 
@@ -1046,20 +1112,24 @@ def main() -> int:
     all_day = s.get("all_day", False)
     public_url = s.get("public_url", "")
 
+    # The page shows a trailing week of history; feeds stay upcoming-only
+    # (past alarms and negative RSS countdowns would be noise).
+    upcoming = [r for r in rels if r.on >= date.today()]
+
     wrote = []
-    (out / "watch.ics").write_text(build_ics(rels, cal_name, alarm, all_day), newline="")
+    (out / "watch.ics").write_text(build_ics(upcoming, cal_name, alarm, all_day), newline="")
     wrote.append("watch.ics")
 
     # Per-category feeds: subscribe separately, color separately, mute separately.
     per = [("tv", "tv.ics", "TV"), ("anime", "anime.ics", "Anime"),
            ("movie", "movies.ics", "Movies"), ("game", "games.ics", "Games")]
     for kind, fname, label in per:
-        sub = [r for r in rels if r.kind == kind]
+        sub = [r for r in upcoming if r.kind == kind]
         (out / fname).write_text(
             build_ics(sub, f"{cal_name} {label}", alarm, all_day), newline="")
         wrote.append(fname)
 
-    (out / "watch.xml").write_text(build_rss(rels, cal_name, public_url))
+    (out / "watch.xml").write_text(build_rss(upcoming, cal_name, public_url))
     wrote.append("watch.xml")
     (out / "index.html").write_text(build_html(rels, cal_name, public_url))
     wrote.append("index.html")
