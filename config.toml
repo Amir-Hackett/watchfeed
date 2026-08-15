@@ -45,6 +45,8 @@ shows = [
   "Alien: Earth",
   "Dexter: Resurrection",
   "VisionQuest",
+  "Monarch: Legacy of Monsters",
+  "Spider-Noir",
   "Batman: Caped Crusader",
   # animated
   "Invincible",
@@ -93,6 +95,7 @@ shows = [
   "Gachiakuta",
   "Wind Breaker",
   "Bleach: Thousand-Year Blood War",
+  "Kaiju No. 8: Narumi's Week at Work",  # spin-off; sequel-chain walk only follows SEQUEL relations
 ]
 
 # ---------------------------------------------------------------------
@@ -141,13 +144,12 @@ titles = [
   "Control Resonant",
   "Onimusha: Way of the Sword",
   "The Blood of the Dawnwalker",
-  "Return to Silent Hill",
   "Fable",
   "Persona 4 Revival",
-  # "Tomb Raider",  # next entry is untitled/TBA on IGDB; this only matches 2003's Angel of Darkness
+  "Tomb Raider: Legacy of Atlantis",
   "Metro 2039",
   "State of Decay 3",
-  # "Final Fantasy VII",  # matches a remaster twin-pack; swap in the real title once Remake part 3 is announced
+  "Final Fantasy VII Revelation",  # Remake part 3, spring 2027
   "Lords of the Fallen II",
   "Crimson Desert",
   "Subnautica 2",

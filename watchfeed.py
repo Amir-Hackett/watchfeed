@@ -69,6 +69,56 @@ class Release:
         return hashlib.sha1(raw.encode()).hexdigest() + "@watchfeed"
 
 
+# ---------------------------------------------------------------- cache
+#
+# Last-known-good snapshot per source, committed under <out>/cache/ by CI.
+# When an upstream API goes down wholesale (e.g. AniList disabling its API),
+# a rebuild would otherwise publish a feed with that whole category missing
+# and subscribed calendars would drop those events.
+
+_CACHE_MAX_AGE_DAYS = 14  # a source down longer than this is stale enough to drop
+
+
+def _save_cache(out: Path, source: str, rels: "list[Release]") -> None:
+    path = out / "cache" / f"{source}.json"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "fetched": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "releases": [{
+            "title": r.title, "detail": r.detail, "on": r.on.isoformat(),
+            "kind": r.kind, "source": r.source, "url": r.url,
+            "platform": r.platform,
+            "exact_time": r.exact_time.isoformat() if r.exact_time else None,
+            "tags": r.tags, "image": r.image, "about": r.about, "recap": r.recap,
+        } for r in rels],
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False) + "\n")
+
+
+def _load_cache(out: Path, source: str) -> "list[Release]":
+    path = out / "cache" / f"{source}.json"
+    if not path.exists():
+        return []
+    try:
+        payload = json.loads(path.read_text())
+        fetched = datetime.fromisoformat(payload["fetched"])
+    except (ValueError, KeyError) as e:
+        _warn(f"cache: unreadable {path.name} ({e})")
+        return []
+    age = datetime.now(timezone.utc) - fetched
+    if age > timedelta(days=_CACHE_MAX_AGE_DAYS):
+        _warn(f"cache: {path.name} is {age.days}d old — too stale to reuse")
+        return []
+    return [Release(
+        title=e["title"], detail=e["detail"], on=date.fromisoformat(e["on"]),
+        kind=e["kind"], source=e["source"], url=e.get("url", ""),
+        platform=e.get("platform", ""),
+        exact_time=datetime.fromisoformat(e["exact_time"]) if e.get("exact_time") else None,
+        tags=e.get("tags") or [], image=e.get("image", ""),
+        about=e.get("about", ""), recap=e.get("recap", ""),
+    ) for e in payload.get("releases", [])]
+
+
 # ---------------------------------------------------------------- http
 
 
@@ -1106,21 +1156,35 @@ def main() -> int:
     horizon = date.today() + timedelta(days=horizon_days)
     print(f"window: {_since()} -> {horizon} (page keeps {_PAST_DAYS}d history)\n")
 
+    out = Path(args.out)
+    out.mkdir(parents=True, exist_ok=True)
+
+    def resilient(source: str, fetch) -> list[Release]:
+        got = fetch()
+        if got:
+            _save_cache(out, source, got)
+            return got
+        cached = _load_cache(out, source)
+        if cached:
+            _warn(f"{source}: fetched nothing — reusing {len(cached)} events "
+                  "from the last good run")
+        return cached
+
     rels: list[Release] = []
 
     if tv := cfg.get("tv", {}).get("shows"):
         print("TV")
-        rels += fetch_tvmaze(tv, horizon)
+        rels += resilient("tvmaze", lambda: fetch_tvmaze(tv, horizon))
 
     if anime := cfg.get("anime", {}).get("shows"):
         print("\nANIME")
-        rels += fetch_anilist(anime, horizon)
+        rels += resilient("anilist", lambda: fetch_anilist(anime, horizon))
 
     if movies := cfg.get("movies", {}).get("titles"):
         key = os.environ.get("TMDB_API_KEY")
         print("\nMOVIES")
         if key:
-            rels += fetch_tmdb(movies, horizon, key)
+            rels += resilient("tmdb", lambda: fetch_tmdb(movies, horizon, key))
         else:
             _warn("TMDB_API_KEY not set — skipping movies")
 
@@ -1129,16 +1193,13 @@ def main() -> int:
         sec = os.environ.get("TWITCH_CLIENT_SECRET")
         print("\nGAMES")
         if cid and sec:
-            rels += fetch_igdb(games, horizon, cid, sec)
+            rels += resilient("igdb", lambda: fetch_igdb(games, horizon, cid, sec))
         else:
             _warn("TWITCH_CLIENT_ID/SECRET not set — skipping games")
 
     if not rels:
         print("\nnothing found — not writing empty feeds", file=sys.stderr)
         return 2
-
-    out = Path(args.out)
-    out.mkdir(parents=True, exist_ok=True)
 
     cal_name = s.get("calendar_name", "Watchfeed")
     alarm = s.get("alarm_minutes", 60)
