@@ -175,6 +175,12 @@ full fetch because the feed is regenerated whole, not patched.
 **Empty runs abort.** If every source fails, the tool exits non-zero without
 writing. Otherwise a transient network failure would blank your calendar.
 
+**Last-known-good cache.** Every good fetch snapshots each source's events
+to `docs/cache/<source>.json` (committed by CI). If a source later fetches
+nothing — e.g. AniList disabling its whole API — the previous snapshot is
+reused (up to 14 days old) instead of publishing a feed with that category
+silently missing, which would make subscribed calendars drop those events.
+
 **The page keeps a trailing week; the feeds don't.** Fetchers pull from 7
 days back so a viewer's local "today" is always in the data no matter what
 UTC date the build ran on (the labels are computed client-side in the

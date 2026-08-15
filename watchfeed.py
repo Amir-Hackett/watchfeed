@@ -584,6 +584,8 @@ def _xesc(s: str) -> str:
 
 _KIND_LABEL = {"tv": "TV", "anime": "Anime", "movie": "Film", "game": "Game"}
 
+_TAGLINE = "Every show, anime, film and game tracked — one auto-updating calendar."
+
 
 def _rel_label(d: date, today: date) -> str:
     n = (d - today).days
@@ -1072,6 +1074,16 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         '<meta name="viewport" content="width=device-width, initial-scale=1, '
         'viewport-fit=cover">\n'
         f"<title>{_xesc(cal_name)} — upcoming releases</title>\n"
+        f'<meta name="description" content="{_TAGLINE}">\n'
+        '<meta name="theme-color" media="(prefers-color-scheme: light)" '
+        'content="#f3f1f8">\n'
+        '<meta name="theme-color" content="#0a0a10">\n'
+        f'<meta property="og:title" content="{_xesc(cal_name)}">\n'
+        f'<meta property="og:description" content="{_TAGLINE}">\n'
+        '<meta property="og:type" content="website">\n'
+        + (f'<meta property="og:url" content="{_xesc(public_url)}">\n'
+           if public_url else "")
+        +
         '<link rel="icon" href="data:image/svg+xml,'
         '<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22>'
         '<defs><linearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%220%22 y2=%221%22>'
@@ -1091,8 +1103,7 @@ def build_html(rels: list[Release], cal_name: str, public_url: str) -> str:
         f"<style>{_CSS}</style>\n</head>\n<body>\n<header>\n"
         '<p class="overline">Release calendar</p>\n'
         f"<h1>{_wordmark(cal_name)}</h1>\n"
-        '<p class="tag">Every show, anime, film and game tracked — '
-        "one auto-updating calendar.</p>\n"
+        f'<p class="tag">{_TAGLINE}</p>\n'
         f'<p class="updated">Updated {today:%B %-d, %Y} · {len(upcoming)} upcoming'
         f" · {summary}</p>\n"
         f'<nav class="feeds" aria-label="Subscribe">'
