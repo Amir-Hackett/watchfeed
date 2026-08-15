@@ -4,7 +4,7 @@
     <title>Watchfeed</title>
     <link>https://amir-hackett.github.io/watchfeed/</link>
     <description>Upcoming TV, anime, film and game releases</description>
-    <lastBuildDate>Sat, 15 Aug 2026 18:02:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 18:07:04 +0000</lastBuildDate>
     <item>
       <title>[TV] My Adventures with Superman — S03E10 — The Return</title>
       <description>today — Saturday, August 15, 2026 — Adult Swim</description>
@@ -396,6 +396,14 @@
       <guid isPermaLink="false">886608349feab1635e643d2333ed4460d9916e0f@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/45039/slow-horses</link>
+    </item>
+    <item>
+      <title>[GAME] Silent Hill: Townfall — Release day</title>
+      <description>in 5 weeks — Thursday, September 24, 2026 — PC, PS5</description>
+      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d46c4700c73b297466bcb54e2a2f53c577ff0888@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/silent-hill-townfall</link>
     </item>
     <item>
       <title>[TV] Dark Matter — S02E05 — Love and Be Loved</title>
