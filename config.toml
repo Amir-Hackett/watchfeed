@@ -37,6 +37,14 @@ shows = [
   "Fallout",
   "Tracker",
   "NCIS",
+  "Murderbot",
+  "Pluribus",
+  "3 Body Problem",
+  "Shogun",
+  "Vought Rising",
+  "Alien: Earth",
+  "Dexter: Resurrection",
+  "VisionQuest",
   "Batman: Caped Crusader",
   # animated
   "Invincible",
@@ -81,6 +89,10 @@ shows = [
   "The Beginning After the End",
   "Witch Hat Atelier",
   "Devil May Cry",
+  "Hell's Paradise",
+  "Gachiakuta",
+  "Wind Breaker",
+  "Bleach: Thousand-Year Blood War",
 ]
 
 # ---------------------------------------------------------------------
@@ -112,6 +124,8 @@ titles = [
   "Dune: Part Three",
   "Spaceballs 2",
   "All You Need Is Kill",
+  "Clayface",
+  "Man of Tomorrow",
 ]
 
 # ---------------------------------------------------------------------
@@ -141,4 +155,6 @@ titles = [
   "007 First Light",
   "Saros",
   "Stranger Than Heaven",
+  "The Witcher IV",
+  "Intergalactic: The Heretic Prophet",
 ]
