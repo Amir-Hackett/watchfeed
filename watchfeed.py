@@ -756,9 +756,12 @@ h2::after { content: ""; flex: 1; height: 1px; background: var(--line); }
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
 .card {
   position: relative; height: 176px; perspective: 1200px; cursor: pointer;
-  border-radius: 16px; transition: transform .18s ease;
+  border-radius: 16px;
+  transition: transform .18s ease, height .55s cubic-bezier(.3,.8,.3,1);
   -webkit-tap-highlight-color: transparent;
 }
+/* Grow while flipped so the description is readable without a tiny scroll box. */
+.card.flipped { height: 280px; }
 .card:hover { transform: translateY(-2px); }
 .card:active { transform: scale(.985); }
 .card:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
@@ -815,10 +818,12 @@ span.poster { display: flex; align-items: center; justify-content: center; }
 .card:hover .hint { opacity: 1; color: var(--accent); }
 .back { transform: rotateY(180deg); padding: 14px 16px;
   display: flex; flex-direction: column; gap: 7px; }
-.back .t { -webkit-line-clamp: 1; font-size: 14.5px; }
-.recap { margin: 0; font-size: 12.5px; font-weight: 600; color: var(--accent); }
+.back .t { -webkit-line-clamp: 1; font-size: 15.5px; }
+.recap { margin: 0; font-size: 13.5px; font-weight: 600; color: var(--accent); }
 .about { margin: 0; flex: 1; overflow: auto; overscroll-behavior: contain;
-  scrollbar-width: thin; font-size: 13px; line-height: 1.55; color: var(--muted); }
+  scrollbar-width: thin; font-size: 14.5px; line-height: 1.6; color: var(--muted);
+  /* fade the cutoff so a clipped line reads as "scroll for more", not a bug */
+  mask-image: linear-gradient(180deg, #000 calc(100% - 16px), transparent); }
 .more { align-self: flex-start; font-size: 12px; font-weight: 700;
   letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent);
   text-decoration: none; }
