@@ -30,6 +30,7 @@ import urllib.request
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 UA = "watchfeed/1.0 (+https://github.com/Amir-Hackett/watchfeed)"
 TIMEOUT = 20
@@ -148,7 +149,9 @@ def fetch_tvmaze(titles: list[str], horizon: date) -> list[Release]:
             _warn(f"tvmaze: episode fetch failed for {t!r} ({e})")
             continue
 
-        net = (show.get("network") or show.get("webChannel") or {}).get("name", "")
+        chan = show.get("network") or show.get("webChannel") or {}
+        net = chan.get("name", "")
+        net_tz = (chan.get("country") or {}).get("timezone")
         img = (show.get("image") or {}).get("medium", "")
         about = _clean(show.get("summary"))
         aired = [e for e in eps if e.get("airdate") and e["airdate"] < today.isoformat()]
@@ -172,6 +175,16 @@ def fetch_tvmaze(titles: list[str], horizon: date) -> list[Release]:
                 try:
                     when = datetime.fromisoformat(ep["airstamp"]).astimezone(timezone.utc)
                 except ValueError:
+                    pass
+            # Post-midnight blocks (Toonami etc.): TVMaze keeps the TV-guide
+            # airdate but stamps the real instant on the next calendar day.
+            # An exact time would land the calendar event a day after the
+            # site's listing, so fall back to an all-day event on the airdate.
+            if when and net_tz:
+                try:
+                    if when.astimezone(ZoneInfo(net_tz)).date() != d:
+                        when = None
+                except (ZoneInfoNotFoundError, ValueError):
                     pass
             label = f"S{ep['season']:02d}E{ep['number']:02d}" if ep.get("number") else "Special"
             if ep.get("name"):
