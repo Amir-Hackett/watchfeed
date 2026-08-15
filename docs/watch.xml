@@ -4,7 +4,7 @@
     <title>Watchfeed</title>
     <link>https://amir-hackett.github.io/watchfeed/</link>
     <description>Upcoming TV, anime, film and game releases</description>
-    <lastBuildDate>Sat, 15 Aug 2026 16:53:28 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 17:56:40 +0000</lastBuildDate>
     <item>
       <title>[TV] My Adventures with Superman — S03E10 — The Return</title>
       <description>today — Saturday, August 15, 2026 — Adult Swim</description>
@@ -462,6 +462,14 @@
       <link>https://www.tvmaze.com/shows/45039/slow-horses</link>
     </item>
     <item>
+      <title>[TV] VisionQuest — S01E01 — TBA</title>
+      <description>in 8 weeks — Wednesday, October 14, 2026 — Disney+</description>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a0577f36eb4f223fd291864bf5792839080b4c62@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
+    </item>
+    <item>
       <title>[FILM] Whalefall — Theatrical release</title>
       <description>in 8 weeks — Wednesday, October 14, 2026 — Theaters</description>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
@@ -478,12 +486,28 @@
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[FILM] Clayface — Theatrical release</title>
+      <description>in 2 months — Wednesday, October 21, 2026 — Theaters</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f92412825c751d4c97eeeba06a3eaff595328ce7@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1400940</link>
+    </item>
+    <item>
       <title>[TV] Slow Horses — S06E06 — TBA</title>
       <description>in 2 months — Wednesday, October 21, 2026 — Apple TV</description>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">94c044de0ba671f604b1806fcb5f70d414fde474@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/45039/slow-horses</link>
+    </item>
+    <item>
+      <title>[TV] VisionQuest — S01E02 — TBA</title>
+      <description>in 2 months — Wednesday, October 21, 2026 — Disney+</description>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">31828d0ceb0581dab88044f905c88446cd0c57e6@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
     </item>
     <item>
       <title>[GAME] Call of Duty: Modern Warfare 4 — Release day</title>
@@ -500,6 +524,14 @@
       <guid isPermaLink="false">538806cfdd62b9b6eb1b3b2e0f5f86a18a30476c@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
+    </item>
+    <item>
+      <title>[TV] VisionQuest — S01E03 — TBA</title>
+      <description>in 2 months — Wednesday, October 28, 2026 — Disney+</description>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d3cd9cbe13e80d769ec139699bd7d121b54633c1@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
     </item>
     <item>
       <title>[TV] Dark Matter — S02E10 — No Quiet Life</title>
@@ -526,12 +558,28 @@
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
     </item>
     <item>
+      <title>[TV] VisionQuest — S01E04 — TBA</title>
+      <description>in 3 months — Wednesday, November 4, 2026 — Disney+</description>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0b0dd8cd5b26875cbbbc6180a3fca2c780f6610f@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
+    </item>
+    <item>
       <title>[TV] Nocturne — S01E03 — Episode 3</title>
       <description>in 3 months — Friday, November 6, 2026 — Apple TV</description>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c8a50eafb9708d1cb620e9500ee9b9be9e41adbc@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
+    </item>
+    <item>
+      <title>[TV] VisionQuest — S01E05 — TBA</title>
+      <description>in 3 months — Wednesday, November 11, 2026 — Disney+</description>
+      <pubDate>Wed, 11 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5cda9f26ccb8b25bce234015185854e5985bdb20@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
     </item>
     <item>
       <title>[TV] Nocturne — S01E04 — Episode 4</title>
@@ -548,6 +596,14 @@
       <guid isPermaLink="false">b5d7abf9f8ba0da9790e68c72a547707b22d4615@watchfeed</guid>
       <category>movie</category>
       <link>https://www.themoviedb.org/movie/1300968</link>
+    </item>
+    <item>
+      <title>[TV] VisionQuest — S01E06 — TBA</title>
+      <description>in 3 months — Wednesday, November 18, 2026 — Disney+</description>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">048fd752de84fdde723f1b87c9607d1495b33db7@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
     </item>
     <item>
       <title>[GAME] Grand Theft Auto VI — Release day</title>
@@ -654,6 +710,14 @@
       <link>https://www.themoviedb.org/movie/1400336</link>
     </item>
     <item>
+      <title>[TV] VisionQuest — S01E07 — TBA</title>
+      <description>in 3 months — Wednesday, November 25, 2026 — Disney+</description>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5d9c34116f33bc0c5f6f93e2087a2e8b50e46714@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
+    </item>
+    <item>
       <title>[TV] Nocturne — S01E06 — Episode 6</title>
       <description>in 3 months — Friday, November 27, 2026 — Apple TV</description>
       <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
@@ -676,6 +740,14 @@
       <guid isPermaLink="false">83d2f9bb8d4a208fccdae5d34e8fcae27ecd380f@watchfeed</guid>
       <category>movie</category>
       <link>https://www.themoviedb.org/movie/1078446</link>
+    </item>
+    <item>
+      <title>[TV] VisionQuest — S01E08 — TBA</title>
+      <description>in 4 months — Wednesday, December 2, 2026 — Disney+</description>
+      <pubDate>Wed, 02 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7014048bd9cc14f8ed28a91b8d866ac6882b1ced@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/64950/visionquest</link>
     </item>
     <item>
       <title>[TV] Nocturne — S01E07 — Episode 7</title>
@@ -916,6 +988,14 @@
       <guid isPermaLink="false">c72025f585a7868a5895c0ebb262bd81a10711a3@watchfeed</guid>
       <category>movie</category>
       <link>https://www.themoviedb.org/movie/1417668</link>
+    </item>
+    <item>
+      <title>[FILM] Man of Tomorrow — Theatrical release</title>
+      <description>in 11 months — Wednesday, July 7, 2027 — Theaters</description>
+      <pubDate>Wed, 07 Jul 2027 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">20e208e1b1a17a6bc8e857ddfb3fa0da0f3ba4c0@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1523140</link>
     </item>
   </channel>
 </rss>
