@@ -4,18 +4,10 @@
     <title>Watchfeed</title>
     <link>https://amir-hackett.github.io/watchfeed/</link>
     <description>Upcoming TV, anime, film and game releases</description>
-    <lastBuildDate>Sat, 15 Aug 2026 19:57:33 +0000</lastBuildDate>
-    <item>
-      <title>[TV] My Adventures with Superman — S03E10 — The Return</title>
-      <description>today — Saturday, August 15, 2026 — Adult Swim</description>
-      <pubDate>Sat, 15 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">42d8cc94a5420842b777648171a2c0dfc3c7aad5@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/55414/my-adventures-with-superman</link>
-    </item>
+    <lastBuildDate>Sun, 16 Aug 2026 09:35:26 +0000</lastBuildDate>
     <item>
       <title>[TV] Lanterns — S01E01 — Pilot</title>
-      <description>tomorrow — Sunday, August 16, 2026 — HBO</description>
+      <description>today — Sunday, August 16, 2026 — HBO</description>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c1865e0d0b6dd09ebab0f0f3ed7f3aa12d15ea7b@watchfeed</guid>
       <category>tv</category>
@@ -23,7 +15,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E03 — The Bear Is Infected</title>
-      <description>tomorrow — Sunday, August 16, 2026 — Paramount+</description>
+      <description>today — Sunday, August 16, 2026 — Paramount+</description>
       <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1c5f260a8a0ae8a09ae0e822815ed7a680eb14d5@watchfeed</guid>
       <category>tv</category>
@@ -31,7 +23,7 @@
     </item>
     <item>
       <title>[TV] Furious — S01E06 — They Make a Noise Like Feathers</title>
-      <description>in 2 days — Monday, August 17, 2026 — Hulu</description>
+      <description>tomorrow — Monday, August 17, 2026 — Hulu</description>
       <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">fce3e3d5d1d4b2b42374593946845f2e21284585@watchfeed</guid>
       <category>tv</category>
@@ -39,7 +31,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 13</title>
-      <description>in 4 days — Wednesday, August 19, 2026</description>
+      <description>in 3 days — Wednesday, August 19, 2026</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1883fe5d73e06bb44891b10013ab713389d2cf3b@watchfeed</guid>
       <category>anime</category>
@@ -47,7 +39,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E04 — Karambits and Pieces</title>
-      <description>in 4 days — Wednesday, August 19, 2026 — Prime Video</description>
+      <description>in 3 days — Wednesday, August 19, 2026 — Prime Video</description>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5726b22d51d9895f4206b15b6aba6d0416dd1c01@watchfeed</guid>
       <category>tv</category>
@@ -55,7 +47,7 @@
     </item>
     <item>
       <title>[FILM] Coyote vs. Acme — Theatrical release</title>
-      <description>in 5 days — Thursday, August 20, 2026 — Theaters</description>
+      <description>in 4 days — Thursday, August 20, 2026 — Theaters</description>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3caba77c3e1b34ed7e5de7b180f9cead6da94d6c@watchfeed</guid>
       <category>movie</category>
@@ -63,15 +55,23 @@
     </item>
     <item>
       <title>[TV] Silo — S03E08 — Gray Goo</title>
-      <description>in 6 days — Friday, August 21, 2026 — Apple TV</description>
+      <description>in 5 days — Friday, August 21, 2026 — Apple TV</description>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f364d93c8dabb6a83f7f9bb19d7fcb56f9e2d69b@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/38052/silo</link>
     </item>
     <item>
+      <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 5</title>
+      <description>in 6 days — Saturday, August 22, 2026</description>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2cfe495beaabd0d6366d6f32f5da2ef673376a1d@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/185874</link>
+    </item>
+    <item>
       <title>[TV] Lanterns — S01E02 — TBA</title>
-      <description>in 8 days — Sunday, August 23, 2026 — HBO</description>
+      <description>in 7 days — Sunday, August 23, 2026 — HBO</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c94ac280fb4b7ba46bff8587b03044e86f8dac2d@watchfeed</guid>
       <category>tv</category>
@@ -79,7 +79,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E04 — Murder Hornets</title>
-      <description>in 8 days — Sunday, August 23, 2026 — Paramount+</description>
+      <description>in 7 days — Sunday, August 23, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f2ff286935c93d552264988592331a06790f118b@watchfeed</guid>
       <category>tv</category>
@@ -87,7 +87,7 @@
     </item>
     <item>
       <title>[TV] Furious — S01E07 — Some Days It Don't Come Easy</title>
-      <description>in 9 days — Monday, August 24, 2026 — Hulu</description>
+      <description>in 8 days — Monday, August 24, 2026 — Hulu</description>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cb21edc06d925d826aec6c8b8ee8bbc2af24cd4d@watchfeed</guid>
       <category>tv</category>
@@ -95,7 +95,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 14</title>
-      <description>in 11 days — Wednesday, August 26, 2026</description>
+      <description>in 10 days — Wednesday, August 26, 2026</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">18628f49fe534f12517bef08fea951c8b84161f5@watchfeed</guid>
       <category>anime</category>
@@ -103,7 +103,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E05 — Bridge</title>
-      <description>in 11 days — Wednesday, August 26, 2026 — Prime Video</description>
+      <description>in 10 days — Wednesday, August 26, 2026 — Prime Video</description>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">da1b938386c7875c1ad3aa8a70f29804a3a78b89@watchfeed</guid>
       <category>tv</category>
@@ -111,7 +111,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E01 — A Quiet Life</title>
-      <description>in 13 days — Friday, August 28, 2026 — Apple TV</description>
+      <description>in 12 days — Friday, August 28, 2026 — Apple TV</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e0f5d26859b66e703b2c6a12f0fe06f36c238af8@watchfeed</guid>
       <category>tv</category>
@@ -119,11 +119,19 @@
     </item>
     <item>
       <title>[TV] Silo — S03E09 — Farewell</title>
-      <description>in 13 days — Friday, August 28, 2026 — Apple TV</description>
+      <description>in 12 days — Friday, August 28, 2026 — Apple TV</description>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4910e86c4accd6485d7a1a78f65443f732fd6d9f@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/38052/silo</link>
+    </item>
+    <item>
+      <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 6</title>
+      <description>in 13 days — Saturday, August 29, 2026</description>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8a02640a4c627cf421322d3dd5a2e7d0c3834c31@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/185874</link>
     </item>
     <item>
       <title>[TV] Lanterns — S01E03 — TBA</title>
@@ -198,6 +206,14 @@
       <link>https://www.tvmaze.com/shows/38052/silo</link>
     </item>
     <item>
+      <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 7</title>
+      <description>in 2 weeks — Saturday, September 5, 2026</description>
+      <pubDate>Sat, 05 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">18051f810202dbe465f4e092a85832488660d263@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/185874</link>
+    </item>
+    <item>
       <title>[TV] Lanterns — S01E04 — TBA</title>
       <description>in 3 weeks — Sunday, September 6, 2026 — HBO</description>
       <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
@@ -236,6 +252,14 @@
       <guid isPermaLink="false">7891ebd8a533901dea4240d2f37c144cc01388ed@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
+    </item>
+    <item>
+      <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 8</title>
+      <description>in 3 weeks — Saturday, September 12, 2026</description>
+      <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f71eb98552c5cc76f24e1aaff879a7af0188bc8b@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/185874</link>
     </item>
     <item>
       <title>[TV] Lanterns — S01E05 — TBA</title>
@@ -358,6 +382,14 @@
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 9</title>
+      <description>in 4 weeks — Saturday, September 19, 2026</description>
+      <pubDate>Sat, 19 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">21a4c48b4cc1180ee5a3b931ab707183d70f476f@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/185874</link>
+    </item>
+    <item>
       <title>[TV] Lanterns — S01E06 — TBA</title>
       <description>in 5 weeks — Sunday, September 20, 2026 — HBO</description>
       <pubDate>Sun, 20 Sep 2026 00:00:00 +0000</pubDate>
@@ -412,6 +444,14 @@
       <guid isPermaLink="false">5b3f0c21ce49c1d6c8f0cd351124e46d0524027d@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
+    </item>
+    <item>
+      <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 10</title>
+      <description>in 5 weeks — Saturday, September 26, 2026</description>
+      <pubDate>Sat, 26 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">16d51254ca9b58d93c06cfb9b9099eae40ff3efa@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/185874</link>
     </item>
     <item>
       <title>[TV] Lanterns — S01E07 — TBA</title>
@@ -470,6 +510,14 @@
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 1</title>
+      <description>in 6 weeks — Friday, October 2, 2026</description>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ff39613d744a7133884541bccdab55b51634a01d@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
+    </item>
+    <item>
       <title>[ANIME] Blue Box Season 2 — Episode 1</title>
       <description>in 7 weeks — Sunday, October 4, 2026</description>
       <pubDate>Sun, 04 Oct 2026 00:00:00 +0000</pubDate>
@@ -516,6 +564,14 @@
       <guid isPermaLink="false">c8e14fff1b1f81c084a874d7218e07490fb0f438@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
+    </item>
+    <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 2</title>
+      <description>in 7 weeks — Friday, October 9, 2026</description>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9955e90c5ac0a01fb479a95f44d8127d6bfa75d7@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 2</title>
@@ -566,6 +622,14 @@
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 3</title>
+      <description>in 2 months — Friday, October 16, 2026</description>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">393a438cdb5cd3a3046e3dd0c8077211f897f786@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
+    </item>
+    <item>
       <title>[ANIME] Blue Box Season 2 — Episode 3</title>
       <description>in 2 months — Sunday, October 18, 2026</description>
       <pubDate>Sun, 18 Oct 2026 00:00:00 +0000</pubDate>
@@ -614,6 +678,14 @@
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 4</title>
+      <description>in 2 months — Friday, October 23, 2026</description>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c022af6cc5f8f9a9892aa4dcdb525c6abba88e1b@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
+    </item>
+    <item>
       <title>[ANIME] Blue Box Season 2 — Episode 4</title>
       <description>in 2 months — Sunday, October 25, 2026</description>
       <pubDate>Sun, 25 Oct 2026 00:00:00 +0000</pubDate>
@@ -654,6 +726,14 @@
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
     </item>
     <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 5</title>
+      <description>in 2 months — Friday, October 30, 2026</description>
+      <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6e01ee879b4154cb4641194569c1d39f893b3235@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
+    </item>
+    <item>
       <title>[ANIME] Blue Box Season 2 — Episode 5</title>
       <description>in 3 months — Sunday, November 1, 2026</description>
       <pubDate>Sun, 01 Nov 2026 00:00:00 +0000</pubDate>
@@ -678,6 +758,14 @@
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
     </item>
     <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 6</title>
+      <description>in 3 months — Friday, November 6, 2026</description>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">2ca53abec43417ec2efc96be9f7586eba6319ee1@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
+    </item>
+    <item>
       <title>[ANIME] Blue Box Season 2 — Episode 6</title>
       <description>in 3 months — Sunday, November 8, 2026</description>
       <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
@@ -700,6 +788,14 @@
       <guid isPermaLink="false">bef65ab97d04b00a71bc1cfd46001169b8b3c4d4@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/66811/nocturne</link>
+    </item>
+    <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 7</title>
+      <description>in 3 months — Friday, November 13, 2026</description>
+      <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7ae689aab141cc6a98ee4b23beb30ba8f30dc3f1@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 7</title>
@@ -756,6 +852,14 @@
       <guid isPermaLink="false">0a1de5e4e5b67d45a3cfbf47d2e6a0a98424a338@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
+    </item>
+    <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 8</title>
+      <description>in 3 months — Friday, November 20, 2026</description>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1f6384d4264cbe1ba51794e37d3b3f036624c105@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 8</title>
@@ -862,6 +966,14 @@
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 9</title>
+      <description>in 3 months — Friday, November 27, 2026</description>
+      <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">edf757231a005f12d05be6690edcaed0a4844068@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
+    </item>
+    <item>
       <title>[ANIME] Blue Box Season 2 — Episode 9</title>
       <description>in 3 months — Sunday, November 29, 2026</description>
       <pubDate>Sun, 29 Nov 2026 00:00:00 +0000</pubDate>
@@ -902,6 +1014,14 @@
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
     </item>
     <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 10</title>
+      <description>in 4 months — Friday, December 4, 2026</description>
+      <pubDate>Fri, 04 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3fdec809ba27649a70c9c1e9ae868dd5ce2e8b83@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
+    </item>
+    <item>
       <title>[ANIME] Blue Box Season 2 — Episode 10</title>
       <description>in 4 months — Sunday, December 6, 2026</description>
       <pubDate>Sun, 06 Dec 2026 00:00:00 +0000</pubDate>
@@ -924,6 +1044,14 @@
       <guid isPermaLink="false">9d74cc1f136e1b499bc06fb958f33f9aac9f6a4d@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
+    </item>
+    <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 11</title>
+      <description>in 4 months — Friday, December 11, 2026</description>
+      <pubDate>Fri, 11 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">13420e13455f410e277fd0092216dc32c2b1f7a4@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 11</title>
@@ -964,6 +1092,14 @@
       <guid isPermaLink="false">be3d38afb4de8beda6758303fa13a64a8eda5de7@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/48108/percy-jackson-and-the-olympians</link>
+    </item>
+    <item>
+      <title>[ANIME] The Apothecary Diaries Season 3 — Episode 12</title>
+      <description>in 4 months — Friday, December 18, 2026</description>
+      <pubDate>Fri, 18 Dec 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3afe2c70e795526ae858ec4cffb7ff167515ca96@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/195516</link>
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 12</title>
@@ -1127,7 +1263,7 @@
     </item>
     <item>
       <title>[GAME] Lords of the Fallen II — Release day</title>
-      <description>in 8 months — Wednesday, March 31, 2027 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 7 months — Wednesday, March 31, 2027 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Wed, 31 Mar 2027 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">94bbbef550bdd6f04b9a69fadaf7d27248360a56@watchfeed</guid>
       <category>game</category>
