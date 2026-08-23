@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Watchfeed Movies</title>
+    <link>https://amir-hackett.github.io/watchfeed/</link>
+    <description>Upcoming TV, anime, film and game releases</description>
+    <language>en-us</language>
+    <generator>watchfeed</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <ttl>360</ttl>
+    <lastBuildDate>Sun, 23 Aug 2026 15:09:20 +0000</lastBuildDate>
+    <atom:link href="https://amir-hackett.github.io/watchfeed/movies.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[FILM] Untitled X-Men Film — Theatrical release</title>
+      <description>in 20 months — Friday, May 5, 2028 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">76b4d67e516e2cb4c1f77d3bd9b5c0a9e66607c8@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1293690</link>
+    </item>
+    <item>
+      <title>[FILM] Fast Forever — Theatrical release</title>
+      <description>in 19 months — Friday, March 17, 2028 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c53fa5dd23bb3d972ee97e46a22e581585f342b8@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/755679</link>
+    </item>
+    <item>
+      <title>[FILM] The Batman: Part II — Theatrical release</title>
+      <description>in 18 months — Friday, February 18, 2028 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">59168fe47725cd0fde432c0769cf9ece05fa02cb@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/806704</link>
+    </item>
+    <item>
+      <title>[FILM] Avengers: Secret Wars — Theatrical release</title>
+      <description>in 16 months — Friday, December 17, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4993a3680bc0cf367bf54d6c0797fc4a02715178@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1003598</link>
+    </item>
+    <item>
+      <title>[FILM] Frozen III — Theatrical release</title>
+      <description>in 15 months — Wednesday, November 24, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ae58e5a93f08a3fa97804192a18709f8d3e6c687@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1024604</link>
+    </item>
+    <item>
+      <title>[FILM] The Bluey Movie — Theatrical release</title>
+      <description>in 11 months — Friday, August 6, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a7c3b238943153b4aefe99dda4bdce00c986e952@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1403836</link>
+    </item>
+    <item>
+      <title>[FILM] Man of Tomorrow — Theatrical release</title>
+      <description>in 11 months — Friday, July 9, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ff5b6d1a86de6edcc12677cef39d2722ac4b7744@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1523140</link>
+    </item>
+    <item>
+      <title>[FILM] Shrek 5 — Theatrical release</title>
+      <description>in 10 months — Wednesday, June 30, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0a65d553e8fb9138f2366ab25b091ea8c4603684@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/421892</link>
+    </item>
+    <item>
+      <title>[FILM] Spider-Man: Beyond the Spider-Verse — Theatrical release</title>
+      <description>in 10 months — Friday, June 18, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">23f3485d4fc0009062e5df8a49411d5105648f79@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/911916</link>
+    </item>
+    <item>
+      <title>[FILM] Star Wars: Starfighter — Theatrical release</title>
+      <description>in 9 months — Friday, May 28, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">18b1d20b0575ff306a86889e99df2b6d335e09bb@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1417668</link>
+    </item>
+    <item>
+      <title>[FILM] The Legend of Zelda — Theatrical release</title>
+      <description>in 8 months — Friday, April 30, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">dfbad1eded6a4fb1ff9b375920213c86de05bb12@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1177369</link>
+    </item>
+    <item>
+      <title>[FILM] Spaceballs: The New One — Theatrical release</title>
+      <description>in 8 months — Friday, April 23, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cc8b9290f28d1b07689aa2448ef4d932dd0dba65@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1306322</link>
+    </item>
+    <item>
+      <title>[FILM] Godzilla x Kong: Supernova — Theatrical release</title>
+      <description>in 7 months — Friday, March 26, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0a225ce99935b46f1af510c3a71b4f1818ef8cdf@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1288438</link>
+    </item>
+    <item>
+      <title>[FILM] The Nightingale — Theatrical release</title>
+      <description>in 7 months — Friday, March 19, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6358807356bc9a341db50f514ecc38684a29ead9@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/458896</link>
+    </item>
+    <item>
+      <title>[FILM] Sonic the Hedgehog 4 — Theatrical release</title>
+      <description>in 7 months — Friday, March 19, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">1e3e5e9ed5fe8d553d7ec8baa0cc9c2b23ed1c16@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1401586</link>
+    </item>
+    <item>
+      <title>[FILM] Narnia: The Magician's Nephew — Theatrical release</title>
+      <description>in 6 months — Friday, February 12, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">988ade9ea8e57a983746fe7f67a780e9ca2aad1c@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1147572</link>
+    </item>
+    <item>
+      <title>[FILM] Remain — Theatrical release</title>
+      <description>in 5 months — Friday, February 5, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9b45c34acf41c6e0089b6aeab2adfc7046641711@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1425859</link>
+    </item>
+    <item>
+      <title>[FILM] Ice Age: Boiling Point — Theatrical release</title>
+      <description>in 5 months — Friday, February 5, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">571a053db6438c2cb9bc7ff4cba09bb834794a2e@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1384758</link>
+    </item>
+    <item>
+      <title>[FILM] Animal Friends — Theatrical release</title>
+      <description>in 5 months — Friday, January 22, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0d48a4d598f375360dd3ddda21e1b3455af2b7fe@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1115030</link>
+    </item>
+    <item>
+      <title>[FILM] The Beekeeper 2 — Theatrical release</title>
+      <description>in 5 months — Friday, January 15, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f7b6bf74012a16d201991f70f5e0dbbcc4b0d9ab@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1440769</link>
+    </item>
+    <item>
+      <title>[FILM] Children of Blood and Bone — Theatrical release</title>
+      <description>in 5 months — Friday, January 15, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9a7eca219d0e41d98aabe8352f7b0708ca84e110@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/621304</link>
+    </item>
+    <item>
+      <title>[FILM] Pendulum — Theatrical release</title>
+      <description>in 4 months — Friday, January 1, 2027 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cd4b7938cf2be6fb3c75c0e796038bc6c4b57d22@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1380163</link>
+    </item>
+    <item>
+      <title>[FILM] Jumanji: Open World — Theatrical release</title>
+      <description>in 4 months — Friday, December 25, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5b1ee2c896a4f76e163e32532252387ff4803f46@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1260649</link>
+    </item>
+    <item>
+      <title>[FILM] The Angry Birds Movie 3 — Theatrical release</title>
+      <description>in 4 months — Wednesday, December 23, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">f0f65019f57b9b8dd4c274963e60086bbaa8edcc@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1300926</link>
+    </item>
+    <item>
+      <title>[FILM] La Gradiva — Limited release</title>
+      <description>in 4 months — Friday, December 18, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">a37348fdb1de0dfe34864ba193f9f3821c096b38@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1154730</link>
+    </item>
+    <item>
+      <title>[FILM] Dune: Part Three — Theatrical release</title>
+      <description>in 4 months — Friday, December 18, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">56e8c503c8a806aa4f9451c2f9af3c0215942a5f@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1170608</link>
+    </item>
+    <item>
+      <title>[FILM] Avengers: Doomsday — Theatrical release</title>
+      <description>in 4 months — Friday, December 18, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">498bbffb62a901ee18908b88b254f2a31eea7b83@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1003596</link>
+    </item>
+    <item>
+      <title>[FILM] Violent Night 2 — Theatrical release</title>
+      <description>in 3 months — Friday, December 4, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">050381dd3bb1be3664604a3b6706a5ff91ea0a00@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1078446</link>
+    </item>
+    <item>
+      <title>[FILM] Hexed — Theatrical release</title>
+      <description>in 3 months — Wednesday, November 25, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3d453ee99e9e21a2d82cf60dbc32be0090b5a660@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1538497</link>
+    </item>
+    <item>
+      <title>[FILM] Focker-in-Law — Theatrical release</title>
+      <description>in 3 months — Wednesday, November 25, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8eb08946836c3cb5b32ba1f56c898a8b6d4871c6@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1400336</link>
+    </item>
+    <item>
+      <title>[FILM] Bitter Christmas — Theatrical release</title>
+      <description>in 3 months — Wednesday, November 25, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b403ddb943f1b6521fbd253e0a6ca393a773e6c2@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1088548</link>
+    </item>
+    <item>
+      <title>[FILM] The Hunger Games: Sunrise on the Reaping — Theatrical release</title>
+      <description>in 3 months — Friday, November 20, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0ca5a1bf988de32bf49ab9b7038daef2d49900c8@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1300968</link>
+    </item>
+    <item>
+      <title>[FILM] Ebenezer — Theatrical release</title>
+      <description>in 3 months — Friday, November 13, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d88cde98d84eaa63d57893ac4445e4da9baee076@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1567605</link>
+    </item>
+    <item>
+      <title>[FILM] The Cat in the Hat — Theatrical release</title>
+      <description>in 2 months — Friday, November 6, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">572d11645d40545aad7cea7e7641a0601e05a35a@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1117898</link>
+    </item>
+    <item>
+      <title>[FILM] Ghost Soldier — Theatrical release</title>
+      <description>in 2 months — Friday, November 6, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">bdd0cc0d78b8a24ffc0a0d322eb0ae6e8e0f7ee3@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1562642</link>
+    </item>
+    <item>
+      <title>[FILM] Wildwood — Theatrical release</title>
+      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">837ffb4a1a6b01937db3ec3a0820c171da16d97a@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/791523</link>
+    </item>
+    <item>
+      <title>[FILM] Possible Love — Limited release</title>
+      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ab737ecd15c5b660da191ee3533afb0c25782d55@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1483525</link>
+    </item>
+    <item>
+      <title>[FILM] Clayface — Theatrical release</title>
+      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4a422047b215e3400821401f19f69dd5cfe8681e@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1400940</link>
+    </item>
+    <item>
+      <title>[FILM] Whalefall — Theatrical release</title>
+      <description>in 7 weeks — Friday, October 16, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">77154991ae17d2947c3866ed991817dea326da2d@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1255833</link>
+    </item>
+    <item>
+      <title>[FILM] Street Fighter — Theatrical release</title>
+      <description>in 7 weeks — Friday, October 16, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">fec7b3bba8adc9690c9711c80e6bc8d671b02ae7@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1153576</link>
+    </item>
+    <item>
+      <title>[FILM] Other Mommy — Theatrical release</title>
+      <description>in 6 weeks — Friday, October 9, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">4473fb30e15344c9ecdc85d834568562bd29dc77@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1400837</link>
+    </item>
+    <item>
+      <title>[FILM] Fjord — Limited release</title>
+      <description>in 6 weeks — Friday, October 9, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">62f8cefe50bd0d793ca111c2ecce1482bdd0fb4a@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1401459</link>
+    </item>
+    <item>
+      <title>[FILM] Verity — Theatrical release</title>
+      <description>in 5 weeks — Friday, October 2, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cf9f897f1bb89ff5456036f2157ad9786e9d0460@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1283515</link>
+    </item>
+    <item>
+      <title>[FILM] Digger — Theatrical release</title>
+      <description>in 5 weeks — Friday, October 2, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">910c7a7ed120ff6f941385b22104a8b79eecab03@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1248832</link>
+    </item>
+    <item>
+      <title>[FILM] Beware Boiúna — Theatrical release</title>
+      <description>in 5 weeks — Friday, October 2, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">7b9330f0db316312c221ce5eeec76ccddb1fc19b@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1244523</link>
+    </item>
+    <item>
+      <title>[FILM] Heart of the Beast — Theatrical release</title>
+      <description>in 4 weeks — Friday, September 25, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">eb3274a6bf9b22672e1930b5314e0125dd25b0ae@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1263337</link>
+    </item>
+    <item>
+      <title>[FILM] Forgotten Island — Theatrical release</title>
+      <description>in 4 weeks — Friday, September 25, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">768ee1f70a933b68f1701cae5dbc8ccb8d69d4d4@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1465063</link>
+    </item>
+    <item>
+      <title>[FILM] The Master and Margarita — Theatrical release</title>
+      <description>in 3 weeks — Friday, September 18, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c17a7d7f275100645774664fd5543f705305a8da@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/586353</link>
+    </item>
+    <item>
+      <title>[FILM] Sunny Dancer — Limited release</title>
+      <description>in 3 weeks — Friday, September 18, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8fbbdad6788c8552dee787020600c4318f4c1ba0@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1280015</link>
+    </item>
+    <item>
+      <title>[FILM] Resident Evil — Theatrical release</title>
+      <description>in 3 weeks — Friday, September 18, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e9b6a09a5d313751c1d72c30d5405640c1768ec4@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1423191</link>
+    </item>
+    <item>
+      <title>[FILM] Runner — Theatrical release</title>
+      <description>in 2 weeks — Friday, September 11, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">935f9fc3de643b9117e35cf9f4d05b4faf569b06@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1377237</link>
+    </item>
+    <item>
+      <title>[FILM] Practical Magic 2 — Theatrical release</title>
+      <description>in 2 weeks — Friday, September 11, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b1037ba39e86c9f6ee1938c4bc059b8c45a0d96b@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1302904</link>
+    </item>
+    <item>
+      <title>[FILM] Hope — Theatrical release</title>
+      <description>in 2 weeks — Wednesday, September 9, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">13dd2461d3aab0b937f8fc47d7821c1dae611f36@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1058424</link>
+    </item>
+    <item>
+      <title>[FILM] Tom and Jerry: Forbidden Compass — Theatrical release</title>
+      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d4419f7734af5cba71f8ec3147845913127b751e@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1497970</link>
+    </item>
+    <item>
+      <title>[FILM] Dear You — Theatrical release</title>
+      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">552b8e54323b23fec222edcad2d35246dc779782@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1671548</link>
+    </item>
+    <item>
+      <title>[FILM] Akira — Theatrical release</title>
+      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">0b979cac503d04fc5d1169c8233bf77a6c0ffd94@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/149</link>
+    </item>
+    <item>
+      <title>[FILM] Fall 2: Deadpoint — Theatrical release</title>
+      <description>in 10 days — Wednesday, September 2, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">96c6d73b67fb8f75202af8add92fec4aaa5b3eb8@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1101412</link>
+    </item>
+    <item>
+      <title>[FILM] The Dog Stars — Theatrical release</title>
+      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">13c9e32c1894ee57758be5451a8b9419f8e7bb90@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1384216</link>
+    </item>
+    <item>
+      <title>[FILM] Idiots — Theatrical release</title>
+      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">eac12a063b5313608ce52dce4b8d8ecf430883ad@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/445466</link>
+    </item>
+    <item>
+      <title>[FILM] Finding Emily — Limited release</title>
+      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">8233e442b9976962c945972378206ced99b37ad9@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1339588</link>
+    </item>
+    <item>
+      <title>[FILM] Coyote vs. Acme — Theatrical release</title>
+      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">edc4fdc67dd18d5a0a9d0289dbd83e0420ea4b29@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1204680</link>
+    </item>
+    <item>
+      <title>[FILM] Colony — Theatrical release</title>
+      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9fb2d7067fdcef7eee5b69501c32dba4865c2c04@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1375646</link>
+    </item>
+    <item>
+      <title>[FILM] Buddy — Theatrical release</title>
+      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">252760d3a491ffb8bd039486193c297a4c6961f8@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1514026</link>
+    </item>
+    <item>
+      <title>[FILM] Toxic: A Fairy Tale for Grown-ups — Theatrical release</title>
+      <description>in 3 days — Wednesday, August 26, 2026 — Theaters</description>
+      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">6fecdb3d599f59393fbd186e3e970ca73311cf60@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1213243</link>
+    </item>
+  </channel>
+</rss>
