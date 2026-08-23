@@ -1,7 +1,7 @@
 {
  "name": "Watchfeed",
  "url": "https://amir-hackett.github.io/watchfeed/",
- "generated": "2026-08-23T15:09:20+00:00",
+ "generated": "2026-08-23T16:03:11+00:00",
  "counts": {
   "tv": 203,
   "anime": 156,
@@ -10045,10 +10045,10 @@
   {
    "query": "Sakamoto Days",
    "kind": "anime",
-   "reason": "announced",
-   "name": "SAKAMOTO DAYS Season 2",
-   "note": "announced, no schedule yet",
-   "url": "https://anilist.co/anime/204363"
+   "reason": "no-date",
+   "name": "SAKAMOTO DAYS Part 2",
+   "note": "season finished",
+   "url": "https://anilist.co/anime/184237"
   },
   {
    "query": "My Hero Academia",
@@ -10069,10 +10069,10 @@
   {
    "query": "Spy x Family",
    "kind": "anime",
-   "reason": "no-date",
-   "name": "SPY x FAMILY Season 3",
-   "note": "season finished",
-   "url": "https://anilist.co/anime/177937"
+   "reason": "error",
+   "name": "Spy x Family",
+   "note": "The read operation timed out",
+   "url": ""
   },
   {
    "query": "The Beginning After the End",
@@ -10093,10 +10093,10 @@
   {
    "query": "Devil May Cry",
    "kind": "anime",
-   "reason": "error",
+   "reason": "no-date",
    "name": "Devil May Cry",
-   "note": "The read operation timed out",
-   "url": ""
+   "note": "season finished",
+   "url": "https://anilist.co/anime/1726"
   },
   {
    "query": "Hell's Paradise",
