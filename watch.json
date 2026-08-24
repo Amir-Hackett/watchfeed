@@ -1,70 +1,14 @@
 {
  "name": "Watchfeed",
  "url": "https://amir-hackett.github.io/watchfeed/",
- "generated": "2026-08-23T16:03:11+00:00",
+ "generated": "2026-08-24T10:10:37+00:00",
  "counts": {
-  "tv": 203,
+  "tv": 199,
   "anime": 156,
   "movie": 64,
   "game": 18
  },
  "releases": [
-  {
-   "title": "Lanterns",
-   "detail": "S01E02 — Trust Fall",
-   "date": "2026-08-23",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/44776/lanterns",
-   "platform": "HBO",
-   "time": "2026-08-24T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg",
-   "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
-   "first_seen": "2026-08-23",
-   "uid": "36218273c0fad8173d256ef14245150c525c7b83@watchfeed"
-  },
-  {
-   "title": "Lioness",
-   "detail": "S03E04 — Murder Hornets",
-   "date": "2026-08-23",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/50415/lioness",
-   "platform": "Paramount+",
-   "time": "2026-08-23T12:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1587727.jpg",
-   "about": "Lioness , inspired by an actual U.S. Military program, follows the life of Joe while she attempts to balance her personal and professional life as the tip of the CIA's spear in the war on terror. The Lioness Program, overseen by Kaitlyn Meade and Donald Westfield, enlists an aggressive Marine Raider named Cruz to operate undercover alongside Joe among the power brokers of State terrorism in the CIA's efforts to…",
-   "first_seen": "2026-08-23",
-   "uid": "f2ff286935c93d552264988592331a06790f118b@watchfeed"
-  },
-  {
-   "title": "The Librarians: The Next Chapter",
-   "detail": "S02E07 — And the Monkey's Paw",
-   "date": "2026-08-23",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/68801/the-librarians-the-next-chapter",
-   "platform": "TNT",
-   "time": "2026-08-24T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1588198.jpg",
-   "about": "The Librarians: The Next Chapter centers on Vikram Chamberlain, a \"Librarian\" from the past who time traveled from 1847 and now finds himself stuck in the present. When Vikram returns to his castle in Belgrade, Serbia and discovers that it is now a museum, he inadvertently releases magic across the continent. With the help of a new team of eclectic heroes, including a savant in world history, a scientific genius…",
-   "first_seen": "2026-08-23",
-   "uid": "d95036b66ddc368a97f55adccf1b8cca543994d4@watchfeed"
-  },
-  {
-   "title": "The Walking Dead: Dead City",
-   "detail": "S03E05 — Imperialis",
-   "date": "2026-08-23",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/60879/the-walking-dead-dead-city",
-   "platform": "AMC+",
-   "time": "2026-08-23T16:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/630/1575480.jpg",
-   "about": "The Walking Dead: Dead City envisions the popular Maggie and Negan characters travelling into a post-apocalyptic Manhattan long ago cut off from the mainland. The crumbling city is filled with the dead and denizens who have made New York City their own world full of anarchy, danger, beauty, and terror.",
-   "first_seen": "2026-08-23",
-   "uid": "5f9b856c36a58b11acae26e3d92ed13c073dd05c@watchfeed"
-  },
   {
    "title": "LIAR GAME",
    "detail": "Episode 21",
@@ -438,7 +382,7 @@
    "url": "https://www.themoviedb.org/movie/1384216",
    "platform": "Theaters",
    "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/A7i16oDi03qrKep5pBfuTWNUTb.jpg",
+   "image": "https://image.tmdb.org/t/p/w342/5O616X9vmRzQdB68PHzBewPittd.jpg",
    "about": "After the world's population has been ravaged by a pandemic, a man lives a lonesome existence in a Colorado airplane hangar with his dog and a dour gunman he has befriended. When a mysterious transmission comes through on the radio while he’s flying his old Cessna, it sparks a hunt for the provenance of the sound.",
    "first_seen": "2026-08-23",
    "uid": "13c9e32c1894ee57758be5451a8b9419f8e7bb90@watchfeed"
@@ -585,17 +529,17 @@
   },
   {
    "title": "Lanterns",
-   "detail": "S01E03 — TBA",
+   "detail": "S01E03 — OutKast",
    "date": "2026-08-30",
    "kind": "tv",
    "source": "tvmaze",
    "url": "https://www.tvmaze.com/shows/44776/lanterns",
    "platform": "HBO",
    "time": "2026-08-31T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
    "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
-   "first_seen": "2026-08-23",
-   "uid": "10fdf6f49401e7191f4e6bb92b9cafb9c73b89a8@watchfeed"
+   "first_seen": "2026-08-24",
+   "uid": "c20ae130722891a3239b792389fba6f565fd0330@watchfeed"
   },
   {
    "title": "Lioness",
@@ -1376,7 +1320,7 @@
    "url": "https://www.tvmaze.com/shows/44776/lanterns",
    "platform": "HBO",
    "time": "2026-09-07T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
    "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
    "first_seen": "2026-08-23",
    "uid": "61a68aa5d386168997482b0a8203d7a01251aefa@watchfeed"
@@ -1936,7 +1880,7 @@
    "url": "https://www.tvmaze.com/shows/44776/lanterns",
    "platform": "HBO",
    "time": "2026-09-14T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
    "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
    "first_seen": "2026-08-23",
    "uid": "220ea7a677c1e0b3401746c9f00b1767ceb8229d@watchfeed"
@@ -2566,7 +2510,7 @@
    "url": "https://www.tvmaze.com/shows/44776/lanterns",
    "platform": "HBO",
    "time": "2026-09-21T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
    "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
    "first_seen": "2026-08-23",
    "uid": "c0109bb245c04442dab65b8c95cd2bb149e1fe82@watchfeed"
@@ -2972,7 +2916,7 @@
    "url": "https://www.tvmaze.com/shows/44776/lanterns",
    "platform": "HBO",
    "time": "2026-09-28T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
    "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
    "first_seen": "2026-08-23",
    "uid": "4e491270f5d20121c94bf4073259e09f02e76c96@watchfeed"
@@ -3280,7 +3224,7 @@
    "url": "https://www.tvmaze.com/shows/44776/lanterns",
    "platform": "HBO",
    "time": "2026-10-05T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584646.jpg",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/637/1592971.jpg",
    "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
    "first_seen": "2026-08-23",
    "uid": "f3d5b30d437d4b8fe2ff5db5f80383c70f14ef63@watchfeed"
@@ -4065,7 +4009,7 @@
    "platform": "Theaters",
    "time": null,
    "image": "https://image.tmdb.org/t/p/w342/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg",
-   "about": "After her baby brother is abducted by a murder of crows, headstrong teenager Prue McKeel launches a desperate rescue mission into an enchanted forest hidden just beyond Portland. Joined by hapless but loyal classmate Curtis, Prue risks it all as she navigates a world of bandits, talking animals and powerful figures driven by grief and ambition.",
+   "about": "Prue and her classmate Curtis are drawn into a magical forest filled with enchanted creatures, loyal allies, and formidable adversaries as they embark on a desperate quest to rescue Prue’s abducted baby brother from a murder of crows led by a mysterious woman named Alexandra.",
    "first_seen": "2026-08-23",
    "uid": "837ffb4a1a6b01937db3ec3a0820c171da16d97a@watchfeed"
   },
@@ -6185,6 +6129,17 @@
   }
  ],
  "changes": [
+  {
+   "kind": "tv",
+   "what": "dated",
+   "title": "Lanterns",
+   "detail": "S01E03 — OutKast",
+   "date": "2026-08-30",
+   "was": null,
+   "seen": "2026-08-24",
+   "headline": "Lanterns — S01E03 — OutKast got a date: Aug 30, 2026",
+   "url": "https://www.tvmaze.com/shows/44776/lanterns"
+  },
   {
    "kind": "movie",
    "what": "dated",
@@ -10045,10 +10000,10 @@
   {
    "query": "Sakamoto Days",
    "kind": "anime",
-   "reason": "no-date",
-   "name": "SAKAMOTO DAYS Part 2",
-   "note": "season finished",
-   "url": "https://anilist.co/anime/184237"
+   "reason": "announced",
+   "name": "SAKAMOTO DAYS Season 2",
+   "note": "announced, no schedule yet",
+   "url": "https://anilist.co/anime/204363"
   },
   {
    "query": "My Hero Academia",
@@ -10069,10 +10024,10 @@
   {
    "query": "Spy x Family",
    "kind": "anime",
-   "reason": "error",
-   "name": "Spy x Family",
-   "note": "The read operation timed out",
-   "url": ""
+   "reason": "no-date",
+   "name": "SPY x FAMILY Season 3",
+   "note": "season finished",
+   "url": "https://anilist.co/anime/177937"
   },
   {
    "query": "The Beginning After the End",

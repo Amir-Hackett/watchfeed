@@ -8,7 +8,7 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Sun, 23 Aug 2026 16:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 10:10:37 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/movies.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[FILM] Untitled X-Men Film — Theatrical release</title>
@@ -60,7 +60,7 @@
     </item>
     <item>
       <title>[FILM] Man of Tomorrow — Theatrical release</title>
-      <description>in 11 months — Friday, July 9, 2027 — Theaters</description>
+      <description>in 10 months — Friday, July 9, 2027 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ff5b6d1a86de6edcc12677cef39d2722ac4b7744@watchfeed</guid>
       <category>movie</category>
@@ -292,7 +292,7 @@
     </item>
     <item>
       <title>[FILM] Wildwood — Theatrical release</title>
-      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">837ffb4a1a6b01937db3ec3a0820c171da16d97a@watchfeed</guid>
       <category>movie</category>
@@ -300,7 +300,7 @@
     </item>
     <item>
       <title>[FILM] Possible Love — Limited release</title>
-      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ab737ecd15c5b660da191ee3533afb0c25782d55@watchfeed</guid>
       <category>movie</category>
@@ -308,7 +308,7 @@
     </item>
     <item>
       <title>[FILM] Clayface — Theatrical release</title>
-      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4a422047b215e3400821401f19f69dd5cfe8681e@watchfeed</guid>
       <category>movie</category>
@@ -436,7 +436,7 @@
     </item>
     <item>
       <title>[FILM] Tom and Jerry: Forbidden Compass — Theatrical release</title>
-      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 11 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d4419f7734af5cba71f8ec3147845913127b751e@watchfeed</guid>
       <category>movie</category>
@@ -444,7 +444,7 @@
     </item>
     <item>
       <title>[FILM] Dear You — Theatrical release</title>
-      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 11 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">552b8e54323b23fec222edcad2d35246dc779782@watchfeed</guid>
       <category>movie</category>
@@ -452,7 +452,7 @@
     </item>
     <item>
       <title>[FILM] Akira — Theatrical release</title>
-      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 11 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0b979cac503d04fc5d1169c8233bf77a6c0ffd94@watchfeed</guid>
       <category>movie</category>
@@ -460,7 +460,7 @@
     </item>
     <item>
       <title>[FILM] Fall 2: Deadpoint — Theatrical release</title>
-      <description>in 10 days — Wednesday, September 2, 2026 — Theaters</description>
+      <description>in 9 days — Wednesday, September 2, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">96c6d73b67fb8f75202af8add92fec4aaa5b3eb8@watchfeed</guid>
       <category>movie</category>
@@ -468,7 +468,7 @@
     </item>
     <item>
       <title>[FILM] The Dog Stars — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">13c9e32c1894ee57758be5451a8b9419f8e7bb90@watchfeed</guid>
       <category>movie</category>
@@ -476,7 +476,7 @@
     </item>
     <item>
       <title>[FILM] Idiots — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eac12a063b5313608ce52dce4b8d8ecf430883ad@watchfeed</guid>
       <category>movie</category>
@@ -484,7 +484,7 @@
     </item>
     <item>
       <title>[FILM] Finding Emily — Limited release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8233e442b9976962c945972378206ced99b37ad9@watchfeed</guid>
       <category>movie</category>
@@ -492,7 +492,7 @@
     </item>
     <item>
       <title>[FILM] Coyote vs. Acme — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">edc4fdc67dd18d5a0a9d0289dbd83e0420ea4b29@watchfeed</guid>
       <category>movie</category>
@@ -500,7 +500,7 @@
     </item>
     <item>
       <title>[FILM] Colony — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9fb2d7067fdcef7eee5b69501c32dba4865c2c04@watchfeed</guid>
       <category>movie</category>
@@ -508,7 +508,7 @@
     </item>
     <item>
       <title>[FILM] Buddy — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">252760d3a491ffb8bd039486193c297a4c6961f8@watchfeed</guid>
       <category>movie</category>
@@ -516,7 +516,7 @@
     </item>
     <item>
       <title>[FILM] Toxic: A Fairy Tale for Grown-ups — Theatrical release</title>
-      <description>in 3 days — Wednesday, August 26, 2026 — Theaters</description>
+      <description>in 2 days — Wednesday, August 26, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6fecdb3d599f59393fbd186e3e970ca73311cf60@watchfeed</guid>
       <category>movie</category>

@@ -8,8 +8,16 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Sun, 23 Aug 2026 16:03:11 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 10:10:37 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/watch.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[TV] Lanterns — S01E03 — OutKast</title>
+      <description>in 6 days — Sunday, August 30, 2026 — HBO</description>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c20ae130722891a3239b792389fba6f565fd0330@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/44776/lanterns</link>
+    </item>
     <item>
       <title>[FILM] Untitled X-Men Film — Theatrical release</title>
       <description>in 20 months — Friday, May 5, 2028 — Theaters</description>
@@ -76,7 +84,7 @@
     </item>
     <item>
       <title>[FILM] Man of Tomorrow — Theatrical release</title>
-      <description>in 11 months — Friday, July 9, 2027 — Theaters</description>
+      <description>in 10 months — Friday, July 9, 2027 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ff5b6d1a86de6edcc12677cef39d2722ac4b7744@watchfeed</guid>
       <category>movie</category>
@@ -204,7 +212,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1199</title>
-      <description>in 6 months — Sunday, February 7, 2027</description>
+      <description>in 5 months — Sunday, February 7, 2027</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">04c90c19f1a9792716686e7cefde818022bb882b@watchfeed</guid>
       <category>anime</category>
@@ -1028,7 +1036,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1186</title>
-      <description>in 3 months — Sunday, November 8, 2026</description>
+      <description>in 2 months — Sunday, November 8, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9cfe63895ec9c2af746805d4427fb2b7a8e38ec2@watchfeed</guid>
       <category>anime</category>
@@ -1036,7 +1044,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 6</title>
-      <description>in 3 months — Sunday, November 8, 2026</description>
+      <description>in 2 months — Sunday, November 8, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">de6d61db2b6312794396070c4aa277093101bfca@watchfeed</guid>
       <category>anime</category>
@@ -1204,7 +1212,7 @@
     </item>
     <item>
       <title>[FILM] Wildwood — Theatrical release</title>
-      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">837ffb4a1a6b01937db3ec3a0820c171da16d97a@watchfeed</guid>
       <category>movie</category>
@@ -1212,7 +1220,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 4</title>
-      <description>in 2 months — Friday, October 23, 2026</description>
+      <description>in 8 weeks — Friday, October 23, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c022af6cc5f8f9a9892aa4dcdb525c6abba88e1b@watchfeed</guid>
       <category>anime</category>
@@ -1220,7 +1228,7 @@
     </item>
     <item>
       <title>[FILM] Possible Love — Limited release</title>
-      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ab737ecd15c5b660da191ee3533afb0c25782d55@watchfeed</guid>
       <category>movie</category>
@@ -1228,7 +1236,7 @@
     </item>
     <item>
       <title>[TV] MobLand — S02E06 — Episode 6</title>
-      <description>in 2 months — Friday, October 23, 2026 — Paramount+</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eaeaf23cf3ce44fd52d93c9186f9ad9140d77c0b@watchfeed</guid>
       <category>tv</category>
@@ -1236,7 +1244,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E09 — How to Build the Box</title>
-      <description>in 2 months — Friday, October 23, 2026 — Apple TV</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">538806cfdd62b9b6eb1b3b2e0f5f86a18a30476c@watchfeed</guid>
       <category>tv</category>
@@ -1244,7 +1252,7 @@
     </item>
     <item>
       <title>[FILM] Clayface — Theatrical release</title>
-      <description>in 2 months — Friday, October 23, 2026 — Theaters</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4a422047b215e3400821401f19f69dd5cfe8681e@watchfeed</guid>
       <category>movie</category>
@@ -1252,7 +1260,7 @@
     </item>
     <item>
       <title>[GAME] Call of Duty: Modern Warfare 4 — Release day</title>
-      <description>in 2 months — Friday, October 23, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 8 weeks — Friday, October 23, 2026 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ccf25f559ac02cf6f44aa4f679574d7fbccc3dd4@watchfeed</guid>
       <category>game</category>
@@ -1364,7 +1372,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1183</title>
-      <description>in 8 weeks — Sunday, October 18, 2026</description>
+      <description>in 7 weeks — Sunday, October 18, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7799cb81d8716e970271632be50a3a969a2ef9a1@watchfeed</guid>
       <category>anime</category>
@@ -1372,7 +1380,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 3</title>
-      <description>in 8 weeks — Sunday, October 18, 2026</description>
+      <description>in 7 weeks — Sunday, October 18, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3bd4debd2b4120a36b3b65aeecb807a4dc891ebf@watchfeed</guid>
       <category>anime</category>
@@ -1500,7 +1508,7 @@
     </item>
     <item>
       <title>[TV] Tracker — S04E02 — TBA</title>
-      <description>in 7 weeks — Sunday, October 11, 2026 — CBS</description>
+      <description>in 6 weeks — Sunday, October 11, 2026 — CBS</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">31447db0a76889206f48f3d5a72a79a9ffbca53e@watchfeed</guid>
       <category>tv</category>
@@ -1508,7 +1516,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1182</title>
-      <description>in 7 weeks — Sunday, October 11, 2026</description>
+      <description>in 6 weeks — Sunday, October 11, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d9c2c6b33aca2c66ce7d4c5e4902fe03b9cb1028@watchfeed</guid>
       <category>anime</category>
@@ -1516,7 +1524,7 @@
     </item>
     <item>
       <title>[TV] Marshals — S02E02 — TBA</title>
-      <description>in 7 weeks — Sunday, October 11, 2026 — CBS</description>
+      <description>in 6 weeks — Sunday, October 11, 2026 — CBS</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">edabe8173519f0d448813489ae3eb03622bbeda2@watchfeed</guid>
       <category>tv</category>
@@ -1524,7 +1532,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 2</title>
-      <description>in 7 weeks — Sunday, October 11, 2026</description>
+      <description>in 6 weeks — Sunday, October 11, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d0bc268a2d4a37016f28591215e722da9924e46e@watchfeed</guid>
       <category>anime</category>
@@ -1652,7 +1660,7 @@
     </item>
     <item>
       <title>[TV] Tracker — S04E01 — TBA</title>
-      <description>in 6 weeks — Sunday, October 4, 2026 — CBS</description>
+      <description>in 5 weeks — Sunday, October 4, 2026 — CBS</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8841ac71fbfed24f9a98a7d7d971088fb2db9a0d@watchfeed</guid>
       <category>tv</category>
@@ -1660,7 +1668,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1181</title>
-      <description>in 6 weeks — Sunday, October 4, 2026</description>
+      <description>in 5 weeks — Sunday, October 4, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a54c1d2a5040053b79e47739fd17646a0e7af78f@watchfeed</guid>
       <category>anime</category>
@@ -1668,7 +1676,7 @@
     </item>
     <item>
       <title>[TV] Marshals — S02E01 — All Hat No Cattle</title>
-      <description>in 6 weeks — Sunday, October 4, 2026 — CBS</description>
+      <description>in 5 weeks — Sunday, October 4, 2026 — CBS</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9be1d0760d05fae1082ee0e3fca451350700a63b@watchfeed</guid>
       <category>tv</category>
@@ -1676,7 +1684,7 @@
     </item>
     <item>
       <title>[TV] Lanterns — S01E08 — TBA</title>
-      <description>in 6 weeks — Sunday, October 4, 2026 — HBO</description>
+      <description>in 5 weeks — Sunday, October 4, 2026 — HBO</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f3d5b30d437d4b8fe2ff5db5f80383c70f14ef63@watchfeed</guid>
       <category>tv</category>
@@ -1684,7 +1692,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 1</title>
-      <description>in 6 weeks — Sunday, October 4, 2026</description>
+      <description>in 5 weeks — Sunday, October 4, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d576be19447d6cfaed07a81817b6a0b737428607@watchfeed</guid>
       <category>anime</category>
@@ -1844,7 +1852,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1180</title>
-      <description>in 5 weeks — Sunday, September 27, 2026</description>
+      <description>in 4 weeks — Sunday, September 27, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e28dd63c1f6f3f87e5bf5ffb8812875527d86aff@watchfeed</guid>
       <category>anime</category>
@@ -1852,7 +1860,7 @@
     </item>
     <item>
       <title>[TV] Lanterns — S01E07 — TBA</title>
-      <description>in 5 weeks — Sunday, September 27, 2026 — HBO</description>
+      <description>in 4 weeks — Sunday, September 27, 2026 — HBO</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4e491270f5d20121c94bf4073259e09f02e76c96@watchfeed</guid>
       <category>tv</category>
@@ -2068,7 +2076,7 @@
     </item>
     <item>
       <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 12</title>
-      <description>in 4 weeks — Sunday, September 20, 2026</description>
+      <description>in 3 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b489fd0b215298c6334912221730ba5aa9eeae1b@watchfeed</guid>
       <category>anime</category>
@@ -2076,7 +2084,7 @@
     </item>
     <item>
       <title>[ANIME] Sparks of Tomorrow — Episode 12</title>
-      <description>in 4 weeks — Sunday, September 20, 2026</description>
+      <description>in 3 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">53af0aba25faebc738c80384380fb8c47353ad81@watchfeed</guid>
       <category>anime</category>
@@ -2084,7 +2092,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1179</title>
-      <description>in 4 weeks — Sunday, September 20, 2026</description>
+      <description>in 3 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">78bda34143a31ebd0bebcd83f0723f257de93de3@watchfeed</guid>
       <category>anime</category>
@@ -2092,7 +2100,7 @@
     </item>
     <item>
       <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 13</title>
-      <description>in 4 weeks — Sunday, September 20, 2026</description>
+      <description>in 3 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">51788f5d47318bbc209eb410713ca726436fba6b@watchfeed</guid>
       <category>anime</category>
@@ -2100,7 +2108,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E08 — The Unravelling</title>
-      <description>in 4 weeks — Sunday, September 20, 2026 — Paramount+</description>
+      <description>in 3 weeks — Sunday, September 20, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d94cb611df71fbb81010d2fe6a17c4b8e23dea44@watchfeed</guid>
       <category>tv</category>
@@ -2108,7 +2116,7 @@
     </item>
     <item>
       <title>[TV] Lanterns — S01E06 — TBA</title>
-      <description>in 4 weeks — Sunday, September 20, 2026 — HBO</description>
+      <description>in 3 weeks — Sunday, September 20, 2026 — HBO</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c0109bb245c04442dab65b8c95cd2bb149e1fe82@watchfeed</guid>
       <category>tv</category>
@@ -2404,7 +2412,7 @@
     </item>
     <item>
       <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 11</title>
-      <description>in 3 weeks — Sunday, September 13, 2026</description>
+      <description>in 2 weeks — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1a9bdc3f353eb6a4d1a6895fcc9f97ac3356623b@watchfeed</guid>
       <category>anime</category>
@@ -2412,7 +2420,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E05 — Episode 5</title>
-      <description>in 3 weeks — Sunday, September 13, 2026 — BBC iPlayer</description>
+      <description>in 2 weeks — Sunday, September 13, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">df668e8891aacec9ddda6975416b2adf1f807aff@watchfeed</guid>
       <category>tv</category>
@@ -2420,7 +2428,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E06 — Episode 6</title>
-      <description>in 3 weeks — Sunday, September 13, 2026 — BBC iPlayer</description>
+      <description>in 2 weeks — Sunday, September 13, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ef36c3e1866335a514bdabfcd02567c683b413f0@watchfeed</guid>
       <category>tv</category>
@@ -2428,7 +2436,7 @@
     </item>
     <item>
       <title>[TV] The Walking Dead: Dead City — S03E08 — Tenebrae</title>
-      <description>in 3 weeks — Sunday, September 13, 2026 — AMC+</description>
+      <description>in 2 weeks — Sunday, September 13, 2026 — AMC+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f15c78b46ccc58d7b672dc6cb5eae309c3a612c2@watchfeed</guid>
       <category>tv</category>
@@ -2436,7 +2444,7 @@
     </item>
     <item>
       <title>[ANIME] Sparks of Tomorrow — Episode 11</title>
-      <description>in 3 weeks — Sunday, September 13, 2026</description>
+      <description>in 2 weeks — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ade77006fdd93863f63a0eb5aa04831b8815a485@watchfeed</guid>
       <category>anime</category>
@@ -2444,7 +2452,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1178</title>
-      <description>in 3 weeks — Sunday, September 13, 2026</description>
+      <description>in 2 weeks — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">55407dd6b458904610a763a5cf98daf28bfb53d4@watchfeed</guid>
       <category>anime</category>
@@ -2452,7 +2460,7 @@
     </item>
     <item>
       <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 12</title>
-      <description>in 3 weeks — Sunday, September 13, 2026</description>
+      <description>in 2 weeks — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f26d9a3af7f5f4e9b83ff8d06f513a3260370493@watchfeed</guid>
       <category>anime</category>
@@ -2460,7 +2468,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E07 — TBA</title>
-      <description>in 3 weeks — Sunday, September 13, 2026 — Paramount+</description>
+      <description>in 2 weeks — Sunday, September 13, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">44eabd7725d4d5ce318fe396bfe5572f84ce311a@watchfeed</guid>
       <category>tv</category>
@@ -2468,7 +2476,7 @@
     </item>
     <item>
       <title>[TV] Lanterns — S01E05 — TBA</title>
-      <description>in 3 weeks — Sunday, September 13, 2026 — HBO</description>
+      <description>in 2 weeks — Sunday, September 13, 2026 — HBO</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">220ea7a677c1e0b3401746c9f00b1767ceb8229d@watchfeed</guid>
       <category>tv</category>
@@ -2716,7 +2724,7 @@
     </item>
     <item>
       <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 10</title>
-      <description>in 2 weeks — Sunday, September 6, 2026</description>
+      <description>in 13 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5ebbd8a825274ea7e8036ec1da973f14157191b2@watchfeed</guid>
       <category>anime</category>
@@ -2724,7 +2732,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E03 — Episode 3</title>
-      <description>in 2 weeks — Sunday, September 6, 2026 — BBC iPlayer</description>
+      <description>in 13 days — Sunday, September 6, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e118f9b302712e945f3bd57519701ace16d3a5d0@watchfeed</guid>
       <category>tv</category>
@@ -2732,7 +2740,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E04 — Episode 4</title>
-      <description>in 2 weeks — Sunday, September 6, 2026 — BBC iPlayer</description>
+      <description>in 13 days — Sunday, September 6, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">801e24b1f80ed25d2f6ab0d0536b676a4a3f4360@watchfeed</guid>
       <category>tv</category>
@@ -2740,7 +2748,7 @@
     </item>
     <item>
       <title>[TV] The Walking Dead: Dead City — S03E07 — Hourglass</title>
-      <description>in 2 weeks — Sunday, September 6, 2026 — AMC+</description>
+      <description>in 13 days — Sunday, September 6, 2026 — AMC+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6311581295e83343d71f3c053a15f1ab80149b23@watchfeed</guid>
       <category>tv</category>
@@ -2748,7 +2756,7 @@
     </item>
     <item>
       <title>[TV] The Librarians: The Next Chapter — S02E11 — And the Camelot Conundrum</title>
-      <description>in 2 weeks — Sunday, September 6, 2026 — TNT</description>
+      <description>in 13 days — Sunday, September 6, 2026 — TNT</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6149d832f0019324f68d6a84bffb99da68441573@watchfeed</guid>
       <category>tv</category>
@@ -2756,7 +2764,7 @@
     </item>
     <item>
       <title>[ANIME] Sparks of Tomorrow — Episode 10</title>
-      <description>in 2 weeks — Sunday, September 6, 2026</description>
+      <description>in 13 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f27f996e8dbc990bd497bc47fd6f40b75e4985b5@watchfeed</guid>
       <category>anime</category>
@@ -2764,7 +2772,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1177</title>
-      <description>in 2 weeks — Sunday, September 6, 2026</description>
+      <description>in 13 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">15da2842449d10d2af584e2f9cc86ad922024a34@watchfeed</guid>
       <category>anime</category>
@@ -2772,7 +2780,7 @@
     </item>
     <item>
       <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 11</title>
-      <description>in 2 weeks — Sunday, September 6, 2026</description>
+      <description>in 13 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5a8f59309a772e239dbb610917953a1838f02987@watchfeed</guid>
       <category>anime</category>
@@ -2780,7 +2788,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E06 — Sugar Land</title>
-      <description>in 2 weeks — Sunday, September 6, 2026 — Paramount+</description>
+      <description>in 13 days — Sunday, September 6, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">79e952d7c1fe9d7afa6527fffaaae35b0f369896@watchfeed</guid>
       <category>tv</category>
@@ -2788,7 +2796,7 @@
     </item>
     <item>
       <title>[TV] Lanterns — S01E04 — TBA</title>
-      <description>in 2 weeks — Sunday, September 6, 2026 — HBO</description>
+      <description>in 13 days — Sunday, September 6, 2026 — HBO</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">61a68aa5d386168997482b0a8203d7a01251aefa@watchfeed</guid>
       <category>tv</category>
@@ -2796,7 +2804,7 @@
     </item>
     <item>
       <title>[ANIME] Detective Conan — Episode 1212</title>
-      <description>in 13 days — Saturday, September 5, 2026</description>
+      <description>in 12 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e9d03a4b6fcffa8493b7dd07af16397808bc77e1@watchfeed</guid>
       <category>anime</category>
@@ -2804,7 +2812,7 @@
     </item>
     <item>
       <title>[ANIME] Daemons of the Shadow Realm — Episode 22</title>
-      <description>in 13 days — Saturday, September 5, 2026</description>
+      <description>in 12 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">27ca7bd4173a3119b3290ff51c75a6686e2e7882@watchfeed</guid>
       <category>anime</category>
@@ -2812,7 +2820,7 @@
     </item>
     <item>
       <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 7</title>
-      <description>in 13 days — Saturday, September 5, 2026</description>
+      <description>in 12 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">18051f810202dbe465f4e092a85832488660d263@watchfeed</guid>
       <category>anime</category>
@@ -2820,7 +2828,7 @@
     </item>
     <item>
       <title>[ANIME] BLACK TORCH — Episode 10</title>
-      <description>in 13 days — Saturday, September 5, 2026</description>
+      <description>in 12 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d88418cfb5981c88b33f114a43c938a99c35a5f0@watchfeed</guid>
       <category>anime</category>
@@ -2828,7 +2836,7 @@
     </item>
     <item>
       <title>[FILM] Tom and Jerry: Forbidden Compass — Theatrical release</title>
-      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 11 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d4419f7734af5cba71f8ec3147845913127b751e@watchfeed</guid>
       <category>movie</category>
@@ -2836,7 +2844,7 @@
     </item>
     <item>
       <title>[ANIME] That Time I Got Reincarnated as a Slime Season 4 — Episode 21</title>
-      <description>in 12 days — Friday, September 4, 2026</description>
+      <description>in 11 days — Friday, September 4, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f3382c827e5a984496b45439bd0c47c8892bc450@watchfeed</guid>
       <category>anime</category>
@@ -2844,7 +2852,7 @@
     </item>
     <item>
       <title>[TV] Silo — S03E10 — Troy</title>
-      <description>in 12 days — Friday, September 4, 2026 — Apple TV</description>
+      <description>in 11 days — Friday, September 4, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7edd0d85502d7bc214ac9ac41d00334cd5922c0f@watchfeed</guid>
       <category>tv</category>
@@ -2852,7 +2860,7 @@
     </item>
     <item>
       <title>[GAME] Onimusha: Way of the Sword — Release day</title>
-      <description>in 12 days — Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 11 days — Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bb252d825bc59619e01e903d123a65c36a14b499@watchfeed</guid>
       <category>game</category>
@@ -2860,7 +2868,7 @@
     </item>
     <item>
       <title>[FILM] Dear You — Theatrical release</title>
-      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 11 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">552b8e54323b23fec222edcad2d35246dc779782@watchfeed</guid>
       <category>movie</category>
@@ -2868,7 +2876,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E02 — A Perfect World</title>
-      <description>in 12 days — Friday, September 4, 2026 — Apple TV</description>
+      <description>in 11 days — Friday, September 4, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bdc6f178637dc7ce1b1089210651a1e4685b1dcd@watchfeed</guid>
       <category>tv</category>
@@ -2876,7 +2884,7 @@
     </item>
     <item>
       <title>[FILM] Akira — Theatrical release</title>
-      <description>in 12 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 11 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0b979cac503d04fc5d1169c8233bf77a6c0ffd94@watchfeed</guid>
       <category>movie</category>
@@ -2884,7 +2892,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E01 — TBD</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4098caa7d5379e584d254d2e875a8e16d54dfdc9@watchfeed</guid>
       <category>tv</category>
@@ -2892,7 +2900,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E02 — TBA</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7813526a5e79abf51b30ffb48f0701a1afa9b827@watchfeed</guid>
       <category>tv</category>
@@ -2900,7 +2908,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E03 — TBA</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cbad6c426b2daaadbf12a229fe007a22334a6b2b@watchfeed</guid>
       <category>tv</category>
@@ -2908,7 +2916,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E04 — TBA</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">616b6bf6c45101337d280ea91cc58c96edcfad2d@watchfeed</guid>
       <category>tv</category>
@@ -2916,7 +2924,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E05 — TBA</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9cf0eff2ad730b15c06b5c3b56b096c7e346fd2e@watchfeed</guid>
       <category>tv</category>
@@ -2924,7 +2932,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E06 — TBA</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c8ac790383e8ada585eda375d077d6bded325a0b@watchfeed</guid>
       <category>tv</category>
@@ -2932,7 +2940,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E07 — TBA</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">fde9b52c218a074ed384fb8e07cf0481ab980d87@watchfeed</guid>
       <category>tv</category>
@@ -2940,7 +2948,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E08 — TBA</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">94f08611dddeab2329dc3e426168d55eedc28129@watchfeed</guid>
       <category>tv</category>
@@ -2948,7 +2956,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 10</title>
-      <description>in 11 days — Thursday, September 3, 2026</description>
+      <description>in 10 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f18690d2ceb953f03408eeccbaac60902b8dbfec@watchfeed</guid>
       <category>anime</category>
@@ -2956,7 +2964,7 @@
     </item>
     <item>
       <title>[GAME] The Blood of Dawnwalker — Release day</title>
-      <description>in 11 days — Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
+      <description>in 10 days — Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0351e29a929d1e84d591b39f380a04d236773729@watchfeed</guid>
       <category>game</category>
@@ -2964,7 +2972,7 @@
     </item>
     <item>
       <title>[TV] Stuart Fails to Save the Universe — S01E07 — Spoiler: Dexys Midnight Runners Get a Royalty Payment</title>
-      <description>in 11 days — Thursday, September 3, 2026 — HBO Max</description>
+      <description>in 10 days — Thursday, September 3, 2026 — HBO Max</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0dfd2323575f17913aa4c4ff8e7e439321e6a3cf@watchfeed</guid>
       <category>tv</category>
@@ -2972,7 +2980,7 @@
     </item>
     <item>
       <title>[TV] Star Trek: Strange New Worlds — S04E07 — Like Chronitons Through the Hourglass</title>
-      <description>in 11 days — Thursday, September 3, 2026 — Paramount+</description>
+      <description>in 10 days — Thursday, September 3, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">dd716f8a0045c0df7d22cfd0ff1a8375c122b0f6@watchfeed</guid>
       <category>tv</category>
@@ -2980,7 +2988,7 @@
     </item>
     <item>
       <title>[ANIME] Smoking Behind the Supermarket with You — Episode 9</title>
-      <description>in 11 days — Thursday, September 3, 2026</description>
+      <description>in 10 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">22dfb48e63afaf991c5facc372628d4a8e6a8c51@watchfeed</guid>
       <category>anime</category>
@@ -2988,7 +2996,7 @@
     </item>
     <item>
       <title>[ANIME] From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage — Episode 11</title>
-      <description>in 11 days — Thursday, September 3, 2026</description>
+      <description>in 10 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f390a9cef43ca684bb8469b225520606c3ed2bf1@watchfeed</guid>
       <category>anime</category>
@@ -2996,7 +3004,7 @@
     </item>
     <item>
       <title>[ANIME] Chainsmoker Cat — Episode 9</title>
-      <description>in 11 days — Thursday, September 3, 2026</description>
+      <description>in 10 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a01360c472a04980e1172711ea2f1a0bfc5da9b1@watchfeed</guid>
       <category>anime</category>
@@ -3004,7 +3012,7 @@
     </item>
     <item>
       <title>[ANIME] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 — Episode 9</title>
-      <description>in 10 days — Wednesday, September 2, 2026</description>
+      <description>in 9 days — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a37710b9b14a97be0cde3cdc013d7310460ff1d4@watchfeed</guid>
       <category>anime</category>
@@ -3012,7 +3020,7 @@
     </item>
     <item>
       <title>[TV] The Ark — S03E06 — Deja Vu</title>
-      <description>in 10 days — Wednesday, September 2, 2026 — Syfy</description>
+      <description>in 9 days — Wednesday, September 2, 2026 — Syfy</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">97a2202f4091c5673db09abf864fb38727b4c514@watchfeed</guid>
       <category>tv</category>
@@ -3020,7 +3028,7 @@
     </item>
     <item>
       <title>[ANIME] Saga of Tanya the Evil Season 2 — Episode 9</title>
-      <description>in 10 days — Wednesday, September 2, 2026</description>
+      <description>in 9 days — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d3c9b46d3b9449e3dc0fdf79045defa587493ebb@watchfeed</guid>
       <category>anime</category>
@@ -3028,7 +3036,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E06 — Plum Out of Luck</title>
-      <description>in 10 days — Wednesday, September 2, 2026 — Prime Video</description>
+      <description>in 9 days — Wednesday, September 2, 2026 — Prime Video</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">52fa60f8156e1b9fd7587779653a41a3c466a15d@watchfeed</guid>
       <category>tv</category>
@@ -3036,7 +3044,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 15</title>
-      <description>in 10 days — Wednesday, September 2, 2026</description>
+      <description>in 9 days — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c318421aa4e813716ae487d7b62db2d37c54f953@watchfeed</guid>
       <category>anime</category>
@@ -3044,7 +3052,7 @@
     </item>
     <item>
       <title>[FILM] Fall 2: Deadpoint — Theatrical release</title>
-      <description>in 10 days — Wednesday, September 2, 2026 — Theaters</description>
+      <description>in 9 days — Wednesday, September 2, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">96c6d73b67fb8f75202af8add92fec4aaa5b3eb8@watchfeed</guid>
       <category>movie</category>
@@ -3052,7 +3060,7 @@
     </item>
     <item>
       <title>[ANIME] Clevatess Season 2 — Episode 9</title>
-      <description>in 10 days — Wednesday, September 2, 2026</description>
+      <description>in 9 days — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b17dae9e077cf22b9360cfee99fa2f5f04e17df7@watchfeed</guid>
       <category>anime</category>
@@ -3060,7 +3068,7 @@
     </item>
     <item>
       <title>[ANIME] THE GHOST IN THE SHELL — Episode 9</title>
-      <description>in 9 days — Tuesday, September 1, 2026</description>
+      <description>in 8 days — Tuesday, September 1, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cacd380e79624c9fab3ef9e2a5cf079b9b35f04e@watchfeed</guid>
       <category>anime</category>
@@ -3068,7 +3076,7 @@
     </item>
     <item>
       <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 9</title>
-      <description>in 9 days — Tuesday, September 1, 2026</description>
+      <description>in 8 days — Tuesday, September 1, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8c55f1330d16d8a218c40081059d31c16b51c8da@watchfeed</guid>
       <category>anime</category>
@@ -3076,7 +3084,7 @@
     </item>
     <item>
       <title>[TV] The Librarians: The Next Chapter — S02E10 — And the Heart of a Librarian</title>
-      <description>in 8 days — Monday, August 31, 2026 — TNT</description>
+      <description>in 7 days — Monday, August 31, 2026 — TNT</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7022b745d387e1c37ba10b71783c8a28c9610252@watchfeed</guid>
       <category>tv</category>
@@ -3084,7 +3092,7 @@
     </item>
     <item>
       <title>[ANIME] Skeleton Knight in Another World Season 2 — Episode 9</title>
-      <description>in 8 days — Monday, August 31, 2026</description>
+      <description>in 7 days — Monday, August 31, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3585a14af268ff05e26f3785a0a1fc1933aa571d@watchfeed</guid>
       <category>anime</category>
@@ -3092,7 +3100,7 @@
     </item>
     <item>
       <title>[ANIME] LIAR GAME — Episode 22</title>
-      <description>in 8 days — Monday, August 31, 2026</description>
+      <description>in 7 days — Monday, August 31, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">17896106625b59ceb09c1544fc71b5d442c48e95@watchfeed</guid>
       <category>anime</category>
@@ -3100,7 +3108,7 @@
     </item>
     <item>
       <title>[TV] Futurama — S14E06 — Late Bloomers</title>
-      <description>in 8 days — Monday, August 31, 2026 — Hulu</description>
+      <description>in 7 days — Monday, August 31, 2026 — Hulu</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e8099423a3134cd602ecf5056277b3dc82b0356d@watchfeed</guid>
       <category>tv</category>
@@ -3108,7 +3116,7 @@
     </item>
     <item>
       <title>[TV] Furious — S01E08 — Hart Island</title>
-      <description>in 8 days — Monday, August 31, 2026 — Hulu</description>
+      <description>in 7 days — Monday, August 31, 2026 — Hulu</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c7df24e1b8f01b1437069e5a7c0154fe4aa8a0d5@watchfeed</guid>
       <category>tv</category>
@@ -3116,7 +3124,7 @@
     </item>
     <item>
       <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 9</title>
-      <description>in 7 days — Sunday, August 30, 2026</description>
+      <description>in 6 days — Sunday, August 30, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cf67c7ecaa93d05527d1d49691db59b55bce4d1d@watchfeed</guid>
       <category>anime</category>
@@ -3124,7 +3132,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E01 — Episode 1</title>
-      <description>in 7 days — Sunday, August 30, 2026 — BBC iPlayer</description>
+      <description>in 6 days — Sunday, August 30, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d948e64aaf4f1ed397da845f76e9e83c3f13485c@watchfeed</guid>
       <category>tv</category>
@@ -3132,7 +3140,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E02 — Episode 2</title>
-      <description>in 7 days — Sunday, August 30, 2026 — BBC iPlayer</description>
+      <description>in 6 days — Sunday, August 30, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7d26b28825a25036321c002372f94173c4718b4b@watchfeed</guid>
       <category>tv</category>
@@ -3140,7 +3148,7 @@
     </item>
     <item>
       <title>[TV] Trigger Point — S04E01 — Episode 1</title>
-      <description>in 7 days — Sunday, August 30, 2026 — ITVX</description>
+      <description>in 6 days — Sunday, August 30, 2026 — ITVX</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3c1f956ca6418084bc3808753f0a2c9f8034a2c0@watchfeed</guid>
       <category>tv</category>
@@ -3148,7 +3156,7 @@
     </item>
     <item>
       <title>[TV] Trigger Point — S04E02 — Episode 2</title>
-      <description>in 7 days — Sunday, August 30, 2026 — ITVX</description>
+      <description>in 6 days — Sunday, August 30, 2026 — ITVX</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e4bb07b213b9f315c474b6c32d860d888dc1077d@watchfeed</guid>
       <category>tv</category>
@@ -3156,7 +3164,7 @@
     </item>
     <item>
       <title>[TV] Trigger Point — S04E03 — Episode 3</title>
-      <description>in 7 days — Sunday, August 30, 2026 — ITVX</description>
+      <description>in 6 days — Sunday, August 30, 2026 — ITVX</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">93961622710ee1bd949872af20ba53ac4d6b7d8d@watchfeed</guid>
       <category>tv</category>
@@ -3164,7 +3172,7 @@
     </item>
     <item>
       <title>[TV] Trigger Point — S04E04 — Episode 4</title>
-      <description>in 7 days — Sunday, August 30, 2026 — ITVX</description>
+      <description>in 6 days — Sunday, August 30, 2026 — ITVX</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e5f8d9197b8daf2dbe092664941d898e68e4ee17@watchfeed</guid>
       <category>tv</category>
@@ -3172,7 +3180,7 @@
     </item>
     <item>
       <title>[TV] Trigger Point — S04E05 — Episode 5</title>
-      <description>in 7 days — Sunday, August 30, 2026 — ITVX</description>
+      <description>in 6 days — Sunday, August 30, 2026 — ITVX</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">addcce12930a631aebefcfadc3a0d870e300d63d@watchfeed</guid>
       <category>tv</category>
@@ -3180,7 +3188,7 @@
     </item>
     <item>
       <title>[TV] Trigger Point — S04E06 — Episode 6</title>
-      <description>in 7 days — Sunday, August 30, 2026 — ITVX</description>
+      <description>in 6 days — Sunday, August 30, 2026 — ITVX</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">683828f094b737e52014db6a0408b588c7bdbee9@watchfeed</guid>
       <category>tv</category>
@@ -3188,7 +3196,7 @@
     </item>
     <item>
       <title>[TV] The Walking Dead: Dead City — S03E06 — Genesis</title>
-      <description>in 7 days — Sunday, August 30, 2026 — AMC+</description>
+      <description>in 6 days — Sunday, August 30, 2026 — AMC+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5b458df2edc4252dc1836d16c93c75866de090bf@watchfeed</guid>
       <category>tv</category>
@@ -3196,7 +3204,7 @@
     </item>
     <item>
       <title>[TV] The Librarians: The Next Chapter — S02E09 — And the Toy Phone</title>
-      <description>in 7 days — Sunday, August 30, 2026 — TNT</description>
+      <description>in 6 days — Sunday, August 30, 2026 — TNT</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">15ce9fbc28f682f72433c4b5196bf90e674963be@watchfeed</guid>
       <category>tv</category>
@@ -3204,7 +3212,7 @@
     </item>
     <item>
       <title>[ANIME] Sparks of Tomorrow — Episode 9</title>
-      <description>in 7 days — Sunday, August 30, 2026</description>
+      <description>in 6 days — Sunday, August 30, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">608ba832614489684bc56c6d049beb8372702885@watchfeed</guid>
       <category>anime</category>
@@ -3212,7 +3220,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1176</title>
-      <description>in 7 days — Sunday, August 30, 2026</description>
+      <description>in 6 days — Sunday, August 30, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cc6bb6b097531026b935ed74dee674fef8e2543f@watchfeed</guid>
       <category>anime</category>
@@ -3220,7 +3228,7 @@
     </item>
     <item>
       <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 10</title>
-      <description>in 7 days — Sunday, August 30, 2026</description>
+      <description>in 6 days — Sunday, August 30, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c0c19e4ed2f26b5315a2e1dff59262da9206ed17@watchfeed</guid>
       <category>anime</category>
@@ -3228,23 +3236,15 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E05 — The Idiot Army</title>
-      <description>in 7 days — Sunday, August 30, 2026 — Paramount+</description>
+      <description>in 6 days — Sunday, August 30, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">054889289c0420be29ce08985177f181f6eea5d2@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/50415/lioness</link>
     </item>
     <item>
-      <title>[TV] Lanterns — S01E03 — TBA</title>
-      <description>in 7 days — Sunday, August 30, 2026 — HBO</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">10fdf6f49401e7191f4e6bb92b9cafb9c73b89a8@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/44776/lanterns</link>
-    </item>
-    <item>
       <title>[ANIME] Detective Conan — Episode 1211</title>
-      <description>in 6 days — Saturday, August 29, 2026</description>
+      <description>in 5 days — Saturday, August 29, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4168de52a520e85e14e7556b44a19b877c1e1ba0@watchfeed</guid>
       <category>anime</category>
@@ -3252,7 +3252,7 @@
     </item>
     <item>
       <title>[ANIME] Daemons of the Shadow Realm — Episode 21</title>
-      <description>in 6 days — Saturday, August 29, 2026</description>
+      <description>in 5 days — Saturday, August 29, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">dcd0cc88ff73ffa3348ac9401d50695503bf932e@watchfeed</guid>
       <category>anime</category>
@@ -3260,7 +3260,7 @@
     </item>
     <item>
       <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 6</title>
-      <description>in 6 days — Saturday, August 29, 2026</description>
+      <description>in 5 days — Saturday, August 29, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8a02640a4c627cf421322d3dd5a2e7d0c3834c31@watchfeed</guid>
       <category>anime</category>
@@ -3268,7 +3268,7 @@
     </item>
     <item>
       <title>[ANIME] BLACK TORCH — Episode 9</title>
-      <description>in 6 days — Saturday, August 29, 2026</description>
+      <description>in 5 days — Saturday, August 29, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">57767961d217d16a46ce179240ce5151dd995b8d@watchfeed</guid>
       <category>anime</category>
@@ -3276,7 +3276,7 @@
     </item>
     <item>
       <title>[FILM] The Dog Stars — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">13c9e32c1894ee57758be5451a8b9419f8e7bb90@watchfeed</guid>
       <category>movie</category>
@@ -3284,7 +3284,7 @@
     </item>
     <item>
       <title>[ANIME] That Time I Got Reincarnated as a Slime Season 4 — Episode 20</title>
-      <description>in 5 days — Friday, August 28, 2026</description>
+      <description>in 4 days — Friday, August 28, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5dce4a067304ad35a84f8b02e49a41315aba0ed3@watchfeed</guid>
       <category>anime</category>
@@ -3292,7 +3292,7 @@
     </item>
     <item>
       <title>[TV] Silo — S03E09 — Farewell</title>
-      <description>in 5 days — Friday, August 28, 2026 — Apple TV</description>
+      <description>in 4 days — Friday, August 28, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4910e86c4accd6485d7a1a78f65443f732fd6d9f@watchfeed</guid>
       <category>tv</category>
@@ -3300,7 +3300,7 @@
     </item>
     <item>
       <title>[FILM] Idiots — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eac12a063b5313608ce52dce4b8d8ecf430883ad@watchfeed</guid>
       <category>movie</category>
@@ -3308,7 +3308,7 @@
     </item>
     <item>
       <title>[FILM] Finding Emily — Limited release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8233e442b9976962c945972378206ced99b37ad9@watchfeed</guid>
       <category>movie</category>
@@ -3316,7 +3316,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E01 — A Quiet Life</title>
-      <description>in 5 days — Friday, August 28, 2026 — Apple TV</description>
+      <description>in 4 days — Friday, August 28, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e0f5d26859b66e703b2c6a12f0fe06f36c238af8@watchfeed</guid>
       <category>tv</category>
@@ -3324,7 +3324,7 @@
     </item>
     <item>
       <title>[FILM] Coyote vs. Acme — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">edc4fdc67dd18d5a0a9d0289dbd83e0420ea4b29@watchfeed</guid>
       <category>movie</category>
@@ -3332,7 +3332,7 @@
     </item>
     <item>
       <title>[FILM] Colony — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9fb2d7067fdcef7eee5b69501c32dba4865c2c04@watchfeed</guid>
       <category>movie</category>
@@ -3340,7 +3340,7 @@
     </item>
     <item>
       <title>[FILM] Buddy — Theatrical release</title>
-      <description>in 5 days — Friday, August 28, 2026 — Theaters</description>
+      <description>in 4 days — Friday, August 28, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">252760d3a491ffb8bd039486193c297a4c6961f8@watchfeed</guid>
       <category>movie</category>
@@ -3348,7 +3348,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 9</title>
-      <description>in 4 days — Thursday, August 27, 2026</description>
+      <description>in 3 days — Thursday, August 27, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">93539a9ba3fa50489cb424b48b32998c2a2d7c01@watchfeed</guid>
       <category>anime</category>
@@ -3356,7 +3356,7 @@
     </item>
     <item>
       <title>[TV] Stuart Fails to Save the Universe — S01E06 — Spoiler: Gary Works for UPS</title>
-      <description>in 4 days — Thursday, August 27, 2026 — HBO Max</description>
+      <description>in 3 days — Thursday, August 27, 2026 — HBO Max</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bb6b64aa56cec3378687a482a02a57044e6c28f2@watchfeed</guid>
       <category>tv</category>
@@ -3364,7 +3364,7 @@
     </item>
     <item>
       <title>[TV] Star Trek: Strange New Worlds — S04E06 — Off-Hour</title>
-      <description>in 4 days — Thursday, August 27, 2026 — Paramount+</description>
+      <description>in 3 days — Thursday, August 27, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e3390ca2b706036951b68489b1a301b767088bfe@watchfeed</guid>
       <category>tv</category>
@@ -3372,7 +3372,7 @@
     </item>
     <item>
       <title>[ANIME] Smoking Behind the Supermarket with You — Episode 8</title>
-      <description>in 4 days — Thursday, August 27, 2026</description>
+      <description>in 3 days — Thursday, August 27, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f5e942638df68b7d371bee77b2578a19f0a53060@watchfeed</guid>
       <category>anime</category>
@@ -3380,7 +3380,7 @@
     </item>
     <item>
       <title>[ANIME] Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising- — Episode 1</title>
-      <description>in 4 days — Thursday, August 27, 2026</description>
+      <description>in 3 days — Thursday, August 27, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">18710e141bd81d18b2a52622860b1a06dd381fc1@watchfeed</guid>
       <category>anime</category>
@@ -3388,7 +3388,7 @@
     </item>
     <item>
       <title>[ANIME] From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage — Episode 10</title>
-      <description>in 4 days — Thursday, August 27, 2026</description>
+      <description>in 3 days — Thursday, August 27, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f29ef24552bdf1c49c9d9727e4e4a7aad0504f5b@watchfeed</guid>
       <category>anime</category>
@@ -3396,7 +3396,7 @@
     </item>
     <item>
       <title>[ANIME] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 — Episode 8</title>
-      <description>in 3 days — Wednesday, August 26, 2026</description>
+      <description>in 2 days — Wednesday, August 26, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">34754622497331b00f66cb8a6c40f2191769f3b2@watchfeed</guid>
       <category>anime</category>
@@ -3404,7 +3404,7 @@
     </item>
     <item>
       <title>[FILM] Toxic: A Fairy Tale for Grown-ups — Theatrical release</title>
-      <description>in 3 days — Wednesday, August 26, 2026 — Theaters</description>
+      <description>in 2 days — Wednesday, August 26, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6fecdb3d599f59393fbd186e3e970ca73311cf60@watchfeed</guid>
       <category>movie</category>
@@ -3412,7 +3412,7 @@
     </item>
     <item>
       <title>[TV] The Ark — S03E05 — The Lucky Ones</title>
-      <description>in 3 days — Wednesday, August 26, 2026 — Syfy</description>
+      <description>in 2 days — Wednesday, August 26, 2026 — Syfy</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b32ced01c601e65816e2eac5be696046eff3f2bb@watchfeed</guid>
       <category>tv</category>
@@ -3420,7 +3420,7 @@
     </item>
     <item>
       <title>[ANIME] Saga of Tanya the Evil Season 2 — Episode 8</title>
-      <description>in 3 days — Wednesday, August 26, 2026</description>
+      <description>in 2 days — Wednesday, August 26, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3e7cf4fbb907968507e9fd17c5f956fc032f456f@watchfeed</guid>
       <category>anime</category>
@@ -3428,7 +3428,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E05 — Bridge</title>
-      <description>in 3 days — Wednesday, August 26, 2026 — Prime Video</description>
+      <description>in 2 days — Wednesday, August 26, 2026 — Prime Video</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">da1b938386c7875c1ad3aa8a70f29804a3a78b89@watchfeed</guid>
       <category>tv</category>
@@ -3436,7 +3436,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 14</title>
-      <description>in 3 days — Wednesday, August 26, 2026</description>
+      <description>in 2 days — Wednesday, August 26, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">18628f49fe534f12517bef08fea951c8b84161f5@watchfeed</guid>
       <category>anime</category>
@@ -3444,7 +3444,7 @@
     </item>
     <item>
       <title>[ANIME] Clevatess Season 2 — Episode 8</title>
-      <description>in 3 days — Wednesday, August 26, 2026</description>
+      <description>in 2 days — Wednesday, August 26, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0fe549ac60e665528ae13696749922a2987c3bdf@watchfeed</guid>
       <category>anime</category>
@@ -3452,7 +3452,7 @@
     </item>
     <item>
       <title>[ANIME] THE GHOST IN THE SHELL — Episode 8</title>
-      <description>in 2 days — Tuesday, August 25, 2026</description>
+      <description>tomorrow — Tuesday, August 25, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">85d6b524ff7e790dc3c79914187653c2c1ae747e@watchfeed</guid>
       <category>anime</category>
@@ -3460,7 +3460,7 @@
     </item>
     <item>
       <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 8</title>
-      <description>in 2 days — Tuesday, August 25, 2026</description>
+      <description>tomorrow — Tuesday, August 25, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3011af4d10bb85ddd167d3708abea6ba5b96e71f@watchfeed</guid>
       <category>anime</category>
@@ -3468,7 +3468,7 @@
     </item>
     <item>
       <title>[TV] The Librarians: The Next Chapter — S02E08 — And the Last Resort</title>
-      <description>tomorrow — Monday, August 24, 2026 — TNT</description>
+      <description>today — Monday, August 24, 2026 — TNT</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7d920eae468acb885000cb4841fab8d638c1153d@watchfeed</guid>
       <category>tv</category>
@@ -3476,7 +3476,7 @@
     </item>
     <item>
       <title>[ANIME] Skeleton Knight in Another World Season 2 — Episode 8</title>
-      <description>tomorrow — Monday, August 24, 2026</description>
+      <description>today — Monday, August 24, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a5a2474532be11e66336d3cf48deae7893e3c1cf@watchfeed</guid>
       <category>anime</category>
@@ -3484,7 +3484,7 @@
     </item>
     <item>
       <title>[ANIME] LIAR GAME — Episode 21</title>
-      <description>tomorrow — Monday, August 24, 2026</description>
+      <description>today — Monday, August 24, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">be41d05ff92694f966216246c2dab427ae786191@watchfeed</guid>
       <category>anime</category>
@@ -3492,7 +3492,7 @@
     </item>
     <item>
       <title>[TV] Futurama — S14E05 — The Charm Offensive</title>
-      <description>tomorrow — Monday, August 24, 2026 — Hulu</description>
+      <description>today — Monday, August 24, 2026 — Hulu</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f60a678194099f692e4a65a0cf99107efb8ea320@watchfeed</guid>
       <category>tv</category>
@@ -3500,43 +3500,11 @@
     </item>
     <item>
       <title>[TV] Furious — S01E07 — Some Days It Don't Come Easy</title>
-      <description>tomorrow — Monday, August 24, 2026 — Hulu</description>
+      <description>today — Monday, August 24, 2026 — Hulu</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cb21edc06d925d826aec6c8b8ee8bbc2af24cd4d@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/87753/furious</link>
-    </item>
-    <item>
-      <title>[TV] The Walking Dead: Dead City — S03E05 — Imperialis</title>
-      <description>today — Sunday, August 23, 2026 — AMC+</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">5f9b856c36a58b11acae26e3d92ed13c073dd05c@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/60879/the-walking-dead-dead-city</link>
-    </item>
-    <item>
-      <title>[TV] The Librarians: The Next Chapter — S02E07 — And the Monkey's Paw</title>
-      <description>today — Sunday, August 23, 2026 — TNT</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">d95036b66ddc368a97f55adccf1b8cca543994d4@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/68801/the-librarians-the-next-chapter</link>
-    </item>
-    <item>
-      <title>[TV] Lioness — S03E04 — Murder Hornets</title>
-      <description>today — Sunday, August 23, 2026 — Paramount+</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">f2ff286935c93d552264988592331a06790f118b@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/50415/lioness</link>
-    </item>
-    <item>
-      <title>[TV] Lanterns — S01E02 — Trust Fall</title>
-      <description>today — Sunday, August 23, 2026 — HBO</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">36218273c0fad8173d256ef14245150c525c7b83@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/44776/lanterns</link>
     </item>
   </channel>
 </rss>
