@@ -8,8 +8,16 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Mon, 24 Aug 2026 10:10:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 14:14:52 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/games.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[GAME] The Witcher IV — Release day</title>
+      <description>in 28 months — Sunday, December 31, 2028 — PC, PS5, Series X|S</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c47af45e681326183513e1cd2340e966270ccac6@watchfeed</guid>
+      <category>game</category>
+      <link>https://www.igdb.com/games/the-witcher-iv</link>
+    </item>
     <item>
       <title>[GAME] State of Decay 3 — Release day</title>
       <description>in 16 months — Friday, December 31, 2027 — PC, PS5, Series X|S</description>
@@ -60,7 +68,7 @@
     </item>
     <item>
       <title>[GAME] Tomb Raider: Legacy of Atlantis — Release day</title>
-      <description>in 6 months — Friday, February 12, 2027 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 5 months — Friday, February 12, 2027 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7c2165e6289704ef5bfb9a40869220a6e5037287@watchfeed</guid>
       <category>game</category>
@@ -76,7 +84,7 @@
     </item>
     <item>
       <title>[GAME] Stranger Than Heaven — Release day</title>
-      <description>in 5 months — Friday, January 15, 2027 — PC, PS5, Series X|S</description>
+      <description>in 4 months — Friday, January 15, 2027 — PC, PS5, Series X|S</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eae82e8d442232d5a1b74e69d7c29cbe3fdd6cf9@watchfeed</guid>
       <category>game</category>
@@ -91,16 +99,8 @@
       <link>https://www.igdb.com/games/grand-theft-auto-vi</link>
     </item>
     <item>
-      <title>[GAME] Call of Duty: Modern Warfare 4 — Release day</title>
-      <description>in 8 weeks — Friday, October 23, 2026 — PC, PS5, Series X|S, Switch 2</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">ccf25f559ac02cf6f44aa4f679574d7fbccc3dd4@watchfeed</guid>
-      <category>game</category>
-      <link>https://www.igdb.com/games/call-of-duty-modern-warfare-4</link>
-    </item>
-    <item>
       <title>[GAME] Gears of War: E-Day — Release day</title>
-      <description>in 5 weeks — Thursday, October 1, 2026 — PC, PS5, Series X|S</description>
+      <description>in 4 weeks — Thursday, October 1, 2026 — PC, PS5, Series X|S</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">06ad0af67c15a0b9f1ecbf0025e443fb7492a461@watchfeed</guid>
       <category>game</category>
@@ -108,7 +108,7 @@
     </item>
     <item>
       <title>[GAME] 007 First Light — Release day</title>
-      <description>in 5 weeks — Wednesday, September 30, 2026 — Switch 2</description>
+      <description>in 4 weeks — Wednesday, September 30, 2026 — Switch 2</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">048999b705698e9e3b251c768c24961dad631817@watchfeed</guid>
       <category>game</category>
@@ -116,7 +116,7 @@
     </item>
     <item>
       <title>[GAME] Silent Hill: Townfall — Release day</title>
-      <description>in 4 weeks — Tuesday, September 22, 2026 — PC, PS5</description>
+      <description>in 3 weeks — Tuesday, September 22, 2026 — PC, PS5</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b33dbe21f6526e9cd64d38dd253e17dbf0618637@watchfeed</guid>
       <category>game</category>
@@ -124,7 +124,7 @@
     </item>
     <item>
       <title>[GAME] Control Resonant — Release day</title>
-      <description>in 4 weeks — Tuesday, September 22, 2026 — Mac, PC, PS5, Series X|S</description>
+      <description>in 3 weeks — Tuesday, September 22, 2026 — Mac, PC, PS5, Series X|S</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e74b925c6f60c94ab44f63ac09fef5991c6f5bbd@watchfeed</guid>
       <category>game</category>
@@ -132,7 +132,7 @@
     </item>
     <item>
       <title>[GAME] Marvel's Wolverine — Release day</title>
-      <description>in 3 weeks — Tuesday, September 15, 2026 — PS5</description>
+      <description>in 2 weeks — Tuesday, September 15, 2026 — PS5</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">96ca29e6eba3b7babb43eed8d3d95f60864370e4@watchfeed</guid>
       <category>game</category>
@@ -140,7 +140,7 @@
     </item>
     <item>
       <title>[GAME] Onimusha: Way of the Sword — Release day</title>
-      <description>in 11 days — Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 3 days — Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bb252d825bc59619e01e903d123a65c36a14b499@watchfeed</guid>
       <category>game</category>
@@ -148,7 +148,7 @@
     </item>
     <item>
       <title>[GAME] The Blood of Dawnwalker — Release day</title>
-      <description>in 10 days — Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
+      <description>in 2 days — Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0351e29a929d1e84d591b39f380a04d236773729@watchfeed</guid>
       <category>game</category>

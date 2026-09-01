@@ -8,11 +8,51 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Mon, 24 Aug 2026 10:10:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 14:14:52 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/anime.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title>[ANIME] ONE PIECE — Episode 1201</title>
+      <description>in 6 months — Sunday, February 21, 2027</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">9bcc296a4c72cabfbf9796485ea12b1b22ecfbdd@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/21</link>
+    </item>
+    <item>
+      <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 14</title>
+      <description>in 3 weeks — Sunday, September 27, 2026</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e631378190b39b79dd572633ca0a537b98a8fcdc@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/178789</link>
+    </item>
+    <item>
+      <title>[ANIME] Love Unseen Beneath the Clear Night Sky — Episode 12</title>
+      <description>in 2 weeks — Monday, September 21, 2026</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d15143587ff89a87b69082093fb2bbff0d0fd283@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/202269</link>
+    </item>
+    <item>
+      <title>[ANIME] Love Unseen Beneath the Clear Night Sky — Episode 11</title>
+      <description>in 13 days — Monday, September 14, 2026</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">33692fdc9c3e1eff68b6c22daf6a55a6156d025c@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/202269</link>
+    </item>
+    <item>
+      <title>[ANIME] Love Unseen Beneath the Clear Night Sky — Episode 10</title>
+      <description>in 6 days — Monday, September 7, 2026</description>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">78dfda6d0560953136b65f44ed2706df8febcc5c@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/202269</link>
+    </item>
+    <item>
       <title>[ANIME] ONE PIECE — Episode 1200</title>
-      <description>in 6 months — Sunday, February 14, 2027</description>
+      <description>in 5 months — Sunday, February 14, 2027</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">20e96c2f615c5b6f5e4a328a1c1fe6aaaab42537@watchfeed</guid>
       <category>anime</category>
@@ -52,7 +92,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1195</title>
-      <description>in 5 months — Sunday, January 10, 2027</description>
+      <description>in 4 months — Sunday, January 10, 2027</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ce16d981eabdca9d394e75667838e55816da6fcf@watchfeed</guid>
       <category>anime</category>
@@ -116,7 +156,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1191</title>
-      <description>in 4 months — Sunday, December 13, 2026</description>
+      <description>in 3 months — Sunday, December 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e807872ffd7ba350b0b27876cb5bd3b9c67051fe@watchfeed</guid>
       <category>anime</category>
@@ -124,7 +164,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 11</title>
-      <description>in 4 months — Sunday, December 13, 2026</description>
+      <description>in 3 months — Sunday, December 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7cc6a29fb340d39d65da2089ff49d78972c7f212@watchfeed</guid>
       <category>anime</category>
@@ -132,7 +172,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 11</title>
-      <description>in 4 months — Friday, December 11, 2026</description>
+      <description>in 3 months — Friday, December 11, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">13420e13455f410e277fd0092216dc32c2b1f7a4@watchfeed</guid>
       <category>anime</category>
@@ -140,7 +180,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 24</title>
-      <description>in 4 months — Thursday, December 10, 2026</description>
+      <description>in 3 months — Thursday, December 10, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">654fb034b668e73b7b2e3a5b2978e11260a2e8c2@watchfeed</guid>
       <category>anime</category>
@@ -244,7 +284,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1187</title>
-      <description>in 3 months — Sunday, November 15, 2026</description>
+      <description>in 2 months — Sunday, November 15, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ae00f111f7833c74a0b73709a2a244964c9980f5@watchfeed</guid>
       <category>anime</category>
@@ -252,7 +292,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 7</title>
-      <description>in 3 months — Sunday, November 15, 2026</description>
+      <description>in 2 months — Sunday, November 15, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">734a6303462a801c4a1182b1651b38d5fea8d6a0@watchfeed</guid>
       <category>anime</category>
@@ -260,7 +300,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 7</title>
-      <description>in 3 months — Friday, November 13, 2026</description>
+      <description>in 2 months — Friday, November 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7ae689aab141cc6a98ee4b23beb30ba8f30dc3f1@watchfeed</guid>
       <category>anime</category>
@@ -268,7 +308,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 20</title>
-      <description>in 3 months — Thursday, November 12, 2026</description>
+      <description>in 2 months — Thursday, November 12, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">2628b643a41024bc10c7e6eaae7f41daf71dc4dd@watchfeed</guid>
       <category>anime</category>
@@ -324,7 +364,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 5</title>
-      <description>in 2 months — Friday, October 30, 2026</description>
+      <description>in 8 weeks — Friday, October 30, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6e01ee879b4154cb4641194569c1d39f893b3235@watchfeed</guid>
       <category>anime</category>
@@ -332,7 +372,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 18</title>
-      <description>in 2 months — Thursday, October 29, 2026</description>
+      <description>in 8 weeks — Thursday, October 29, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">91ed009731dd14b0853992a024595d6ed64acdd3@watchfeed</guid>
       <category>anime</category>
@@ -340,7 +380,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1184</title>
-      <description>in 2 months — Sunday, October 25, 2026</description>
+      <description>in 7 weeks — Sunday, October 25, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4040ef2ccca0df55015d66e6d9a372a4a9052eba@watchfeed</guid>
       <category>anime</category>
@@ -348,7 +388,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 4</title>
-      <description>in 2 months — Sunday, October 25, 2026</description>
+      <description>in 7 weeks — Sunday, October 25, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ff4ec0bc82e67df99b911c6e8f30c48c026a7780@watchfeed</guid>
       <category>anime</category>
@@ -356,7 +396,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 4</title>
-      <description>in 8 weeks — Friday, October 23, 2026</description>
+      <description>in 7 weeks — Friday, October 23, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c022af6cc5f8f9a9892aa4dcdb525c6abba88e1b@watchfeed</guid>
       <category>anime</category>
@@ -364,7 +404,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 17</title>
-      <description>in 8 weeks — Thursday, October 22, 2026</description>
+      <description>in 7 weeks — Thursday, October 22, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">01cf1b9551ee795d5afdeade0a44cbfbe8e50e23@watchfeed</guid>
       <category>anime</category>
@@ -372,7 +412,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1183</title>
-      <description>in 7 weeks — Sunday, October 18, 2026</description>
+      <description>in 6 weeks — Sunday, October 18, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7799cb81d8716e970271632be50a3a969a2ef9a1@watchfeed</guid>
       <category>anime</category>
@@ -380,7 +420,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 3</title>
-      <description>in 7 weeks — Sunday, October 18, 2026</description>
+      <description>in 6 weeks — Sunday, October 18, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3bd4debd2b4120a36b3b65aeecb807a4dc891ebf@watchfeed</guid>
       <category>anime</category>
@@ -388,7 +428,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 3</title>
-      <description>in 7 weeks — Friday, October 16, 2026</description>
+      <description>in 6 weeks — Friday, October 16, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">393a438cdb5cd3a3046e3dd0c8077211f897f786@watchfeed</guid>
       <category>anime</category>
@@ -396,7 +436,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 16</title>
-      <description>in 7 weeks — Thursday, October 15, 2026</description>
+      <description>in 6 weeks — Thursday, October 15, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1b1ff0cc445ee42683356b15a3b5dd2f27c2b158@watchfeed</guid>
       <category>anime</category>
@@ -404,7 +444,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1182</title>
-      <description>in 6 weeks — Sunday, October 11, 2026</description>
+      <description>in 5 weeks — Sunday, October 11, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d9c2c6b33aca2c66ce7d4c5e4902fe03b9cb1028@watchfeed</guid>
       <category>anime</category>
@@ -412,7 +452,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 2</title>
-      <description>in 6 weeks — Sunday, October 11, 2026</description>
+      <description>in 5 weeks — Sunday, October 11, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d0bc268a2d4a37016f28591215e722da9924e46e@watchfeed</guid>
       <category>anime</category>
@@ -420,7 +460,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 2</title>
-      <description>in 6 weeks — Friday, October 9, 2026</description>
+      <description>in 5 weeks — Friday, October 9, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9955e90c5ac0a01fb479a95f44d8127d6bfa75d7@watchfeed</guid>
       <category>anime</category>
@@ -428,7 +468,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 15</title>
-      <description>in 6 weeks — Thursday, October 8, 2026</description>
+      <description>in 5 weeks — Thursday, October 8, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6548bdbb4b62d766424e2a23ebbe82a38124c99f@watchfeed</guid>
       <category>anime</category>
@@ -436,7 +476,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1181</title>
-      <description>in 5 weeks — Sunday, October 4, 2026</description>
+      <description>in 4 weeks — Sunday, October 4, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a54c1d2a5040053b79e47739fd17646a0e7af78f@watchfeed</guid>
       <category>anime</category>
@@ -444,7 +484,7 @@
     </item>
     <item>
       <title>[ANIME] Blue Box Season 2 — Episode 1</title>
-      <description>in 5 weeks — Sunday, October 4, 2026</description>
+      <description>in 4 weeks — Sunday, October 4, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d576be19447d6cfaed07a81817b6a0b737428607@watchfeed</guid>
       <category>anime</category>
@@ -452,7 +492,7 @@
     </item>
     <item>
       <title>[ANIME] Detective Conan — Episode 1216</title>
-      <description>in 5 weeks — Saturday, October 3, 2026</description>
+      <description>in 4 weeks — Saturday, October 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a8fcff7f9d1a739def24dd1bbb758f7208cb69a2@watchfeed</guid>
       <category>anime</category>
@@ -460,7 +500,7 @@
     </item>
     <item>
       <title>[ANIME] The Apothecary Diaries Season 3 — Episode 1</title>
-      <description>in 5 weeks — Friday, October 2, 2026</description>
+      <description>in 4 weeks — Friday, October 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ff39613d744a7133884541bccdab55b51634a01d@watchfeed</guid>
       <category>anime</category>
@@ -468,7 +508,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 14</title>
-      <description>in 5 weeks — Thursday, October 1, 2026</description>
+      <description>in 4 weeks — Thursday, October 1, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">651df8a4b04a2832e7d061d8b7e1fa4139bbc2ba@watchfeed</guid>
       <category>anime</category>
@@ -476,7 +516,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 19</title>
-      <description>in 5 weeks — Wednesday, September 30, 2026</description>
+      <description>in 4 weeks — Wednesday, September 30, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">11913704fbdbd084dcfd1ec19d25d58a233b7c5b@watchfeed</guid>
       <category>anime</category>
@@ -484,7 +524,7 @@
     </item>
     <item>
       <title>[ANIME] Clevatess Season 2 — Episode 13</title>
-      <description>in 5 weeks — Wednesday, September 30, 2026</description>
+      <description>in 4 weeks — Wednesday, September 30, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eaa4d4a5a79c702fb0e4e0da14dc5e1dd4f23497@watchfeed</guid>
       <category>anime</category>
@@ -492,7 +532,7 @@
     </item>
     <item>
       <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 13</title>
-      <description>in 5 weeks — Tuesday, September 29, 2026</description>
+      <description>in 4 weeks — Tuesday, September 29, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">12513f523bef993263a1b351ece2607c292c29c1@watchfeed</guid>
       <category>anime</category>
@@ -500,7 +540,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1180</title>
-      <description>in 4 weeks — Sunday, September 27, 2026</description>
+      <description>in 3 weeks — Sunday, September 27, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e28dd63c1f6f3f87e5bf5ffb8812875527d86aff@watchfeed</guid>
       <category>anime</category>
@@ -508,7 +548,7 @@
     </item>
     <item>
       <title>[ANIME] Detective Conan — Episode 1215</title>
-      <description>in 4 weeks — Saturday, September 26, 2026</description>
+      <description>in 3 weeks — Saturday, September 26, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">15835481c99ddaabcc27f5087712c9721be55c51@watchfeed</guid>
       <category>anime</category>
@@ -516,7 +556,7 @@
     </item>
     <item>
       <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 10</title>
-      <description>in 4 weeks — Saturday, September 26, 2026</description>
+      <description>in 3 weeks — Saturday, September 26, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">16d51254ca9b58d93c06cfb9b9099eae40ff3efa@watchfeed</guid>
       <category>anime</category>
@@ -524,7 +564,7 @@
     </item>
     <item>
       <title>[ANIME] That Time I Got Reincarnated as a Slime Season 4 — Episode 24</title>
-      <description>in 4 weeks — Friday, September 25, 2026</description>
+      <description>in 3 weeks — Friday, September 25, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">23babbb504edebe71ef2bb4d5124b38e4b8f0a54@watchfeed</guid>
       <category>anime</category>
@@ -532,7 +572,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 13</title>
-      <description>in 4 weeks — Thursday, September 24, 2026</description>
+      <description>in 3 weeks — Thursday, September 24, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ea749ac25b2e1f1bbf3d4d5727dd46a17723e3ec@watchfeed</guid>
       <category>anime</category>
@@ -540,7 +580,7 @@
     </item>
     <item>
       <title>[ANIME] Smoking Behind the Supermarket with You — Episode 12</title>
-      <description>in 4 weeks — Thursday, September 24, 2026</description>
+      <description>in 3 weeks — Thursday, September 24, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bbe7aa4961918ab520ffa21765c643d1934e21bf@watchfeed</guid>
       <category>anime</category>
@@ -548,7 +588,7 @@
     </item>
     <item>
       <title>[ANIME] Chainsmoker Cat — Episode 12</title>
-      <description>in 4 weeks — Thursday, September 24, 2026</description>
+      <description>in 3 weeks — Thursday, September 24, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d0712944527d79eb8885bc41ee9c79169a3a6c9b@watchfeed</guid>
       <category>anime</category>
@@ -556,7 +596,7 @@
     </item>
     <item>
       <title>[ANIME] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 — Episode 12</title>
-      <description>in 4 weeks — Wednesday, September 23, 2026</description>
+      <description>in 3 weeks — Wednesday, September 23, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">fd255da9b8ccb06b9a8be8b68a7ec11cd5297b2b@watchfeed</guid>
       <category>anime</category>
@@ -564,7 +604,7 @@
     </item>
     <item>
       <title>[ANIME] Saga of Tanya the Evil Season 2 — Episode 12</title>
-      <description>in 4 weeks — Wednesday, September 23, 2026</description>
+      <description>in 3 weeks — Wednesday, September 23, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1156b7aab003a874c1d40cd1ab70023ded85fda6@watchfeed</guid>
       <category>anime</category>
@@ -572,7 +612,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 18</title>
-      <description>in 4 weeks — Wednesday, September 23, 2026</description>
+      <description>in 3 weeks — Wednesday, September 23, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">883fa6cdf7709d5351f08c0cce69a85d70e6d340@watchfeed</guid>
       <category>anime</category>
@@ -580,7 +620,7 @@
     </item>
     <item>
       <title>[ANIME] Clevatess Season 2 — Episode 12</title>
-      <description>in 4 weeks — Wednesday, September 23, 2026</description>
+      <description>in 3 weeks — Wednesday, September 23, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">118fdeade260aabd892d9db045dd4beeeb8c6247@watchfeed</guid>
       <category>anime</category>
@@ -588,7 +628,7 @@
     </item>
     <item>
       <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 12</title>
-      <description>in 4 weeks — Tuesday, September 22, 2026</description>
+      <description>in 3 weeks — Tuesday, September 22, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b7699bac52a5ddc09e749a5cecb6dffa312084a6@watchfeed</guid>
       <category>anime</category>
@@ -596,7 +636,7 @@
     </item>
     <item>
       <title>[ANIME] Skeleton Knight in Another World Season 2 — Episode 12</title>
-      <description>in 4 weeks — Monday, September 21, 2026</description>
+      <description>in 2 weeks — Monday, September 21, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">3840063cb83921bb29209044624c1e531fe17f67@watchfeed</guid>
       <category>anime</category>
@@ -604,7 +644,7 @@
     </item>
     <item>
       <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 12</title>
-      <description>in 3 weeks — Sunday, September 20, 2026</description>
+      <description>in 2 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b489fd0b215298c6334912221730ba5aa9eeae1b@watchfeed</guid>
       <category>anime</category>
@@ -612,7 +652,7 @@
     </item>
     <item>
       <title>[ANIME] Sparks of Tomorrow — Episode 12</title>
-      <description>in 3 weeks — Sunday, September 20, 2026</description>
+      <description>in 2 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">53af0aba25faebc738c80384380fb8c47353ad81@watchfeed</guid>
       <category>anime</category>
@@ -620,7 +660,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1179</title>
-      <description>in 3 weeks — Sunday, September 20, 2026</description>
+      <description>in 2 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">78bda34143a31ebd0bebcd83f0723f257de93de3@watchfeed</guid>
       <category>anime</category>
@@ -628,7 +668,7 @@
     </item>
     <item>
       <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 13</title>
-      <description>in 3 weeks — Sunday, September 20, 2026</description>
+      <description>in 2 weeks — Sunday, September 20, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">51788f5d47318bbc209eb410713ca726436fba6b@watchfeed</guid>
       <category>anime</category>
@@ -636,7 +676,7 @@
     </item>
     <item>
       <title>[ANIME] Detective Conan — Episode 1214</title>
-      <description>in 3 weeks — Saturday, September 19, 2026</description>
+      <description>in 2 weeks — Saturday, September 19, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">94c1d1170f3dfe8f39351a514e8f90380b6f0504@watchfeed</guid>
       <category>anime</category>
@@ -644,7 +684,7 @@
     </item>
     <item>
       <title>[ANIME] Daemons of the Shadow Realm — Episode 24</title>
-      <description>in 3 weeks — Saturday, September 19, 2026</description>
+      <description>in 2 weeks — Saturday, September 19, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">af4963a549f1cd457a0391e750c7815cd6813e00@watchfeed</guid>
       <category>anime</category>
@@ -652,7 +692,7 @@
     </item>
     <item>
       <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 9</title>
-      <description>in 3 weeks — Saturday, September 19, 2026</description>
+      <description>in 2 weeks — Saturday, September 19, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">21a4c48b4cc1180ee5a3b931ab707183d70f476f@watchfeed</guid>
       <category>anime</category>
@@ -660,7 +700,7 @@
     </item>
     <item>
       <title>[ANIME] BLACK TORCH — Episode 12</title>
-      <description>in 3 weeks — Saturday, September 19, 2026</description>
+      <description>in 2 weeks — Saturday, September 19, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a640a0dee3d9ee5f3d194760593180caeece8e91@watchfeed</guid>
       <category>anime</category>
@@ -668,7 +708,7 @@
     </item>
     <item>
       <title>[ANIME] That Time I Got Reincarnated as a Slime Season 4 — Episode 23</title>
-      <description>in 3 weeks — Friday, September 18, 2026</description>
+      <description>in 2 weeks — Friday, September 18, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eb05648b72027a82ad8509626e3d92d093ccdaa3@watchfeed</guid>
       <category>anime</category>
@@ -676,7 +716,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 12</title>
-      <description>in 3 weeks — Thursday, September 17, 2026</description>
+      <description>in 2 weeks — Thursday, September 17, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">82dbfec865a57da111a3f8f57aba5a43c5690fb8@watchfeed</guid>
       <category>anime</category>
@@ -684,7 +724,7 @@
     </item>
     <item>
       <title>[ANIME] Smoking Behind the Supermarket with You — Episode 11</title>
-      <description>in 3 weeks — Thursday, September 17, 2026</description>
+      <description>in 2 weeks — Thursday, September 17, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bc9e72e6f2e85ee4d83986d5e1fdf281ef5a8919@watchfeed</guid>
       <category>anime</category>
@@ -692,7 +732,7 @@
     </item>
     <item>
       <title>[ANIME] Chainsmoker Cat — Episode 11</title>
-      <description>in 3 weeks — Thursday, September 17, 2026</description>
+      <description>in 2 weeks — Thursday, September 17, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">31f591f6800f2e65021e689bad4012fbaed092b2@watchfeed</guid>
       <category>anime</category>
@@ -700,7 +740,7 @@
     </item>
     <item>
       <title>[ANIME] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 — Episode 11</title>
-      <description>in 3 weeks — Wednesday, September 16, 2026</description>
+      <description>in 2 weeks — Wednesday, September 16, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bd29ffff88dae10afcd53964b3495b9d7d9396f4@watchfeed</guid>
       <category>anime</category>
@@ -708,7 +748,7 @@
     </item>
     <item>
       <title>[ANIME] Saga of Tanya the Evil Season 2 — Episode 11</title>
-      <description>in 3 weeks — Wednesday, September 16, 2026</description>
+      <description>in 2 weeks — Wednesday, September 16, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d588dd6ecc6cd05943954fbfd63a236af0e9ac3e@watchfeed</guid>
       <category>anime</category>
@@ -716,7 +756,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 17</title>
-      <description>in 3 weeks — Wednesday, September 16, 2026</description>
+      <description>in 2 weeks — Wednesday, September 16, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a102efc4582f4fd94ffd8670f2c3ad61241383ec@watchfeed</guid>
       <category>anime</category>
@@ -724,7 +764,7 @@
     </item>
     <item>
       <title>[ANIME] Clevatess Season 2 — Episode 11</title>
-      <description>in 3 weeks — Wednesday, September 16, 2026</description>
+      <description>in 2 weeks — Wednesday, September 16, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">746e2f5940e294f36e69b3e7f284088c619f317b@watchfeed</guid>
       <category>anime</category>
@@ -732,7 +772,7 @@
     </item>
     <item>
       <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 11</title>
-      <description>in 3 weeks — Tuesday, September 15, 2026</description>
+      <description>in 2 weeks — Tuesday, September 15, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e831939263f01ca3479a02ca66f3fd6cdee6798c@watchfeed</guid>
       <category>anime</category>
@@ -740,7 +780,7 @@
     </item>
     <item>
       <title>[ANIME] Skeleton Knight in Another World Season 2 — Episode 11</title>
-      <description>in 3 weeks — Monday, September 14, 2026</description>
+      <description>in 13 days — Monday, September 14, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">472c6e1e20535dadc2863c70c4491bc54a7d372d@watchfeed</guid>
       <category>anime</category>
@@ -748,7 +788,7 @@
     </item>
     <item>
       <title>[ANIME] LIAR GAME — Episode 24</title>
-      <description>in 3 weeks — Monday, September 14, 2026</description>
+      <description>in 13 days — Monday, September 14, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">eefd29084d96594c64df6b68a72b4de469f59557@watchfeed</guid>
       <category>anime</category>
@@ -756,7 +796,7 @@
     </item>
     <item>
       <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 11</title>
-      <description>in 2 weeks — Sunday, September 13, 2026</description>
+      <description>in 12 days — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">1a9bdc3f353eb6a4d1a6895fcc9f97ac3356623b@watchfeed</guid>
       <category>anime</category>
@@ -764,7 +804,7 @@
     </item>
     <item>
       <title>[ANIME] Sparks of Tomorrow — Episode 11</title>
-      <description>in 2 weeks — Sunday, September 13, 2026</description>
+      <description>in 12 days — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ade77006fdd93863f63a0eb5aa04831b8815a485@watchfeed</guid>
       <category>anime</category>
@@ -772,7 +812,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1178</title>
-      <description>in 2 weeks — Sunday, September 13, 2026</description>
+      <description>in 12 days — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">55407dd6b458904610a763a5cf98daf28bfb53d4@watchfeed</guid>
       <category>anime</category>
@@ -780,7 +820,7 @@
     </item>
     <item>
       <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 12</title>
-      <description>in 2 weeks — Sunday, September 13, 2026</description>
+      <description>in 12 days — Sunday, September 13, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f26d9a3af7f5f4e9b83ff8d06f513a3260370493@watchfeed</guid>
       <category>anime</category>
@@ -788,7 +828,7 @@
     </item>
     <item>
       <title>[ANIME] Detective Conan — Episode 1213</title>
-      <description>in 2 weeks — Saturday, September 12, 2026</description>
+      <description>in 11 days — Saturday, September 12, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d6dff6d6e2b9d7ca21d85e099d63326bd7dca129@watchfeed</guid>
       <category>anime</category>
@@ -796,7 +836,7 @@
     </item>
     <item>
       <title>[ANIME] Daemons of the Shadow Realm — Episode 23</title>
-      <description>in 2 weeks — Saturday, September 12, 2026</description>
+      <description>in 11 days — Saturday, September 12, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d57244acb86316d84e8642ef91a6ea3c05a55790@watchfeed</guid>
       <category>anime</category>
@@ -804,7 +844,7 @@
     </item>
     <item>
       <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 8</title>
-      <description>in 2 weeks — Saturday, September 12, 2026</description>
+      <description>in 11 days — Saturday, September 12, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f71eb98552c5cc76f24e1aaff879a7af0188bc8b@watchfeed</guid>
       <category>anime</category>
@@ -812,7 +852,7 @@
     </item>
     <item>
       <title>[ANIME] BLACK TORCH — Episode 11</title>
-      <description>in 2 weeks — Saturday, September 12, 2026</description>
+      <description>in 11 days — Saturday, September 12, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6c58f2d3d8f960a941ea49c0897202a5b08fd583@watchfeed</guid>
       <category>anime</category>
@@ -820,7 +860,7 @@
     </item>
     <item>
       <title>[ANIME] That Time I Got Reincarnated as a Slime Season 4 — Episode 22</title>
-      <description>in 2 weeks — Friday, September 11, 2026</description>
+      <description>in 10 days — Friday, September 11, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f67bdec76522dfdd2a2cbf44f581692985bfd2dd@watchfeed</guid>
       <category>anime</category>
@@ -828,7 +868,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 11</title>
-      <description>in 2 weeks — Thursday, September 10, 2026</description>
+      <description>in 9 days — Thursday, September 10, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">596dc5d57bd83cc1de55e1f61950bf5ef555b38a@watchfeed</guid>
       <category>anime</category>
@@ -836,7 +876,7 @@
     </item>
     <item>
       <title>[ANIME] Smoking Behind the Supermarket with You — Episode 10</title>
-      <description>in 2 weeks — Thursday, September 10, 2026</description>
+      <description>in 9 days — Thursday, September 10, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">22071e831b55a8ac3a41003a605a38288e733b03@watchfeed</guid>
       <category>anime</category>
@@ -844,7 +884,7 @@
     </item>
     <item>
       <title>[ANIME] From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage — Episode 12</title>
-      <description>in 2 weeks — Thursday, September 10, 2026</description>
+      <description>in 9 days — Thursday, September 10, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">05ef3ba6ea8056d6ba1217e9c4933d20842eadb3@watchfeed</guid>
       <category>anime</category>
@@ -852,7 +892,7 @@
     </item>
     <item>
       <title>[ANIME] Chainsmoker Cat — Episode 10</title>
-      <description>in 2 weeks — Thursday, September 10, 2026</description>
+      <description>in 9 days — Thursday, September 10, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">12b691d766df7ce073bbc5f9817f21a5f18c90c7@watchfeed</guid>
       <category>anime</category>
@@ -860,7 +900,7 @@
     </item>
     <item>
       <title>[ANIME] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 — Episode 10</title>
-      <description>in 2 weeks — Wednesday, September 9, 2026</description>
+      <description>in 8 days — Wednesday, September 9, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">691069a7b2c4a956bd01759e4fb49ee5a8d98d47@watchfeed</guid>
       <category>anime</category>
@@ -868,7 +908,7 @@
     </item>
     <item>
       <title>[ANIME] Saga of Tanya the Evil Season 2 — Episode 10</title>
-      <description>in 2 weeks — Wednesday, September 9, 2026</description>
+      <description>in 8 days — Wednesday, September 9, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f83b2b446428c61cc442b0e69e54dddbee9eec32@watchfeed</guid>
       <category>anime</category>
@@ -876,7 +916,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 16</title>
-      <description>in 2 weeks — Wednesday, September 9, 2026</description>
+      <description>in 8 days — Wednesday, September 9, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">845d26f116b91113ec4f2dddbf3a9ef1c7238921@watchfeed</guid>
       <category>anime</category>
@@ -884,7 +924,7 @@
     </item>
     <item>
       <title>[ANIME] Clevatess Season 2 — Episode 10</title>
-      <description>in 2 weeks — Wednesday, September 9, 2026</description>
+      <description>in 8 days — Wednesday, September 9, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">38aa2ebb2d85c7de10d4baa777662448c5550bbe@watchfeed</guid>
       <category>anime</category>
@@ -892,7 +932,7 @@
     </item>
     <item>
       <title>[ANIME] THE GHOST IN THE SHELL — Episode 10</title>
-      <description>in 2 weeks — Tuesday, September 8, 2026</description>
+      <description>in 7 days — Tuesday, September 8, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ee6bab549f479d2a8256a4a8e0fedd7a44a62c0a@watchfeed</guid>
       <category>anime</category>
@@ -900,7 +940,7 @@
     </item>
     <item>
       <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 10</title>
-      <description>in 2 weeks — Tuesday, September 8, 2026</description>
+      <description>in 7 days — Tuesday, September 8, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ddc5d64a5e9cf1b0aea9371cb2451d7e1e51b34a@watchfeed</guid>
       <category>anime</category>
@@ -908,7 +948,7 @@
     </item>
     <item>
       <title>[ANIME] Skeleton Knight in Another World Season 2 — Episode 10</title>
-      <description>in 2 weeks — Monday, September 7, 2026</description>
+      <description>in 6 days — Monday, September 7, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d80401f13ff906b6447347b94bcc4a76bfe5e0b2@watchfeed</guid>
       <category>anime</category>
@@ -916,7 +956,7 @@
     </item>
     <item>
       <title>[ANIME] LIAR GAME — Episode 23</title>
-      <description>in 2 weeks — Monday, September 7, 2026</description>
+      <description>in 6 days — Monday, September 7, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">8fd5b7b73f4d2f58e6090ed337a892585da112ec@watchfeed</guid>
       <category>anime</category>
@@ -924,7 +964,7 @@
     </item>
     <item>
       <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 10</title>
-      <description>in 13 days — Sunday, September 6, 2026</description>
+      <description>in 5 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5ebbd8a825274ea7e8036ec1da973f14157191b2@watchfeed</guid>
       <category>anime</category>
@@ -932,7 +972,7 @@
     </item>
     <item>
       <title>[ANIME] Sparks of Tomorrow — Episode 10</title>
-      <description>in 13 days — Sunday, September 6, 2026</description>
+      <description>in 5 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f27f996e8dbc990bd497bc47fd6f40b75e4985b5@watchfeed</guid>
       <category>anime</category>
@@ -940,7 +980,7 @@
     </item>
     <item>
       <title>[ANIME] ONE PIECE — Episode 1177</title>
-      <description>in 13 days — Sunday, September 6, 2026</description>
+      <description>in 5 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">15da2842449d10d2af584e2f9cc86ad922024a34@watchfeed</guid>
       <category>anime</category>
@@ -948,7 +988,7 @@
     </item>
     <item>
       <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 11</title>
-      <description>in 13 days — Sunday, September 6, 2026</description>
+      <description>in 5 days — Sunday, September 6, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5a8f59309a772e239dbb610917953a1838f02987@watchfeed</guid>
       <category>anime</category>
@@ -956,7 +996,7 @@
     </item>
     <item>
       <title>[ANIME] Detective Conan — Episode 1212</title>
-      <description>in 12 days — Saturday, September 5, 2026</description>
+      <description>in 4 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e9d03a4b6fcffa8493b7dd07af16397808bc77e1@watchfeed</guid>
       <category>anime</category>
@@ -964,7 +1004,7 @@
     </item>
     <item>
       <title>[ANIME] Daemons of the Shadow Realm — Episode 22</title>
-      <description>in 12 days — Saturday, September 5, 2026</description>
+      <description>in 4 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">27ca7bd4173a3119b3290ff51c75a6686e2e7882@watchfeed</guid>
       <category>anime</category>
@@ -972,7 +1012,7 @@
     </item>
     <item>
       <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 7</title>
-      <description>in 12 days — Saturday, September 5, 2026</description>
+      <description>in 4 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">18051f810202dbe465f4e092a85832488660d263@watchfeed</guid>
       <category>anime</category>
@@ -980,7 +1020,7 @@
     </item>
     <item>
       <title>[ANIME] BLACK TORCH — Episode 10</title>
-      <description>in 12 days — Saturday, September 5, 2026</description>
+      <description>in 4 days — Saturday, September 5, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d88418cfb5981c88b33f114a43c938a99c35a5f0@watchfeed</guid>
       <category>anime</category>
@@ -988,7 +1028,7 @@
     </item>
     <item>
       <title>[ANIME] That Time I Got Reincarnated as a Slime Season 4 — Episode 21</title>
-      <description>in 11 days — Friday, September 4, 2026</description>
+      <description>in 3 days — Friday, September 4, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f3382c827e5a984496b45439bd0c47c8892bc450@watchfeed</guid>
       <category>anime</category>
@@ -996,7 +1036,7 @@
     </item>
     <item>
       <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 10</title>
-      <description>in 10 days — Thursday, September 3, 2026</description>
+      <description>in 2 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f18690d2ceb953f03408eeccbaac60902b8dbfec@watchfeed</guid>
       <category>anime</category>
@@ -1004,7 +1044,7 @@
     </item>
     <item>
       <title>[ANIME] Smoking Behind the Supermarket with You — Episode 9</title>
-      <description>in 10 days — Thursday, September 3, 2026</description>
+      <description>in 2 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">22dfb48e63afaf991c5facc372628d4a8e6a8c51@watchfeed</guid>
       <category>anime</category>
@@ -1012,7 +1052,7 @@
     </item>
     <item>
       <title>[ANIME] From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage — Episode 11</title>
-      <description>in 10 days — Thursday, September 3, 2026</description>
+      <description>in 2 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f390a9cef43ca684bb8469b225520606c3ed2bf1@watchfeed</guid>
       <category>anime</category>
@@ -1020,7 +1060,7 @@
     </item>
     <item>
       <title>[ANIME] Chainsmoker Cat — Episode 9</title>
-      <description>in 10 days — Thursday, September 3, 2026</description>
+      <description>in 2 days — Thursday, September 3, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a01360c472a04980e1172711ea2f1a0bfc5da9b1@watchfeed</guid>
       <category>anime</category>
@@ -1028,7 +1068,7 @@
     </item>
     <item>
       <title>[ANIME] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 — Episode 9</title>
-      <description>in 9 days — Wednesday, September 2, 2026</description>
+      <description>tomorrow — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">a37710b9b14a97be0cde3cdc013d7310460ff1d4@watchfeed</guid>
       <category>anime</category>
@@ -1036,7 +1076,7 @@
     </item>
     <item>
       <title>[ANIME] Saga of Tanya the Evil Season 2 — Episode 9</title>
-      <description>in 9 days — Wednesday, September 2, 2026</description>
+      <description>tomorrow — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d3c9b46d3b9449e3dc0fdf79045defa587493ebb@watchfeed</guid>
       <category>anime</category>
@@ -1044,7 +1084,7 @@
     </item>
     <item>
       <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 15</title>
-      <description>in 9 days — Wednesday, September 2, 2026</description>
+      <description>tomorrow — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c318421aa4e813716ae487d7b62db2d37c54f953@watchfeed</guid>
       <category>anime</category>
@@ -1052,211 +1092,11 @@
     </item>
     <item>
       <title>[ANIME] Clevatess Season 2 — Episode 9</title>
-      <description>in 9 days — Wednesday, September 2, 2026</description>
+      <description>tomorrow — Wednesday, September 2, 2026</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b17dae9e077cf22b9360cfee99fa2f5f04e17df7@watchfeed</guid>
       <category>anime</category>
       <link>https://anilist.co/anime/198946</link>
-    </item>
-    <item>
-      <title>[ANIME] THE GHOST IN THE SHELL — Episode 9</title>
-      <description>in 8 days — Tuesday, September 1, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">cacd380e79624c9fab3ef9e2a5cf079b9b35f04e@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/177699</link>
-    </item>
-    <item>
-      <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 9</title>
-      <description>in 8 days — Tuesday, September 1, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">8c55f1330d16d8a218c40081059d31c16b51c8da@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/187260</link>
-    </item>
-    <item>
-      <title>[ANIME] Skeleton Knight in Another World Season 2 — Episode 9</title>
-      <description>in 7 days — Monday, August 31, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">3585a14af268ff05e26f3785a0a1fc1933aa571d@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/185542</link>
-    </item>
-    <item>
-      <title>[ANIME] LIAR GAME — Episode 22</title>
-      <description>in 7 days — Monday, August 31, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">17896106625b59ceb09c1544fc71b5d442c48e95@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/197754</link>
-    </item>
-    <item>
-      <title>[ANIME] You and I Are Polar Opposites Season 2 — Episode 9</title>
-      <description>in 6 days — Sunday, August 30, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">cf67c7ecaa93d05527d1d49691db59b55bce4d1d@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/210031</link>
-    </item>
-    <item>
-      <title>[ANIME] Sparks of Tomorrow — Episode 9</title>
-      <description>in 6 days — Sunday, August 30, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">608ba832614489684bc56c6d049beb8372702885@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/103303</link>
-    </item>
-    <item>
-      <title>[ANIME] ONE PIECE — Episode 1176</title>
-      <description>in 6 days — Sunday, August 30, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">cc6bb6b097531026b935ed74dee674fef8e2543f@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/21</link>
-    </item>
-    <item>
-      <title>[ANIME] Mushoku Tensei: Jobless Reincarnation Season 3 — Episode 10</title>
-      <description>in 6 days — Sunday, August 30, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">c0c19e4ed2f26b5315a2e1dff59262da9206ed17@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/178789</link>
-    </item>
-    <item>
-      <title>[ANIME] Detective Conan — Episode 1211</title>
-      <description>in 5 days — Saturday, August 29, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">4168de52a520e85e14e7556b44a19b877c1e1ba0@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/235</link>
-    </item>
-    <item>
-      <title>[ANIME] Daemons of the Shadow Realm — Episode 21</title>
-      <description>in 5 days — Saturday, August 29, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">dcd0cc88ff73ffa3348ac9401d50695503bf932e@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/195600</link>
-    </item>
-    <item>
-      <title>[ANIME] BLEACH: Thousand-Year Blood War - The Calamity — Episode 6</title>
-      <description>in 5 days — Saturday, August 29, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">8a02640a4c627cf421322d3dd5a2e7d0c3834c31@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/185874</link>
-    </item>
-    <item>
-      <title>[ANIME] BLACK TORCH — Episode 9</title>
-      <description>in 5 days — Saturday, August 29, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">57767961d217d16a46ce179240ce5151dd995b8d@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/187538</link>
-    </item>
-    <item>
-      <title>[ANIME] That Time I Got Reincarnated as a Slime Season 4 — Episode 20</title>
-      <description>in 4 days — Friday, August 28, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">5dce4a067304ad35a84f8b02e49a41315aba0ed3@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/182205</link>
-    </item>
-    <item>
-      <title>[ANIME] The Exiled Heavy Knight Knows How to Game the System — Episode 9</title>
-      <description>in 3 days — Thursday, August 27, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">93539a9ba3fa50489cb424b48b32998c2a2d7c01@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/180136</link>
-    </item>
-    <item>
-      <title>[ANIME] Smoking Behind the Supermarket with You — Episode 8</title>
-      <description>in 3 days — Thursday, August 27, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">f5e942638df68b7d371bee77b2578a19f0a53060@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/196187</link>
-    </item>
-    <item>
-      <title>[ANIME] Puella Magi Madoka Magica the Movie -Walpurgisnacht: Rising- — Episode 1</title>
-      <description>in 3 days — Thursday, August 27, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">18710e141bd81d18b2a52622860b1a06dd381fc1@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/133007</link>
-    </item>
-    <item>
-      <title>[ANIME] From Overshadowed to Overpowered: Second Reincarnation of a Talentless Sage — Episode 10</title>
-      <description>in 3 days — Thursday, August 27, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">f29ef24552bdf1c49c9d9727e4e4a7aad0504f5b@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/208044</link>
-    </item>
-    <item>
-      <title>[ANIME] Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2 — Episode 8</title>
-      <description>in 2 days — Wednesday, August 26, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">34754622497331b00f66cb8a6c40f2191769f3b2@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/159309</link>
-    </item>
-    <item>
-      <title>[ANIME] Saga of Tanya the Evil Season 2 — Episode 8</title>
-      <description>in 2 days — Wednesday, August 26, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">3e7cf4fbb907968507e9fd17c5f956fc032f456f@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/135865</link>
-    </item>
-    <item>
-      <title>[ANIME] Re:ZERO -Starting Life in Another World- Season 4 — Episode 14</title>
-      <description>in 2 days — Wednesday, August 26, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">18628f49fe534f12517bef08fea951c8b84161f5@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/189046</link>
-    </item>
-    <item>
-      <title>[ANIME] Clevatess Season 2 — Episode 8</title>
-      <description>in 2 days — Wednesday, August 26, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">0fe549ac60e665528ae13696749922a2987c3bdf@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/198946</link>
-    </item>
-    <item>
-      <title>[ANIME] THE GHOST IN THE SHELL — Episode 8</title>
-      <description>tomorrow — Tuesday, August 25, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">85d6b524ff7e790dc3c79914187653c2c1ae747e@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/177699</link>
-    </item>
-    <item>
-      <title>[ANIME] I Want to Love You Till Your Dying Day — Episode 8</title>
-      <description>tomorrow — Tuesday, August 25, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">3011af4d10bb85ddd167d3708abea6ba5b96e71f@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/187260</link>
-    </item>
-    <item>
-      <title>[ANIME] Skeleton Knight in Another World Season 2 — Episode 8</title>
-      <description>today — Monday, August 24, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">a5a2474532be11e66336d3cf48deae7893e3c1cf@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/185542</link>
-    </item>
-    <item>
-      <title>[ANIME] LIAR GAME — Episode 21</title>
-      <description>today — Monday, August 24, 2026</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">be41d05ff92694f966216246c2dab427ae786191@watchfeed</guid>
-      <category>anime</category>
-      <link>https://anilist.co/anime/197754</link>
     </item>
   </channel>
 </rss>
