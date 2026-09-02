@@ -8,15 +8,23 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Tue, 01 Sep 2026 14:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:47:38 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/movies.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>[FILM] A Minecraft Movie Squared — Theatrical release</title>
-      <description>in 11 months — Friday, July 23, 2027 — Theaters</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">a0e76da27bc24a5d06a5255932154ceb3ab4cec0@watchfeed</guid>
+      <title>[FILM] The Beatles: John — Theatrical release</title>
+      <description>in 19 months — Friday, April 7, 2028 — Theaters</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b02e9f5d15bf28b7eb25de88d7e39a5f8e7c28ec@watchfeed</guid>
       <category>movie</category>
-      <link>https://www.themoviedb.org/movie/1461519</link>
+      <link>https://www.themoviedb.org/movie/1247601</link>
+    </item>
+    <item>
+      <title>[FILM] La bola negra — Limited release</title>
+      <description>in 6 weeks — Friday, October 16, 2026 — Theaters</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">376545d3652510e022e4240c9c193ba486bcd5a9@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1422041</link>
     </item>
     <item>
       <title>[FILM] Gatto — Theatrical release</title>
@@ -76,7 +84,7 @@
     </item>
     <item>
       <title>[FILM] The Fix — Theatrical release</title>
-      <description>in 10 days — Friday, September 11, 2026 — Theaters</description>
+      <description>in 9 days — Friday, September 11, 2026 — Theaters</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ce0c471523e1b77dfef077afbfefabe9dff2e032@watchfeed</guid>
       <category>movie</category>
@@ -84,7 +92,7 @@
     </item>
     <item>
       <title>[FILM] Oasis: Don't Look Back in Anger — Limited release</title>
-      <description>in 10 days — Friday, September 11, 2026 — Theaters</description>
+      <description>in 9 days — Friday, September 11, 2026 — Theaters</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">afc6991c07cefadd3108874c6d46ba2342322acf@watchfeed</guid>
       <category>movie</category>
@@ -92,7 +100,7 @@
     </item>
     <item>
       <title>[FILM] The Uprising — Theatrical release</title>
-      <description>in 9 days — Thursday, September 10, 2026 — Theaters</description>
+      <description>in 8 days — Thursday, September 10, 2026 — Theaters</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b090612594c674445f6a91152a1cb9fbf7f1dabf@watchfeed</guid>
       <category>movie</category>
@@ -100,7 +108,7 @@
     </item>
     <item>
       <title>[FILM] Onslaught — Theatrical release</title>
-      <description>in 3 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 2 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">5cf6df189e85449cb76cd2c9b4d2c8ca7b0727d7@watchfeed</guid>
       <category>movie</category>
@@ -108,7 +116,7 @@
     </item>
     <item>
       <title>[FILM] By Any Means — Theatrical release</title>
-      <description>in 3 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 2 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f1e5c74006aaf9c2662bfcf0f09cb66c9eb43e65@watchfeed</guid>
       <category>movie</category>
@@ -116,7 +124,7 @@
     </item>
     <item>
       <title>[FILM] Bethlehem Kudumba Unit — Theatrical release</title>
-      <description>in 3 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 2 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9e6ab3b69f576eb29289195d16ac8f87fe34cec4@watchfeed</guid>
       <category>movie</category>
@@ -124,7 +132,7 @@
     </item>
     <item>
       <title>[FILM] Fast Forever — Theatrical release</title>
-      <description>in 19 months — Friday, March 17, 2028 — Theaters</description>
+      <description>in 18 months — Friday, March 17, 2028 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c53fa5dd23bb3d972ee97e46a22e581585f342b8@watchfeed</guid>
       <category>movie</category>
@@ -140,7 +148,7 @@
     </item>
     <item>
       <title>[FILM] Avengers: Secret Wars — Theatrical release</title>
-      <description>in 16 months — Friday, December 17, 2027 — Theaters</description>
+      <description>in 15 months — Friday, December 17, 2027 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">4993a3680bc0cf367bf54d6c0797fc4a02715178@watchfeed</guid>
       <category>movie</category>
@@ -347,22 +355,6 @@
       <link>https://www.themoviedb.org/movie/1300968</link>
     </item>
     <item>
-      <title>[FILM] Ebenezer — Theatrical release</title>
-      <description>in 2 months — Friday, November 13, 2026 — Theaters</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">d88cde98d84eaa63d57893ac4445e4da9baee076@watchfeed</guid>
-      <category>movie</category>
-      <link>https://www.themoviedb.org/movie/1567605</link>
-    </item>
-    <item>
-      <title>[FILM] The Cat in the Hat — Theatrical release</title>
-      <description>in 2 months — Friday, November 6, 2026 — Theaters</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">572d11645d40545aad7cea7e7641a0601e05a35a@watchfeed</guid>
-      <category>movie</category>
-      <link>https://www.themoviedb.org/movie/1117898</link>
-    </item>
-    <item>
       <title>[FILM] Ghost Soldier — Theatrical release</title>
       <description>in 2 months — Friday, November 6, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
@@ -476,7 +468,7 @@
     </item>
     <item>
       <title>[FILM] Runner — Theatrical release</title>
-      <description>in 10 days — Friday, September 11, 2026 — Theaters</description>
+      <description>in 9 days — Friday, September 11, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">935f9fc3de643b9117e35cf9f4d05b4faf569b06@watchfeed</guid>
       <category>movie</category>
@@ -484,7 +476,7 @@
     </item>
     <item>
       <title>[FILM] Practical Magic 2 — Theatrical release</title>
-      <description>in 10 days — Friday, September 11, 2026 — Theaters</description>
+      <description>in 9 days — Friday, September 11, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b1037ba39e86c9f6ee1938c4bc059b8c45a0d96b@watchfeed</guid>
       <category>movie</category>
@@ -492,7 +484,7 @@
     </item>
     <item>
       <title>[FILM] Hope — Theatrical release</title>
-      <description>in 8 days — Wednesday, September 9, 2026 — Theaters</description>
+      <description>in 7 days — Wednesday, September 9, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">13dd2461d3aab0b937f8fc47d7821c1dae611f36@watchfeed</guid>
       <category>movie</category>
@@ -500,7 +492,7 @@
     </item>
     <item>
       <title>[FILM] Tom and Jerry: Forbidden Compass — Theatrical release</title>
-      <description>in 3 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 2 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">d4419f7734af5cba71f8ec3147845913127b751e@watchfeed</guid>
       <category>movie</category>
@@ -508,7 +500,7 @@
     </item>
     <item>
       <title>[FILM] Dear You — Theatrical release</title>
-      <description>in 3 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 2 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">552b8e54323b23fec222edcad2d35246dc779782@watchfeed</guid>
       <category>movie</category>
@@ -516,7 +508,7 @@
     </item>
     <item>
       <title>[FILM] Akira — Theatrical release</title>
-      <description>in 3 days — Friday, September 4, 2026 — Theaters</description>
+      <description>in 2 days — Friday, September 4, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0b979cac503d04fc5d1169c8233bf77a6c0ffd94@watchfeed</guid>
       <category>movie</category>
@@ -524,7 +516,7 @@
     </item>
     <item>
       <title>[FILM] Fall 2: Deadpoint — Theatrical release</title>
-      <description>tomorrow — Wednesday, September 2, 2026 — Theaters</description>
+      <description>today — Wednesday, September 2, 2026 — Theaters</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">96c6d73b67fb8f75202af8add92fec4aaa5b3eb8@watchfeed</guid>
       <category>movie</category>

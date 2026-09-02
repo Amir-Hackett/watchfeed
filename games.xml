@@ -8,7 +8,7 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Tue, 01 Sep 2026 14:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:47:38 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/games.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>[GAME] The Witcher IV — Release day</title>
@@ -116,7 +116,7 @@
     </item>
     <item>
       <title>[GAME] Silent Hill: Townfall — Release day</title>
-      <description>in 3 weeks — Tuesday, September 22, 2026 — PC, PS5</description>
+      <description>in 2 weeks — Tuesday, September 22, 2026 — PC, PS5</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">b33dbe21f6526e9cd64d38dd253e17dbf0618637@watchfeed</guid>
       <category>game</category>
@@ -124,7 +124,7 @@
     </item>
     <item>
       <title>[GAME] Control Resonant — Release day</title>
-      <description>in 3 weeks — Tuesday, September 22, 2026 — Mac, PC, PS5, Series X|S</description>
+      <description>in 2 weeks — Tuesday, September 22, 2026 — Mac, PC, PS5, Series X|S</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e74b925c6f60c94ab44f63ac09fef5991c6f5bbd@watchfeed</guid>
       <category>game</category>
@@ -132,7 +132,7 @@
     </item>
     <item>
       <title>[GAME] Marvel's Wolverine — Release day</title>
-      <description>in 2 weeks — Tuesday, September 15, 2026 — PS5</description>
+      <description>in 13 days — Tuesday, September 15, 2026 — PS5</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">96ca29e6eba3b7babb43eed8d3d95f60864370e4@watchfeed</guid>
       <category>game</category>
@@ -140,7 +140,7 @@
     </item>
     <item>
       <title>[GAME] Onimusha: Way of the Sword — Release day</title>
-      <description>in 3 days — Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
+      <description>in 2 days — Friday, September 4, 2026 — PC, PS5, Series X|S, Switch 2</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bb252d825bc59619e01e903d123a65c36a14b499@watchfeed</guid>
       <category>game</category>
@@ -148,7 +148,7 @@
     </item>
     <item>
       <title>[GAME] The Blood of Dawnwalker — Release day</title>
-      <description>in 2 days — Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
+      <description>tomorrow — Thursday, September 3, 2026 — PC, PS5, Series X|S</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">0351e29a929d1e84d591b39f380a04d236773729@watchfeed</guid>
       <category>game</category>

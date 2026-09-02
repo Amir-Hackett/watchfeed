@@ -8,8 +8,88 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Tue, 01 Sep 2026 14:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:47:38 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/new.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Beatles: John — Theatrical release got a date: Apr 7, 2028</title>
+      <description>The Beatles: John — Theatrical release · Friday, April 7, 2028</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">479d0c11f33f162c3bea645dc6a6f3679692fca7@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1247601</link>
+    </item>
+    <item>
+      <title>Tulsa King — S04E01 — TBA got a date: Oct 16, 2026</title>
+      <description>Tulsa King — S04E01 — TBA · Friday, October 16, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">c99950b65d4af80127fd171eb443a97a6ddc7b0e@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/59344/tulsa-king</link>
+    </item>
+    <item>
+      <title>La bola negra — Limited release got a date: Oct 16, 2026</title>
+      <description>La bola negra — Limited release · Friday, October 16, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">aae0c6b46dc459ccbd4d58fbf63bd02f4c982aa6@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1422041</link>
+    </item>
+    <item>
+      <title>Elsbeth — S04E01 — Crazy in Love got a date: Oct 8, 2026</title>
+      <description>Elsbeth — S04E01 — Crazy in Love · Thursday, October 8, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">56dc39d1a36685d75c212a334927238faac4a3ed@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/66869/elsbeth</link>
+    </item>
+    <item>
+      <title>NCIS — S24E01 — Wayward Son got a date: Oct 6, 2026</title>
+      <description>NCIS — S24E01 — Wayward Son · Tuesday, October 6, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">b31f6eeb5ce13fcfaa7661b791ca36dac0e63788@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/60/ncis</link>
+    </item>
+    <item>
+      <title>Tracker — S04E01 — Safe Harbor got a date: Oct 4, 2026</title>
+      <description>Tracker — S04E01 — Safe Harbor · Sunday, October 4, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">5aba8df9d7683ee5b962b16e801e108a142761df@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/63192/tracker</link>
+    </item>
+    <item>
+      <title>LIAR GAME — Episode 26 got a date: Sep 28, 2026</title>
+      <description>LIAR GAME — Episode 26 · Monday, September 28, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">84bd40dbfe1a27dc9d1c3ee220713571b8ca274a@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/197754</link>
+    </item>
+    <item>
+      <title>LIAR GAME — Episode 25 got a date: Sep 21, 2026</title>
+      <description>LIAR GAME — Episode 25 · Monday, September 21, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">79fbccfacc2587e187d78a73efa1f7bb5f69e867@watchfeed</guid>
+      <category>anime</category>
+      <link>https://anilist.co/anime/197754</link>
+    </item>
+    <item>
+      <title>Just Play Dead — Limited release got a date: Aug 28, 2026</title>
+      <description>Just Play Dead — Limited release · Friday, August 28, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">04768a0f02505419571ad9aef258287e58cd004e@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1480574</link>
+    </item>
+    <item>
+      <title>2 Big to Rig — Theatrical release got a date: Aug 26, 2026</title>
+      <description>2 Big to Rig — Theatrical release · Wednesday, August 26, 2026</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">cdcc256933d99425fa2a1e50fc3d13ef304394fc@watchfeed</guid>
+      <category>movie</category>
+      <link>https://www.themoviedb.org/movie/1693400</link>
+    </item>
     <item>
       <title>The Witcher IV — Release day got a date: Dec 31, 2028</title>
       <description>The Witcher IV — Release day · Sunday, December 31, 2028</description>

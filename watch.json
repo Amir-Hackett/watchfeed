@@ -1,28 +1,14 @@
 {
  "name": "Watchfeed",
  "url": "https://amir-hackett.github.io/watchfeed/",
- "generated": "2026-09-01T14:14:52+00:00",
+ "generated": "2026-09-02T13:47:38+00:00",
  "counts": {
-  "tv": 178,
+  "tv": 174,
   "anime": 136,
-  "movie": 65,
+  "movie": 64,
   "game": 18
  },
  "releases": [
-  {
-   "title": "Clevatess Season 2",
-   "detail": "Episode 9",
-   "date": "2026-09-02",
-   "kind": "anime",
-   "source": "anilist",
-   "url": "https://anilist.co/anime/198946",
-   "platform": "",
-   "time": "2026-09-02T12:00:00+00:00",
-   "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx198946-IGXmbqBEYRYD.jpg",
-   "about": "The second season of Clevatess: Majuu no Ou to Akago to Kabane no Yuusha .",
-   "first_seen": "2026-08-23",
-   "uid": "b17dae9e077cf22b9360cfee99fa2f5f04e17df7@watchfeed"
-  },
   {
    "title": "Re:ZERO -Starting Life in Another World- Season 4",
    "detail": "Episode 15",
@@ -36,20 +22,6 @@
    "about": "To save his stricken allies, Subaru faces a deadly desert to find the Sage at Pleiades Watchtower. (Source: Crunchyroll News) Note: Lucca Comics & Games pre-screened episode 1 early on November 1, 2025, prior to the Japanese television broadcast on July 8th, 2026.",
    "first_seen": "2026-08-23",
    "uid": "c318421aa4e813716ae487d7b62db2d37c54f953@watchfeed"
-  },
-  {
-   "title": "Saga of Tanya the Evil Season 2",
-   "detail": "Episode 9",
-   "date": "2026-09-02",
-   "kind": "anime",
-   "source": "anilist",
-   "url": "https://anilist.co/anime/135865",
-   "platform": "",
-   "time": "2026-09-02T12:30:00+00:00",
-   "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx135865-T7XIPMAbqcxN.png",
-   "about": "The second season of Youjo Senki .",
-   "first_seen": "2026-08-23",
-   "uid": "d3c9b46d3b9449e3dc0fdf79045defa587493ebb@watchfeed"
   },
   {
    "title": "Trapped in a Dating Sim: The World of Otome Games is Tough for Mobs Season 2",
@@ -176,20 +148,6 @@
    "about": "Star Trek: Strange New Worlds follows Captain Pike, Science Officer Spock and Number One in the decade before Captain Kirk boarded the U.S.S. Enterprise , as they explore new worlds around the galaxy .",
    "first_seen": "2026-08-23",
    "uid": "dd716f8a0045c0df7d22cfd0ff1a8375c122b0f6@watchfeed"
-  },
-  {
-   "title": "Stuart Fails to Save the Universe",
-   "detail": "S01E07 — Spoiler: Dexys Midnight Runners Get a Royalty Payment",
-   "date": "2026-09-03",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe",
-   "platform": "HBO Max",
-   "time": "2026-09-03T12:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584491.jpg",
-   "about": "Set in the future, comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon, Leonard and Howard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke. Along the way, they meet alternate-universe versions of characters we've…",
-   "first_seen": "2026-08-23",
-   "uid": "0dfd2323575f17913aa4c4ff8e7e439321e6a3cf@watchfeed"
   },
   {
    "title": "The Gentlemen",
@@ -354,7 +312,7 @@
    "url": "https://www.themoviedb.org/movie/1508168",
    "platform": "Theaters",
    "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/uaSZiH6yoGaVJcqzKtrfSkqDuHX.jpg",
+   "image": "https://image.tmdb.org/t/p/w342/rZPu64VDDftnU7NU1d2wrWuhOHm.jpg",
    "about": "Ashley's homecoming from abroad takes an emotional turn when a wedding next door stirs memories of her first love, Justin.",
    "first_seen": "2026-09-01",
    "uid": "9e6ab3b69f576eb29289195d16ac8f87fe34cec4@watchfeed"
@@ -438,7 +396,7 @@
    "url": "https://www.tvmaze.com/shows/38052/silo",
    "platform": "Apple TV",
    "time": "2026-09-04T12:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/631/1577677.jpg",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/459/1149371.jpg",
    "about": "In a ruined and toxic future, thousands live in a giant silo deep underground. After its sheriff breaks a cardinal rule and residents die mysteriously, engineer Juliette starts to uncover shocking secrets and the truth about the silo .",
    "first_seen": "2026-08-23",
    "uid": "7edd0d85502d7bc214ac9ac41d00334cd5922c0f@watchfeed"
@@ -584,20 +542,6 @@
    "uid": "79e952d7c1fe9d7afa6527fffaaae35b0f369896@watchfeed"
   },
   {
-   "title": "The Librarians: The Next Chapter",
-   "detail": "S02E11 — And What Dreams May Come",
-   "date": "2026-09-06",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/68801/the-librarians-the-next-chapter",
-   "platform": "TNT",
-   "time": "2026-09-07T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1588198.jpg",
-   "about": "The Librarians: The Next Chapter centers on Vikram Chamberlain, a \"Librarian\" from the past who time traveled from 1847 and now finds himself stuck in the present. When Vikram returns to his castle in Belgrade, Serbia and discovers that it is now a museum, he inadvertently releases magic across the continent. With the help of a new team of eclectic heroes, including a savant in world history, a scientific genius…",
-   "first_seen": "2026-09-01",
-   "uid": "55120af6e4c08fba83217bd5d742ee7db441c470@watchfeed"
-  },
-  {
    "title": "The Walking Dead: Dead City",
    "detail": "S03E07 — Hourglass",
    "date": "2026-09-06",
@@ -694,20 +638,6 @@
    "about": "Futurama follows pizza guy Philip J. Fry, who reawakens in 31st century New New York after a cryonics lab accident. Now part of the Planet Express delivery crew, Fry travels to the farthest reaches of the universe with his robot buddy Bender and cyclopsian love interest Leela, discovering freaky mutants, intergalactic conspiracies and other strange stuff.",
    "first_seen": "2026-08-23",
    "uid": "ebed3e2ea9dca644038c8190d66e6a1486e795e7@watchfeed"
-  },
-  {
-   "title": "The Librarians: The Next Chapter",
-   "detail": "S02E12 — And the Camelot Conundrum",
-   "date": "2026-09-07",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/68801/the-librarians-the-next-chapter",
-   "platform": "TNT",
-   "time": "2026-09-08T01:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/635/1588198.jpg",
-   "about": "The Librarians: The Next Chapter centers on Vikram Chamberlain, a \"Librarian\" from the past who time traveled from 1847 and now finds himself stuck in the present. When Vikram returns to his castle in Belgrade, Serbia and discovers that it is now a museum, he inadvertently releases magic across the continent. With the help of a new team of eclectic heroes, including a savant in world history, a scientific genius…",
-   "first_seen": "2026-09-01",
-   "uid": "5d39b621b4ad76cfc0c5139dbd4c184708222e88@watchfeed"
   },
   {
    "title": "I Want to Love You Till Your Dying Day",
@@ -904,20 +834,6 @@
    "about": "Star Trek: Strange New Worlds follows Captain Pike, Science Officer Spock and Number One in the decade before Captain Kirk boarded the U.S.S. Enterprise , as they explore new worlds around the galaxy .",
    "first_seen": "2026-08-23",
    "uid": "37ac85cb4a8a64866191c2476649b18948a5c507@watchfeed"
-  },
-  {
-   "title": "Stuart Fails to Save the Universe",
-   "detail": "S01E08 — Spoiler: We're as Confused as You Are",
-   "date": "2026-09-10",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe",
-   "platform": "HBO Max",
-   "time": "2026-09-10T12:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584491.jpg",
-   "about": "Set in the future, comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon, Leonard and Howard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke. Along the way, they meet alternate-universe versions of characters we've…",
-   "first_seen": "2026-08-23",
-   "uid": "f08fc2e1aad215a907b4418085ebc3773782cbd8@watchfeed"
   },
   {
    "title": "That Time I Got Reincarnated as a Slime Season 4",
@@ -1536,20 +1452,6 @@
    "uid": "2af4598e2d6e79962fde93248dd219496a771df1@watchfeed"
   },
   {
-   "title": "Stuart Fails to Save the Universe",
-   "detail": "S01E09 — Spoiler: We Couldn't Get Green Lantern",
-   "date": "2026-09-17",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe",
-   "platform": "HBO Max",
-   "time": "2026-09-17T12:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584491.jpg",
-   "about": "Set in the future, comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon, Leonard and Howard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke. Along the way, they meet alternate-universe versions of characters we've…",
-   "first_seen": "2026-08-23",
-   "uid": "d279299a959dc5041ef8daf01143c8c4df85e3fa@watchfeed"
-  },
-  {
    "title": "That Time I Got Reincarnated as a Slime Season 4",
    "detail": "Episode 23",
    "date": "2026-09-18",
@@ -1758,6 +1660,20 @@
    "about": "Lioness , inspired by an actual U.S. Military program, follows the life of Joe while she attempts to balance her personal and professional life as the tip of the CIA's spear in the war on terror. The Lioness Program, overseen by Kaitlyn Meade and Donald Westfield, enlists an aggressive Marine Raider named Cruz to operate undercover alongside Joe among the power brokers of State terrorism in the CIA's efforts to…",
    "first_seen": "2026-08-23",
    "uid": "d94cb611df71fbb81010d2fe6a17c4b8e23dea44@watchfeed"
+  },
+  {
+   "title": "LIAR GAME",
+   "detail": "Episode 25",
+   "date": "2026-09-21",
+   "kind": "anime",
+   "source": "anilist",
+   "url": "https://anilist.co/anime/197754",
+   "platform": "",
+   "time": "2026-09-21T15:00:00+00:00",
+   "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197754-Q5KqcUhIdypp.png",
+   "about": "Wishing she would live up to the ideal, Kanzaki Nao's father named her thusly for “honesty”. Nao has more than lived up to her father's wishes--even exceeding them and earning the label of \"a foolishly honest girl\". This makes Nao the least qualified candidate for the high stakes 'Liar Game', where winning requires deceiving the opponent out of their money and losing means receiving massive debt. However, that…",
+   "first_seen": "2026-09-02",
+   "uid": "8d6986bdd284b68cbb87162ac6477f787c76f936@watchfeed"
   },
   {
    "title": "Love Unseen Beneath the Clear Night Sky",
@@ -2012,20 +1928,6 @@
    "uid": "43c5a4a7072f2d63aa47a13dcc5ddb5f46d9b10f@watchfeed"
   },
   {
-   "title": "Stuart Fails to Save the Universe",
-   "detail": "S01E10 — Spoiler: Filmed Before a Live Studio Audience",
-   "date": "2026-09-24",
-   "kind": "tv",
-   "source": "tvmaze",
-   "url": "https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe",
-   "platform": "HBO Max",
-   "time": "2026-09-24T12:00:00+00:00",
-   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/633/1584491.jpg",
-   "about": "Set in the future, comic book store owner Stuart Bloom is tasked with restoring reality after he breaks a device built by Sheldon, Leonard and Howard, accidentally bringing about a multiverse Armageddon. Stuart is aided in this quest by his girlfriend Denise, geologist friend Bert, and quantum physicist/all-around pain in the ass Barry Kripke. Along the way, they meet alternate-universe versions of characters we've…",
-   "first_seen": "2026-08-23",
-   "uid": "2ca3a68a73421a4c7377228874fac721607167d3@watchfeed"
-  },
-  {
    "title": "That Time I Got Reincarnated as a Slime Season 4",
    "detail": "Episode 24",
    "date": "2026-09-25",
@@ -2076,7 +1978,7 @@
    "url": "https://www.themoviedb.org/movie/1375441",
    "platform": "Theaters",
    "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/lmrulvLbmaejTix1YaMxo1oGhH1.jpg",
+   "image": "https://image.tmdb.org/t/p/w342/51VDtNQFuD2I86hrT4ekytg9Dq3.jpg",
    "about": "In 2006, To Catch a Predator host Chris Hansen sets out to make television history.",
    "first_seen": "2026-09-01",
    "uid": "f8f8df08d1e4bfd5b39c5a94690a277602c62765@watchfeed"
@@ -2178,6 +2080,20 @@
    "about": "Lanterns follows new recruit John Stewart and Lantern legend Hal Jordan, two intergalactic cops drawn into a dark, Earth-based mystery as they investigate a murder in the American heartland.",
    "first_seen": "2026-08-23",
    "uid": "4e491270f5d20121c94bf4073259e09f02e76c96@watchfeed"
+  },
+  {
+   "title": "LIAR GAME",
+   "detail": "Episode 26",
+   "date": "2026-09-28",
+   "kind": "anime",
+   "source": "anilist",
+   "url": "https://anilist.co/anime/197754",
+   "platform": "",
+   "time": "2026-09-28T15:00:00+00:00",
+   "image": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx197754-Q5KqcUhIdypp.png",
+   "about": "Wishing she would live up to the ideal, Kanzaki Nao's father named her thusly for “honesty”. Nao has more than lived up to her father's wishes--even exceeding them and earning the label of \"a foolishly honest girl\". This makes Nao the least qualified candidate for the high stakes 'Liar Game', where winning requires deceiving the opponent out of their money and losing means receiving massive debt. However, that…",
+   "first_seen": "2026-09-02",
+   "uid": "aa2878b3908695d340d1448dca7326a9d69bb309@watchfeed"
   },
   {
    "title": "Futurama",
@@ -2489,7 +2405,7 @@
   },
   {
    "title": "Tracker",
-   "detail": "S04E01 — TBA",
+   "detail": "S04E01 — Safe Harbor",
    "date": "2026-10-04",
    "kind": "tv",
    "source": "tvmaze",
@@ -2498,8 +2414,8 @@
    "time": "2026-10-05T01:30:00+00:00",
    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479867.jpg",
    "about": "Tracker features lone-wolf survivalist Colter Shaw, who roams the country as a \"reward seeker,\" using his expert tracking skills to help private citizens and law enforcement to solve all manner of mysteries while contending with his own fractured family.",
-   "first_seen": "2026-08-23",
-   "uid": "8841ac71fbfed24f9a98a7d7d971088fb2db9a0d@watchfeed"
+   "first_seen": "2026-09-02",
+   "uid": "ab8d34e9a2c499bab110bea726f3292a5a2d432b@watchfeed"
   },
   {
    "title": "FBI",
@@ -2517,7 +2433,7 @@
   },
   {
    "title": "NCIS",
-   "detail": "S24E01 — TBA",
+   "detail": "S24E01 — Wayward Son",
    "date": "2026-10-06",
    "kind": "tv",
    "source": "tvmaze",
@@ -2526,8 +2442,8 @@
    "time": "2026-10-07T00:00:00+00:00",
    "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479851.jpg",
    "about": "NCIS (Naval Criminal Investigative Service) is more than just an action drama. With liberal doses of humor, it's a show that focuses on the sometimes complex and always amusing dynamics of a team forced to work together in high-stress situations. Leroy Jethro Gibbs, a former Marine gunnery sergeant, whose skills as an investigator are unmatched, leads this troupe of colorful personalities. Rounding out the team are…",
-   "first_seen": "2026-08-23",
-   "uid": "605017773ed12ac5c857e184d7c007b946d14387@watchfeed"
+   "first_seen": "2026-09-02",
+   "uid": "e852fcca7fe892beab24c53d7adef6e5c3cdf57a@watchfeed"
   },
   {
    "title": "Chicago Fire",
@@ -2614,6 +2530,20 @@
    "uid": "f62bf1ccffcef4a3aa82430176cc6c9f70fa6fc6@watchfeed"
   },
   {
+   "title": "Elsbeth",
+   "detail": "S04E01 — Crazy in Love",
+   "date": "2026-10-08",
+   "kind": "tv",
+   "source": "tvmaze",
+   "url": "https://www.tvmaze.com/shows/66869/elsbeth",
+   "platform": "CBS",
+   "time": "2026-10-09T01:00:00+00:00",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/591/1479795.jpg",
+   "about": "Elsbeth follows Elsbeth Tascioni, an astute but unconventional attorney who utilizes her singular point of view to make unique observations and corner brilliant criminals alongside the NYPD. After leaving her successful legal career in Chicago to tackle a new investigative role in New York City, Elsbeth finds herself jockeying with the toast of the NYPD, Captain C.W. Wagner, a charismatic and revered leader. Working…",
+   "first_seen": "2026-09-02",
+   "uid": "d6d755d765d3736bfedc689c4f81231c10790c5b@watchfeed"
+  },
+  {
    "title": "Law & Order: Special Victims Unit",
    "detail": "S28E01 — TBA",
    "date": "2026-10-08",
@@ -2678,7 +2608,7 @@
    "url": "https://www.themoviedb.org/movie/1281331",
    "platform": "Theaters",
    "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/qZr5bxGXE1t2A9pNSikb9fQKzov.jpg",
+   "image": "https://image.tmdb.org/t/p/w342/blm3cRs7avmaHWtPqk6fzj3VIKF.jpg",
    "about": "Frances Haugen, a young Facebook engineer, enlists the help of Jeff Horwitz, a Wall Street Journal reporter, to go on a dangerous journey that ends up blowing the whistle on the social network's most guarded secrets.",
    "first_seen": "2026-09-01",
    "uid": "764aa5a258e925fe5e43525763c0f992f28e19dc@watchfeed"
@@ -2922,6 +2852,20 @@
    "uid": "393a438cdb5cd3a3046e3dd0c8077211f897f786@watchfeed"
   },
   {
+   "title": "La bola negra",
+   "detail": "Limited release",
+   "date": "2026-10-16",
+   "kind": "movie",
+   "source": "tmdb",
+   "url": "https://www.themoviedb.org/movie/1422041",
+   "platform": "Theaters",
+   "time": null,
+   "image": "https://image.tmdb.org/t/p/w342/8M46fNFLURpRcbc2Vp0AGjrt5fG.jpg",
+   "about": "The intertwined lives of three men in three different eras, three lives intimately linked by sexuality and desire, pain, and legacy.",
+   "first_seen": "2026-09-02",
+   "uid": "376545d3652510e022e4240c9c193ba486bcd5a9@watchfeed"
+  },
+  {
    "title": "Street Fighter",
    "detail": "Theatrical release",
    "date": "2026-10-16",
@@ -2990,6 +2934,20 @@
    "about": "Sheriff Country focuses on straight-shooting sheriff Mickey Fox, the stepsister of Cal Fire's division chief Sharon Leone, who investigates criminal activity as she patrols the streets of small-town Edgewater while contending with her ex-con father, Wes, who is an off-the-grid marijuana grower, and a mysterious incident involving her wayward daughter.",
    "first_seen": "2026-09-01",
    "uid": "fe3869bd8002529cea7d78c1ff4f47242390e867@watchfeed"
+  },
+  {
+   "title": "Tulsa King",
+   "detail": "S04E01 — TBA",
+   "date": "2026-10-16",
+   "kind": "tv",
+   "source": "tvmaze",
+   "url": "https://www.tvmaze.com/shows/59344/tulsa-king",
+   "platform": "Paramount+",
+   "time": "2026-10-16T12:00:00+00:00",
+   "image": "https://static.tvmaze.com/uploads/images/medium_portrait/588/1471782.jpg",
+   "about": "Tulsa King follows New York mafia capo Dwight \"The General\" Manfredi, just after he is released from prison after 25 years and unceremoniously exiled by his boss to set up shop in Tulsa, Oklahoma. Realizing that his mob family may not have his best interests in mind, Dwight slowly builds a \"crew\" from a group of unlikely characters, to help him establish a new criminal empire in a place that, to him, might as well…",
+   "first_seen": "2026-09-02",
+   "uid": "3862e0896ae1c10a6b556da27600d6199af3e39c@watchfeed"
   },
   {
    "title": "Blue Box Season 2",
@@ -3566,20 +3524,6 @@
    "uid": "bdd0cc0d78b8a24ffc0a0d322eb0ae6e8e0f7ee3@watchfeed"
   },
   {
-   "title": "The Cat in the Hat",
-   "detail": "Theatrical release",
-   "date": "2026-11-06",
-   "kind": "movie",
-   "source": "tmdb",
-   "url": "https://www.themoviedb.org/movie/1117898",
-   "platform": "Theaters",
-   "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/mWN6knIVJ2o7eGwSm7mOgSCwNUc.jpg",
-   "about": "Doing what he does best, the Cat spreads joy to kids in his hilarious, signature, and singularly irreverent way, transporting them and audiences on a fantastical journey through a world they've never seen before. Our hero takes on his toughest assignment yet for the I.I.I.I. (Institute for the Institution of Imagination and Inspiration, LLC) to cheer up Gabby and Sebastian, a pair of siblings struggling to move to a…",
-   "first_seen": "2026-08-23",
-   "uid": "572d11645d40545aad7cea7e7641a0601e05a35a@watchfeed"
-  },
-  {
    "title": "MobLand",
    "detail": "S02E08 — Episode 8",
    "date": "2026-11-06",
@@ -3732,20 +3676,6 @@
    "about": "The third season of Kusuriya no Hitorigoto . In the aftermath of the Shi Clan’s rebellion, things have finally settled down, and Maomao has returned to her old life as a pharmacist in the pleasure district. One day, triggered by a breakfast served at the Verdigris House, Maomao senses an anomaly and begins investigating its true nature. Meanwhile, Jinshi, who has revealed his true identity as the Imperial brother…",
    "first_seen": "2026-08-23",
    "uid": "7ae689aab141cc6a98ee4b23beb30ba8f30dc3f1@watchfeed"
-  },
-  {
-   "title": "Ebenezer",
-   "detail": "Theatrical release",
-   "date": "2026-11-13",
-   "kind": "movie",
-   "source": "tmdb",
-   "url": "https://www.themoviedb.org/movie/1567605",
-   "platform": "Theaters",
-   "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/wmuMZrelOQBAN2KlA30yOIeIUJl.jpg",
-   "about": "Tale of an elderly miser who embarks on a supernatural journey after visits from the ghost of his former business partner and the Spirits of Christmas Past, Present, and Yet to Come force him to confront his past and fight for a second chance at happiness.",
-   "first_seen": "2026-08-23",
-   "uid": "d88cde98d84eaa63d57893ac4445e4da9baee076@watchfeed"
   },
   {
    "title": "MobLand",
@@ -4834,7 +4764,7 @@
    "url": "https://www.themoviedb.org/movie/1380163",
    "platform": "Theaters",
    "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/oAjHDlaGHHWVZ0OcnadHPm8YIE.jpg",
+   "image": "https://image.tmdb.org/t/p/w342/io2w1IcXJOC5JdgOtEukGkV4dw4.jpg",
    "about": "A couple, journeys to a retreat in New Mexico seeking healing. Patrick grows skeptical of the retreat's leader as Abigail falls under her influence. They wonder if the group's practices offer genuine healing or conceal a terrifying truth.",
    "first_seen": "2026-08-23",
    "uid": "cd4b7938cf2be6fb3c75c0e796038bc6c4b57d22@watchfeed"
@@ -5044,7 +4974,7 @@
    "url": "https://www.themoviedb.org/movie/1115030",
    "platform": "Theaters",
    "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/I65yQ8p6VqDK96JH5tpNZ0Q3DS.jpg",
+   "image": "https://image.tmdb.org/t/p/w342/AfJldsj8a42yeg9Ued3MdgbfWnC.jpg",
    "about": "Two fugitive animals embark on an adventure across America to find the ranch that was once their home, healing their friendship while pursued by an equally \"odd-couple\" DEA agent and Fish and Wildlife ranger with something to prove.",
    "first_seen": "2026-08-23",
    "uid": "0d48a4d598f375360dd3ddda21e1b3455af2b7fe@watchfeed"
@@ -5470,20 +5400,6 @@
    "uid": "ff5b6d1a86de6edcc12677cef39d2722ac4b7744@watchfeed"
   },
   {
-   "title": "A Minecraft Movie Squared",
-   "detail": "Theatrical release",
-   "date": "2027-07-23",
-   "kind": "movie",
-   "source": "tmdb",
-   "url": "https://www.themoviedb.org/movie/1461519",
-   "platform": "Theaters",
-   "time": null,
-   "image": "https://image.tmdb.org/t/p/w342/dTlFgQFiILG6stHBhXMDXblgdCw.jpg",
-   "about": "The second installment in the franchise. Plot TBA.",
-   "first_seen": "2026-09-01",
-   "uid": "a0e76da27bc24a5d06a5255932154ceb3ab4cec0@watchfeed"
-  },
-  {
    "title": "Avengers: Secret Wars",
    "detail": "Theatrical release",
    "date": "2027-12-17",
@@ -5554,6 +5470,20 @@
    "uid": "c53fa5dd23bb3d972ee97e46a22e581585f342b8@watchfeed"
   },
   {
+   "title": "The Beatles: John",
+   "detail": "Theatrical release",
+   "date": "2028-04-07",
+   "kind": "movie",
+   "source": "tmdb",
+   "url": "https://www.themoviedb.org/movie/1247601",
+   "platform": "Theaters",
+   "time": null,
+   "image": "https://image.tmdb.org/t/p/w342/lx8XZ4HvfEZd82M2YuJUy6qNSUR.jpg",
+   "about": "One of four biopics, focusing on individual members of The Beatles, this one telling the story of the group from the perspective of John Lennon.",
+   "first_seen": "2026-09-02",
+   "uid": "b02e9f5d15bf28b7eb25de88d7e39a5f8e7c28ec@watchfeed"
+  },
+  {
    "title": "The Witcher IV",
    "detail": "Release day",
    "date": "2028-12-31",
@@ -5569,6 +5499,116 @@
   }
  ],
  "changes": [
+  {
+   "kind": "movie",
+   "what": "dated",
+   "title": "The Beatles: John",
+   "detail": "Theatrical release",
+   "date": "2028-04-07",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "The Beatles: John — Theatrical release got a date: Apr 7, 2028",
+   "url": "https://www.themoviedb.org/movie/1247601"
+  },
+  {
+   "kind": "tv",
+   "what": "dated",
+   "title": "Tulsa King",
+   "detail": "S04E01 — TBA",
+   "date": "2026-10-16",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "Tulsa King — S04E01 — TBA got a date: Oct 16, 2026",
+   "url": "https://www.tvmaze.com/shows/59344/tulsa-king"
+  },
+  {
+   "kind": "movie",
+   "what": "dated",
+   "title": "La bola negra",
+   "detail": "Limited release",
+   "date": "2026-10-16",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "La bola negra — Limited release got a date: Oct 16, 2026",
+   "url": "https://www.themoviedb.org/movie/1422041"
+  },
+  {
+   "kind": "tv",
+   "what": "dated",
+   "title": "Elsbeth",
+   "detail": "S04E01 — Crazy in Love",
+   "date": "2026-10-08",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "Elsbeth — S04E01 — Crazy in Love got a date: Oct 8, 2026",
+   "url": "https://www.tvmaze.com/shows/66869/elsbeth"
+  },
+  {
+   "kind": "tv",
+   "what": "dated",
+   "title": "NCIS",
+   "detail": "S24E01 — Wayward Son",
+   "date": "2026-10-06",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "NCIS — S24E01 — Wayward Son got a date: Oct 6, 2026",
+   "url": "https://www.tvmaze.com/shows/60/ncis"
+  },
+  {
+   "kind": "tv",
+   "what": "dated",
+   "title": "Tracker",
+   "detail": "S04E01 — Safe Harbor",
+   "date": "2026-10-04",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "Tracker — S04E01 — Safe Harbor got a date: Oct 4, 2026",
+   "url": "https://www.tvmaze.com/shows/63192/tracker"
+  },
+  {
+   "kind": "anime",
+   "what": "dated",
+   "title": "LIAR GAME",
+   "detail": "Episode 26",
+   "date": "2026-09-28",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "LIAR GAME — Episode 26 got a date: Sep 28, 2026",
+   "url": "https://anilist.co/anime/197754"
+  },
+  {
+   "kind": "anime",
+   "what": "dated",
+   "title": "LIAR GAME",
+   "detail": "Episode 25",
+   "date": "2026-09-21",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "LIAR GAME — Episode 25 got a date: Sep 21, 2026",
+   "url": "https://anilist.co/anime/197754"
+  },
+  {
+   "kind": "movie",
+   "what": "dated",
+   "title": "Just Play Dead",
+   "detail": "Limited release",
+   "date": "2026-08-28",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "Just Play Dead — Limited release got a date: Aug 28, 2026",
+   "url": "https://www.themoviedb.org/movie/1480574"
+  },
+  {
+   "kind": "movie",
+   "what": "dated",
+   "title": "2 Big to Rig",
+   "detail": "Theatrical release",
+   "date": "2026-08-26",
+   "was": null,
+   "seen": "2026-09-02",
+   "headline": "2 Big to Rig — Theatrical release got a date: Aug 26, 2026",
+   "url": "https://www.themoviedb.org/movie/1693400"
+  },
   {
    "kind": "game",
    "what": "dated",

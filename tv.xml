@@ -8,8 +8,40 @@
     <generator>watchfeed</generator>
     <docs>https://www.rssboard.org/rss-specification</docs>
     <ttl>360</ttl>
-    <lastBuildDate>Tue, 01 Sep 2026 14:14:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 13:47:38 +0000</lastBuildDate>
     <atom:link href="https://amir-hackett.github.io/watchfeed/tv.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>[TV] Tulsa King — S04E01 — TBA</title>
+      <description>in 6 weeks — Friday, October 16, 2026 — Paramount+</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">3862e0896ae1c10a6b556da27600d6199af3e39c@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/59344/tulsa-king</link>
+    </item>
+    <item>
+      <title>[TV] Elsbeth — S04E01 — Crazy in Love</title>
+      <description>in 5 weeks — Thursday, October 8, 2026 — CBS</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">d6d755d765d3736bfedc689c4f81231c10790c5b@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/66869/elsbeth</link>
+    </item>
+    <item>
+      <title>[TV] NCIS — S24E01 — Wayward Son</title>
+      <description>in 4 weeks — Tuesday, October 6, 2026 — CBS</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">e852fcca7fe892beab24c53d7adef6e5c3cdf57a@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/60/ncis</link>
+    </item>
+    <item>
+      <title>[TV] Tracker — S04E01 — Safe Harbor</title>
+      <description>in 4 weeks — Sunday, October 4, 2026 — CBS</description>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">ab8d34e9a2c499bab110bea726f3292a5a2d432b@watchfeed</guid>
+      <category>tv</category>
+      <link>https://www.tvmaze.com/shows/63192/tracker</link>
+    </item>
     <item>
       <title>[TV] Only Murders in the Building — S06E10 — TBA</title>
       <description>in 5 months — Tuesday, February 9, 2027 — Hulu</description>
@@ -187,24 +219,8 @@
       <link>https://www.tvmaze.com/shows/30/american-horror-story</link>
     </item>
     <item>
-      <title>[TV] The Librarians: The Next Chapter — S02E12 — And the Camelot Conundrum</title>
-      <description>in 6 days — Monday, September 7, 2026 — TNT</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">5d39b621b4ad76cfc0c5139dbd4c184708222e88@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/68801/the-librarians-the-next-chapter</link>
-    </item>
-    <item>
-      <title>[TV] The Librarians: The Next Chapter — S02E11 — And What Dreams May Come</title>
-      <description>in 5 days — Sunday, September 6, 2026 — TNT</description>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">55120af6e4c08fba83217bd5d742ee7db441c470@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/68801/the-librarians-the-next-chapter</link>
-    </item>
-    <item>
       <title>[TV] Lanterns — S01E04 — The Weenie</title>
-      <description>in 5 days — Sunday, September 6, 2026 — HBO</description>
+      <description>in 4 days — Sunday, September 6, 2026 — HBO</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">57ca79f11de36a8b212901ba5e75591c21f4019a@watchfeed</guid>
       <category>tv</category>
@@ -212,7 +228,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E01 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">25ef7d6c8426906ca96e3678a55e1d9dc3d54f22@watchfeed</guid>
       <category>tv</category>
@@ -963,22 +979,6 @@
       <link>https://www.tvmaze.com/shows/59/chicago-fire</link>
     </item>
     <item>
-      <title>[TV] NCIS — S24E01 — TBA</title>
-      <description>in 5 weeks — Tuesday, October 6, 2026 — CBS</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">605017773ed12ac5c857e184d7c007b946d14387@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/60/ncis</link>
-    </item>
-    <item>
-      <title>[TV] Tracker — S04E01 — TBA</title>
-      <description>in 4 weeks — Sunday, October 4, 2026 — CBS</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">8841ac71fbfed24f9a98a7d7d971088fb2db9a0d@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/63192/tracker</link>
-    </item>
-    <item>
       <title>[TV] Marshals — S02E01 — All Hat No Cattle</title>
       <description>in 4 weeks — Sunday, October 4, 2026 — CBS</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
@@ -1051,14 +1051,6 @@
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
-      <title>[TV] Stuart Fails to Save the Universe — S01E10 — Spoiler: Filmed Before a Live Studio Audience</title>
-      <description>in 3 weeks — Thursday, September 24, 2026 — HBO Max</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">2ca3a68a73421a4c7377228874fac721607167d3@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe</link>
-    </item>
-    <item>
       <title>[TV] Star Trek: Strange New Worlds — S04E10 — Tomorrow's Enterprise</title>
       <description>in 3 weeks — Thursday, September 24, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
@@ -1113,14 +1105,6 @@
       <guid isPermaLink="false">0033915dcdce273eb81cb84310fe57d933eb3f68@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
-    </item>
-    <item>
-      <title>[TV] Stuart Fails to Save the Universe — S01E09 — Spoiler: We Couldn't Get Green Lantern</title>
-      <description>in 2 weeks — Thursday, September 17, 2026 — HBO Max</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">d279299a959dc5041ef8daf01143c8c4df85e3fa@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe</link>
     </item>
     <item>
       <title>[TV] Stranger Things: Tales from '85 — S02E01 — Episode 1</title>
@@ -1220,7 +1204,7 @@
     </item>
     <item>
       <title>[TV] Futurama — S14E08 — Oceans Three</title>
-      <description>in 13 days — Monday, September 14, 2026 — Hulu</description>
+      <description>in 12 days — Monday, September 14, 2026 — Hulu</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9b3630796f33af66e2ac8a147557da4cbb9484e8@watchfeed</guid>
       <category>tv</category>
@@ -1228,7 +1212,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E05 — Episode 5</title>
-      <description>in 12 days — Sunday, September 13, 2026 — BBC iPlayer</description>
+      <description>in 11 days — Sunday, September 13, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">df668e8891aacec9ddda6975416b2adf1f807aff@watchfeed</guid>
       <category>tv</category>
@@ -1236,7 +1220,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E06 — Episode 6</title>
-      <description>in 12 days — Sunday, September 13, 2026 — BBC iPlayer</description>
+      <description>in 11 days — Sunday, September 13, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ef36c3e1866335a514bdabfcd02567c683b413f0@watchfeed</guid>
       <category>tv</category>
@@ -1244,7 +1228,7 @@
     </item>
     <item>
       <title>[TV] The Walking Dead: Dead City — S03E08 — Tenebrae</title>
-      <description>in 12 days — Sunday, September 13, 2026 — AMC+</description>
+      <description>in 11 days — Sunday, September 13, 2026 — AMC+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">f15c78b46ccc58d7b672dc6cb5eae309c3a612c2@watchfeed</guid>
       <category>tv</category>
@@ -1252,7 +1236,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E07 — TBA</title>
-      <description>in 12 days — Sunday, September 13, 2026 — Paramount+</description>
+      <description>in 11 days — Sunday, September 13, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">44eabd7725d4d5ce318fe396bfe5572f84ce311a@watchfeed</guid>
       <category>tv</category>
@@ -1260,7 +1244,7 @@
     </item>
     <item>
       <title>[TV] Lanterns — S01E05 — TBA</title>
-      <description>in 12 days — Sunday, September 13, 2026 — HBO</description>
+      <description>in 11 days — Sunday, September 13, 2026 — HBO</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">220ea7a677c1e0b3401746c9f00b1767ceb8229d@watchfeed</guid>
       <category>tv</category>
@@ -1268,23 +1252,15 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E03 — Everything Beautiful, Everything Terrible</title>
-      <description>in 10 days — Friday, September 11, 2026 — Apple TV</description>
+      <description>in 9 days — Friday, September 11, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7891ebd8a533901dea4240d2f37c144cc01388ed@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/61315/dark-matter</link>
     </item>
     <item>
-      <title>[TV] Stuart Fails to Save the Universe — S01E08 — Spoiler: We're as Confused as You Are</title>
-      <description>in 9 days — Thursday, September 10, 2026 — HBO Max</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">f08fc2e1aad215a907b4418085ebc3773782cbd8@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe</link>
-    </item>
-    <item>
       <title>[TV] Star Trek: Strange New Worlds — S04E08 — Orders of Magnitude</title>
-      <description>in 9 days — Thursday, September 10, 2026 — Paramount+</description>
+      <description>in 8 days — Thursday, September 10, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">37ac85cb4a8a64866191c2476649b18948a5c507@watchfeed</guid>
       <category>tv</category>
@@ -1292,7 +1268,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E07 — Vote for Sampson</title>
-      <description>in 8 days — Wednesday, September 9, 2026 — Prime Video</description>
+      <description>in 7 days — Wednesday, September 9, 2026 — Prime Video</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">66a5beb6b03964cf27670a9d8905519df71efec0@watchfeed</guid>
       <category>tv</category>
@@ -1300,7 +1276,7 @@
     </item>
     <item>
       <title>[TV] Futurama — S14E07 — Lord Nibbler in the Nothingverse</title>
-      <description>in 6 days — Monday, September 7, 2026 — Hulu</description>
+      <description>in 5 days — Monday, September 7, 2026 — Hulu</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">ebed3e2ea9dca644038c8190d66e6a1486e795e7@watchfeed</guid>
       <category>tv</category>
@@ -1308,7 +1284,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E03 — Episode 3</title>
-      <description>in 5 days — Sunday, September 6, 2026 — BBC iPlayer</description>
+      <description>in 4 days — Sunday, September 6, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">e118f9b302712e945f3bd57519701ace16d3a5d0@watchfeed</guid>
       <category>tv</category>
@@ -1316,7 +1292,7 @@
     </item>
     <item>
       <title>[TV] Vigil — S03E04 — Episode 4</title>
-      <description>in 5 days — Sunday, September 6, 2026 — BBC iPlayer</description>
+      <description>in 4 days — Sunday, September 6, 2026 — BBC iPlayer</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">801e24b1f80ed25d2f6ab0d0536b676a4a3f4360@watchfeed</guid>
       <category>tv</category>
@@ -1324,7 +1300,7 @@
     </item>
     <item>
       <title>[TV] The Walking Dead: Dead City — S03E07 — Hourglass</title>
-      <description>in 5 days — Sunday, September 6, 2026 — AMC+</description>
+      <description>in 4 days — Sunday, September 6, 2026 — AMC+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">6311581295e83343d71f3c053a15f1ab80149b23@watchfeed</guid>
       <category>tv</category>
@@ -1332,7 +1308,7 @@
     </item>
     <item>
       <title>[TV] Lioness — S03E06 — Sugar Land</title>
-      <description>in 5 days — Sunday, September 6, 2026 — Paramount+</description>
+      <description>in 4 days — Sunday, September 6, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">79e952d7c1fe9d7afa6527fffaaae35b0f369896@watchfeed</guid>
       <category>tv</category>
@@ -1340,7 +1316,7 @@
     </item>
     <item>
       <title>[TV] Silo — S03E10 — Troy</title>
-      <description>in 3 days — Friday, September 4, 2026 — Apple TV</description>
+      <description>in 2 days — Friday, September 4, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7edd0d85502d7bc214ac9ac41d00334cd5922c0f@watchfeed</guid>
       <category>tv</category>
@@ -1348,7 +1324,7 @@
     </item>
     <item>
       <title>[TV] Dark Matter — S02E02 — A Perfect World</title>
-      <description>in 3 days — Friday, September 4, 2026 — Apple TV</description>
+      <description>in 2 days — Friday, September 4, 2026 — Apple TV</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">bdc6f178637dc7ce1b1089210651a1e4685b1dcd@watchfeed</guid>
       <category>tv</category>
@@ -1356,7 +1332,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E02 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">7813526a5e79abf51b30ffb48f0701a1afa9b827@watchfeed</guid>
       <category>tv</category>
@@ -1364,7 +1340,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E03 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">cbad6c426b2daaadbf12a229fe007a22334a6b2b@watchfeed</guid>
       <category>tv</category>
@@ -1372,7 +1348,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E04 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">616b6bf6c45101337d280ea91cc58c96edcfad2d@watchfeed</guid>
       <category>tv</category>
@@ -1380,7 +1356,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E05 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">9cf0eff2ad730b15c06b5c3b56b096c7e346fd2e@watchfeed</guid>
       <category>tv</category>
@@ -1388,7 +1364,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E06 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">c8ac790383e8ada585eda375d077d6bded325a0b@watchfeed</guid>
       <category>tv</category>
@@ -1396,7 +1372,7 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E07 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">fde9b52c218a074ed384fb8e07cf0481ab980d87@watchfeed</guid>
       <category>tv</category>
@@ -1404,23 +1380,15 @@
     </item>
     <item>
       <title>[TV] The Gentlemen — S02E08 — TBA</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Netflix</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Netflix</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">94f08611dddeab2329dc3e426168d55eedc28129@watchfeed</guid>
       <category>tv</category>
       <link>https://www.tvmaze.com/shows/64992/the-gentlemen</link>
     </item>
     <item>
-      <title>[TV] Stuart Fails to Save the Universe — S01E07 — Spoiler: Dexys Midnight Runners Get a Royalty Payment</title>
-      <description>in 2 days — Thursday, September 3, 2026 — HBO Max</description>
-      <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
-      <guid isPermaLink="false">0dfd2323575f17913aa4c4ff8e7e439321e6a3cf@watchfeed</guid>
-      <category>tv</category>
-      <link>https://www.tvmaze.com/shows/83360/stuart-fails-to-save-the-universe</link>
-    </item>
-    <item>
       <title>[TV] Star Trek: Strange New Worlds — S04E07 — Like Chronitons Through the Hourglass</title>
-      <description>in 2 days — Thursday, September 3, 2026 — Paramount+</description>
+      <description>tomorrow — Thursday, September 3, 2026 — Paramount+</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">dd716f8a0045c0df7d22cfd0ff1a8375c122b0f6@watchfeed</guid>
       <category>tv</category>
@@ -1428,7 +1396,7 @@
     </item>
     <item>
       <title>[TV] Reacher — S04E06 — Plum Out of Luck</title>
-      <description>tomorrow — Wednesday, September 2, 2026 — Prime Video</description>
+      <description>today — Wednesday, September 2, 2026 — Prime Video</description>
       <pubDate>Sun, 23 Aug 2026 00:00:00 +0000</pubDate>
       <guid isPermaLink="false">52fa60f8156e1b9fd7587779653a41a3c466a15d@watchfeed</guid>
       <category>tv</category>
